@@ -1,5 +1,7 @@
 onEvent('recipes', event => {
+    
     //------ Ore Processing ------//
+
     event.remove({id: 'create:splashing/crushed_iron_ore'});
     event.remove({id: 'create:splashing/crushed_copper_ore'});
     event.remove({id: 'create:splashing/crushed_gold_ore'});
@@ -110,6 +112,7 @@ onEvent('recipes', event => {
     ).heated();
 
     //------ Melting and Alloying ------//
+
     event.remove({id: 'create:mixing/brass_ingot'});
     event.remove({id: 'alloyed:mixing/bronze_ingot'});
     event.remove({id: 'alloyed:mixing/bronze_ingot_x3'});
@@ -272,6 +275,7 @@ onEvent('recipes', event => {
     ).superheated();
 
     //------ Casting ------//
+
     event.recipes.createCompacting(
         'minecraft:iron_ingot',
         [
@@ -329,6 +333,7 @@ onEvent('recipes', event => {
     );
 
     //------ Other Recipes ------//
+
     event.remove({id: 'create:sequenced_assembly/track'});
     event.remove({id: 'create:sequenced_assembly/strudy_sheet'});
 

@@ -1,4 +1,7 @@
 onEvent('recipes', event => {
+
+    //------ Components ------//
+
     event.remove({output: 'create:electron_tube'});
     event.remove({output: 'createaddition:capacitor'});
 
@@ -110,4 +113,6 @@ onEvent('recipes', event => {
         ]
     )
     .transitionalItem('kubejs:incomplete_integrated_circuit').loops(3);
+
+    //------ Devices ------//
 });
