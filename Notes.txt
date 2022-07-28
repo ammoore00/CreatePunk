@@ -9,6 +9,15 @@ Change ore washing to not produce metal directly
     - Molten metal can be compacted into ingots
     - Alloying requires molten metal
 
+Bronze needs uses:
+    - Precision Mechanism
+    - Mechanical arm
+    - Mechanical crafter
+    - Accumulator
+    - Electric Motor
+    - Tesla Coil
+    - Little Logistics Stuff
+
 -= Recipes =-
 - Netherite changed to use molten steel instead of gold, and to be made in a superheated mixer
 
@@ -26,7 +35,7 @@ New item: Redstone Eye
 - Redstone eye (sequenced assembly): iron sheet -> copper wire, polished lapis
 - Capacitor (sequenced assembly): iron sheet -> copper wire, copper sheet, zinc sheet
     - Copper and zinc order does not matter
-- Integrated circuit (sequenced assembly): copper sheet -> (electron tube, capacitor, gold wire) x3
+- Integrated circuit (sequenced assembly): sturdy sheet -> (electron tube, capacitor, gold wire) x3
 
 The following recipes changed to use redstone eye:
 - Comparitor
