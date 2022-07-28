@@ -1,0 +1,75 @@
+//------ Metals ------//
+-= General =-
+Steel and bronze should be integrated into the rest of Create
+Unify dark iron from graveyard and cast iron from create deco
+
+Change ore washing to not produce metal directly
+    - Washing refines ore
+    - Ore can then be melted into molten metal
+    - Molten metal can be compacted into ingots
+    - Alloying requires molten metal
+
+-= Recipes =-
+- Netherite changed to use molten steel instead of gold, and to be made in a superheated mixer
+
+//------ Bees ------//
+Process honeycomb into wax?
+
+//------ Mechanics ------//
+/-- Circuits --/
+New item: Polished Lapis
+New item: Redstone Eye
+"New" item: Integrated Circuit
+
+-= Recipes =-
+- Electron tube (sequenced assembly) iron sheet -> copper wire, polished rose quartz
+- Redstone eye (sequenced assembly): iron sheet -> copper wire, polished lapis
+- Capacitor (sequenced assembly): iron sheet -> copper wire, copper sheet, zinc sheet
+    - Copper and zinc order does not matter
+- Integrated circuit (sequenced assembly): copper sheet -> (electron tube, capacitor, gold wire) x3
+
+The following recipes changed to use redstone eye:
+- Comparitor
+- Observer
+- Content Observer
+- Train Observer
+- Display Link
+
+The follow recipes changed to use integrated ciruit:
+- Alternator
+- Electric motor
+- Tesla coil
+- Accumulator
+- Redstone relay
+- Energy locomotive
+- Energy tug
+
+/-- Machines --/
+New block: bronze casing
+
+-= Recipes =-
+
+
+//------ Tom's Simple Storage ------//
+Recipes should be modified to use Create and addon items
+
+Disable wireless terminals
+Make better models for inventory hopper and level emitter
+Change textures to match bronze casing
+
+-= Recipes =-
+Inventory Cable: shaft, copper wire
+    - Framed: cable + iron rods
+Inventory Connector: cable + electron tube + andesite funnel
+Filtered Inventory Connector: cable + electron tube + brass funnel
+Inventory Trim: bronze casing + iron sheets
+Inventory Connector: bronze casing + electron tubes + iron sheets
+Storage Terminal: bronze casing + redstone eye + iron sheets
+Open Crate: bronze casing + brass funnel
+Inventory Proxy: interchangeable with inventory connector
+Crafting Terminal: storage terminal, mechanical crafter
+Inventory Hopper: cable + bronze casing + brass funnel
+Level Emitter: cable + bronze casing + redstone eye
+
+//------ Biomes o Plenty ------//
+Rename rose quartz to ruby

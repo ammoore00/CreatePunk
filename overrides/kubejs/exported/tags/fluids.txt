@@ -1,0 +1,61 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 11, 2022, 4:36:52 PM
+
+#forge:steam
+- steampowered:steam
+- steampowered:steam_flowing
+
+#forge:crude_oil
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- create:flowing_honey
+- create:honey
+- create:flowing_chocolate
+- create:chocolate
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#forge:tea
+- create:flowing_tea
+- create:tea
+
+#forge:biofuel
+- createaddition:flowing_bioethanol
+- createaddition:bioethanol
+
+#forge:plantoil
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#biomesoplenty:blood
+- biomesoplenty:blood
+- biomesoplenty:flowing_blood
+
+#forge:ethanol
+- createaddition:flowing_bioethanol
+- createaddition:bioethanol
+
+#create:bottomless/deny
+
+#forge:chocolate
+- create:flowing_chocolate
+- create:chocolate
+
+#create:bottomless/allow
+- minecraft:water
+- minecraft:lava
+
+#forge:honey
+- create:flowing_honey
+- create:honey
+
+#forge:creosote

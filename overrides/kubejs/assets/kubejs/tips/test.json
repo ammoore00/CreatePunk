@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "Example Tip",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "This tip is an example tip."
+    }
+  }
