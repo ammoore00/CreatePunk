@@ -92,7 +92,7 @@ onEvent('recipes', event => {
             'kubejs:integrated_circuit'
         ],
         // Input
-        'create:iron_sheet',
+        'create:sturdy_sheet',
         // Sequence
         [
             event.recipes.createDeploying('kubejs:incomplete_integrated_circuit', [
