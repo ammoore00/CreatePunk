@@ -214,6 +214,14 @@ onEvent('recipes', event => {
     ).heated();
 
     event.recipes.createMixing(
+        Fluid.of('kubejs:molten_brass', 90), 
+        [
+            'minecraft:copper_ingot',
+            'create:zinc_ingot'
+        ]
+    ).heated();
+
+    event.recipes.createMixing(
         Fluid.of('kubejs:molten_brass', 180), 
         [
             Fluid.of('kubejs:molten_copper', 90),
