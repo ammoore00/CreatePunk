@@ -65,15 +65,11 @@ onEvent('recipes', event => {
     );
     
     event.recipes.createCrushing(
-        [
-            'kubejs:crushed_coal'
-        ],
+        'kubejs:crushed_coal',
         'minecraft:coal'
     );
     event.recipes.createCrushing(
-        [
-            '9x kubejs:crushed_coal'
-        ],
+        '9x kubejs:crushed_coal',
         'minecraft:coal_block'
     )
     
@@ -103,8 +99,6 @@ onEvent('recipes', event => {
 
     event.recipes.createCompacting(
         'kubejs:coke',
-        [
-            '9x kubejs:refined_coal_dust'
-        ]
+        '9x kubejs:refined_coal_dust'
     ).heated();
 })

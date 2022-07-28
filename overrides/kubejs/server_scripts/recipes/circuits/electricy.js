@@ -3,7 +3,7 @@ onEvent('recipes', event => {
     event.remove({id: 'createaddition:mechanical_crafting/alternator'});
     event.remove({id: 'createaddition:mechanical_crafting/electric_motor'});
     event.remove({id: 'createaddition:mechanical_crafting/tesla_coil'});
-    event.remove({id: 'createaddition:mechanical_crafting/acculumulator'});
+    event.remove({id: 'createaddition:mechanical_crafting/accumulator'});
     event.remove({id: 'createaddition:crafting/redstone_relay'});
     event.remove({id: 'littlelogistics:vessel_charger'});
 
