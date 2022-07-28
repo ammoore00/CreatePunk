@@ -50,8 +50,7 @@ The follow recipes changed to use integrated ciruit:
 - Tesla coil
 - Accumulator
 - Redstone relay
-- Energy locomotive
-- Energy tug
+- Vehicle charger
 
 /-- Machines --/
 New block: bronze casing

@@ -1,5 +1,5 @@
 onEvent('recipes', event => {
-    
+
     //------ Ore Processing ------//
 
     event.remove({id: 'create:splashing/crushed_iron_ore'});
@@ -328,7 +328,7 @@ onEvent('recipes', event => {
     event.recipes.createCompacting(
         'minecraft:netherite_ingot',
         [
-            Fluid.of('kubejs:molten_netherite_ingot', 90)
+            Fluid.of('kubejs:molten_netherite', 90)
         ]
     );
 
