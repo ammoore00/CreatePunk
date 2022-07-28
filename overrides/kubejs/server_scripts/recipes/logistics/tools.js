@@ -4,6 +4,12 @@ onEvent('recipes', event => {
     event.remove({id: 'alloyed:smithing/steel_shovel'});
     event.remove({id: 'alloyed:smithing/steel_hoe'});
     event.remove({id: 'alloyed:smithing/steel_sword'});
+    // Mechanical crafting recipes are redundant with below changes
+    event.remove({id: 'alloyed:mechanical_crafting/steel_pickaxe'});
+    event.remove({id: 'alloyed:mechanical_crafting/steel_axe'});
+    event.remove({id: 'alloyed:mechanical_crafting/steel_shovel'});
+    event.remove({id: 'alloyed:mechanical_crafting/steel_hoe'});
+    event.remove({id: 'alloyed:mechanical_crafting/steel_sword'});
 
     event.shaped(
         'alloyed:steel_pickaxe',
@@ -74,6 +80,11 @@ onEvent('recipes', event => {
     event.remove({id: 'alloyed:smithing/steel_chestplate'});
     event.remove({id: 'alloyed:smithing/steel_leggings'});
     event.remove({id: 'alloyed:smithing/steel_boots'});
+    // Mechanical crafting recipes are redundant with below changes
+    event.remove({id: 'alloyed:mechanical_crafting/steel_helmet'});
+    event.remove({id: 'alloyed:mechanical_crafting/steel_chestplate'});
+    event.remove({id: 'alloyed:mechanical_crafting/steel_leggings'});
+    event.remove({id: 'alloyed:mechanical_crafting/steel_boots'});
 
     event.shaped(
         'alloyed:steel_helmet',

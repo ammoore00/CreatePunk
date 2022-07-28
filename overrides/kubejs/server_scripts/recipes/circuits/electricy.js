@@ -4,7 +4,7 @@ onEvent('recipes', event => {
     event.remove({id: 'createaddition:mechanical_crafting/electric_motor'});
     event.remove({id: 'createaddition:mechanical_crafting/tesla_coil'});
     event.remove({id: 'createaddition:mechanical_crafting/acculumlator'});
-    event.remove({id: 'createaddition:mechanical_crafting/redstone_relay'});
+    event.remove({id: 'createaddition:crafting/redstone_relay'});
     event.remove({id: 'littlelogistics:vessel_charger'});
 
     event.shaped(
@@ -90,7 +90,7 @@ onEvent('recipes', event => {
     );
 
     event.shaped(
-        'minecraft:comparator',
+        'createaddition:redstone_relay',
         [
             'CIC',
             'SSS'
