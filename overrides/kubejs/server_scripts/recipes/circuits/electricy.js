@@ -72,7 +72,7 @@ onEvent('recipes', event => {
     );
 
     event.recipes.createMechanicalCrafting(
-        'createadditions:accumulator',
+        'createaddition:accumulator',
         [
             ' C C ',
             'SPGPS',
@@ -85,7 +85,7 @@ onEvent('recipes', event => {
             P: 'createaddition:capacitor',
             G: 'createaddition:gold_spool',
             B: 'create:brass_casing',
-            I: 'create:integrated_circuit'
+            I: 'kubejs:integrated_circuit'
         }
     );
 
@@ -116,7 +116,7 @@ onEvent('recipes', event => {
             P: 'createaddition:capacitor',
             G: 'createaddition:gold_spool',
             B: 'create:brass_casing',
-            I: 'create:integrated_circuit'
+            I: 'kubejs:integrated_circuit'
         }
     );
 })

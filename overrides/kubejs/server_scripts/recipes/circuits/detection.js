@@ -5,7 +5,7 @@ onEvent('recipes', event => {
     event.remove({id: 'minecraft:comparator'});
     event.remove({id: 'minecraft:observer'});
     event.remove({id: 'create:crafting/logistics/content_observer'});
-    event.remove({id: 'create:crafting/kinetics/train_observer'});
+    event.remove({id: 'create:crafting/kinetics/track_observer'});
     event.remove({id: 'littlelogistics:vessel_detector'});
 
     event.shaped(
@@ -37,9 +37,9 @@ onEvent('recipes', event => {
     );
 
     event.shapeless(
-        '2x create:train_observer',
+        '2x create:track_observer',
         [
-            'create:train_casing',
+            'create:railway_casing',
             'kubejs:redstone_eye'
         ]
     );
@@ -68,7 +68,7 @@ onEvent('recipes', event => {
         {
             E: 'kubejs:redstone_eye',
             B: 'create:brass_casing',
-            V: 'littlelogistics:vehicle_chain',
+            V: 'littlelogistics:spring',
             S: '#bookshelf:stones'
         }
     )
