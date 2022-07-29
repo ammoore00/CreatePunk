@@ -9,28 +9,28 @@ onEvent('recipes', event => {
     event.recipes.createCompacting(
         'minecraft:copper_ingot',
         [
-            Fluid.of('kubejs:molten_iron', 90)
+            Fluid.of('kubejs:molten_copper', 90)
         ]
     );
     
     event.recipes.createCompacting(
         'minecraft:gold_ingot',
         [
-            Fluid.of('kubejs:molten_copper', 90)
+            Fluid.of('kubejs:molten_gold', 90)
         ]
     );
     
     event.recipes.createCompacting(
         'create:zinc_ingot',
         [
-            Fluid.of('kubejs:molten_gold', 90)
+            Fluid.of('kubejs:molten_zinc', 90)
         ]
     );
     
     event.recipes.createCompacting(
         'create:brass_ingot',
         [
-            Fluid.of('kubejs:molten_zinc', 90)
+            Fluid.of('kubejs:molten_brass', 90)
         ]
     );
     

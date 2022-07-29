@@ -10,8 +10,8 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Rise of Steam",
-  "version": "0.0.1",
+  "name": "CreatePunk",
+  "version": "0.1.0",
   "author": "",
   "files": [
     {
@@ -40,6 +40,11 @@
       "required": true
     },
     {
+      "projectID": 465109,
+      "fileID": 3833474,
+      "required": true
+    },
+    {
       "projectID": 610492,
       "fileID": 3828259,
       "required": true
@@ -55,23 +60,23 @@
       "required": true
     },
     {
-      "projectID": 521932,
-      "fileID": 3797980,
-      "required": true
-    },
-    {
       "projectID": 551453,
       "fileID": 3740887,
       "required": true
     },
     {
-      "projectID": 543661,
-      "fileID": 3671298,
+      "projectID": 521932,
+      "fileID": 3797980,
       "required": true
     },
     {
       "projectID": 342584,
       "fileID": 3822132,
+      "required": true
+    },
+    {
+      "projectID": 543661,
+      "fileID": 3671298,
       "required": true
     },
     {
@@ -250,21 +255,6 @@
       "required": true
     },
     {
-      "projectID": 246939,
-      "fileID": 3699221,
-      "required": true
-    },
-    {
-      "projectID": 422951,
-      "fileID": 3750703,
-      "required": false
-    },
-    {
-      "projectID": 552176,
-      "fileID": 3683373,
-      "required": false
-    },
-    {
       "projectID": 532127,
       "fileID": 3854978,
       "required": true
@@ -290,18 +280,13 @@
       "required": true
     },
     {
-      "projectID": 306549,
-      "fileID": 3836415,
+      "projectID": 420735,
+      "fileID": 3796523,
       "required": true
     },
     {
       "projectID": 543275,
       "fileID": 3601210,
-      "required": true
-    },
-    {
-      "projectID": 420735,
-      "fileID": 3796523,
       "required": true
     },
     {
@@ -343,11 +328,6 @@
       "projectID": 585081,
       "fileID": 3875085,
       "required": true
-    },
-    {
-      "projectID": 558905,
-      "fileID": 3771366,
-      "required": false
     },
     {
       "projectID": 499863,
@@ -585,13 +565,13 @@
       "required": true
     },
     {
-      "projectID": 520110,
-      "fileID": 3800622,
+      "projectID": 480006,
+      "fileID": 3777937,
       "required": true
     },
     {
-      "projectID": 480006,
-      "fileID": 3777937,
+      "projectID": 520110,
+      "fileID": 3800622,
       "required": true
     },
     {
@@ -676,7 +656,12 @@
     },
     {
       "projectID": 492890,
-      "fileID": 3800613,
+      "fileID": 3874313,
+      "required": true
+    },
+    {
+      "projectID": 285690,
+      "fileID": 3847598,
       "required": true
     },
     {
@@ -690,8 +675,8 @@
       "required": true
     },
     {
-      "projectID": 441114,
-      "fileID": 3780211,
+      "projectID": 252848,
+      "fileID": 3858196,
       "required": true
     },
     {
@@ -700,8 +685,8 @@
       "required": true
     },
     {
-      "projectID": 252848,
-      "fileID": 3858196,
+      "projectID": 441114,
+      "fileID": 3780211,
       "required": true
     },
     {
