@@ -1,6 +1,16 @@
 onEvent('recipes', event => {
+    event.remove({id: 'create:crafting/materials/rose_quartz'});
     event.remove({output: 'create:electron_tube'});
     event.remove({output: 'createaddition:capacitor'});
+
+    event.recipes.createMixing(
+        'create:rose_quartz',
+        [
+            'minecraft:quartz',
+            '4x minecraft:redstone',
+            Fluid.of('kubejs:molten_iron', 90)
+        ]
+    ).heated();
 
     event.recipes.createSandpaperPolishing(
         'kubejs:polished_lapis',
