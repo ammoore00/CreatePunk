@@ -4,7 +4,6 @@ onEvent('recipes', event => {
     event.remove({id: 'createaddition:mechanical_crafting/tesla_coil'});
     event.remove({id: 'createaddition:mechanical_crafting/accumulator'});
     event.remove({id: 'createaddition:crafting/redstone_relay'});
-    event.remove({id: 'littlelogistics:vessel_charger'});
 
     event.recipes.createMechanicalCrafting(
         'createaddition:alternator',
@@ -86,24 +85,6 @@ onEvent('recipes', event => {
             C: 'createaddition:connector',
             I: 'kubejs:integrated_circuit',
             S: '#bookshelf:stones'
-        }
-    );
-
-    event.recipes.createMechanicalCrafting(
-        'littlelogistics:vessel_charger',
-        [
-            ' E E ',
-            'SPGPS',
-            'SPBPS',
-            'SPIPS'
-        ],
-        {
-            E: 'create:electron_tube',
-            S: 'alloyed:bronze_sheet',
-            P: 'createaddition:capacitor',
-            G: 'createaddition:gold_spool',
-            B: 'create:brass_casing',
-            I: 'kubejs:integrated_circuit'
         }
     );
 })
