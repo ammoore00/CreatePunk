@@ -163,7 +163,7 @@ onEvent('recipes', event => {
     event.remove({id: 'littlelogistics:seater_barge'});
     event.remove({id: 'littlelogistics:tug'});
     event.remove({id: 'littlelogistics:energy_tug'});
-    event.remove({id: 'littlelogistics:contraption_barge'});
+    event.remove({id: 'littlecontraptions:contraption_barge'});
 
     event.shaped(
         'littlelogistics:barge',
@@ -230,7 +230,7 @@ onEvent('recipes', event => {
     );
 
     event.shaped(
-        'littlelogistics:contraption_barge',
+        'littlecontraptions:contraption_barge',
         [
             'BAB',
             'III'
