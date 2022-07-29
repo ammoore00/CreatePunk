@@ -32,7 +32,7 @@ onEvent('recipes', event => {
     );
 
     event.shaped(
-        'chunkloaders:advanced_chunk_loader',
+        'chunkloaders:ultimate_chunk_loader',
         [
             'SPS',
             'PLP',
