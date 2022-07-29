@@ -1,6 +1,7 @@
 ---=== Version 0.1.1 ===---
 -= Changes =-
 - Integrated Little Logistics recipes into progression
+- Integrated Chunk Loaders recipes into progression
 
 -= Bugfixes =-
 - Fixed an issue where the diamond chisel could not be crafted
