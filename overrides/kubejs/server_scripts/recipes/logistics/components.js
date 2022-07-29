@@ -1,40 +1,6 @@
 onEvent('recipes', event => {
-    event.remove({id: 'create:sequenced_assembly/track'});
-    event.remove({id: 'create:sequenced_assembly/strudy_sheet'});
-
-    event.recipes.createSequencedAssembly(
-        // Output
-        [
-            'create:track'
-        ],
-        // Input
-        '#create:sleepers',
-        // Sequence
-        [
-            event.recipes.createDeploying(
-                'create:incomplete_track', 
-                [
-                    'create:incomplete_track',
-                    'kubejs:steel_nugget'
-                ]
-            ),
-            event.recipes.createDeploying(
-                'create:incomplete_track', 
-                [
-                    'create:incomplete_track',
-                    'kubejs:steel_nugget'
-                ]
-            ),
-            event.recipes.createPressing(
-                'create:incomplete_track', 
-                [
-                    'create:incomplete_track'
-                ]
-            )
-        ]
-    )
-    .transitionalItem('create:incomplete_track')
-    .loops(1);
+    event.remove({id: 'create:sequenced_assembly/sturdy_sheet'});
+    event.remove({id: 'create:sequenced_assembly/precision_mechanism'});
 
     event.recipes.createSequencedAssembly(
         // Output
@@ -42,7 +8,7 @@ onEvent('recipes', event => {
             'create:sturdy_sheet'
         ],
         // Input
-        '#create:sleepers',
+        'create:powdered_obsidian',
         // Sequence
         [
             event.recipes.createFilling(
@@ -75,4 +41,46 @@ onEvent('recipes', event => {
     )
     .transitionalItem('create:unprocessed_obsidian_sheet')
     .loops(1);
+
+    event.recipes.createSequencedAssembly(
+        // Output
+        [
+            Item.of('create:precision_mechanism').withChance(120),
+            Item.of('alloyed:bronze_sheet').withChance(8),
+            Item.of('create:andesite_alloy').withChance(8),
+            Item.of('create:cogwheel').withChance(5),
+            Item.of('create:shaft').withChance(2),
+            Item.of('create:crushed_gold_ore').withChance(2),
+            Item.of('kubejs:bronze_nugget').withChance(2),
+            Item.of('alloyed:steel_ingot').withChance(2)
+        ],
+        // Input
+        'alloyed:bronze_sheet',
+        // Sequence
+        [
+            event.recipes.createDeploying(
+                'create:incomplete_precision_mechanism',
+                [
+                    'create:incomplete_precision_mechanism',
+                    'create:cogwheel'
+                ]
+            ),
+            event.recipes.createDeploying(
+                'create:incomplete_precision_mechanism',
+                [
+                    'create:incomplete_precision_mechanism',
+                    'create:large_cogwheel'
+                ]
+            ),
+            event.recipes.createDeploying(
+                'create:incomplete_precision_mechanism',
+                [
+                    'create:incomplete_precision_mechanism',
+                    'kubejs:steel_nugget'
+                ]
+            )
+        ]
+    )
+    .transitionalItem('create:incomplete_precision_mechanism')
+    .loops(5);
 })

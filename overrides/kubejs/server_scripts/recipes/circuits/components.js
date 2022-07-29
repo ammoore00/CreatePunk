@@ -2,6 +2,11 @@ onEvent('recipes', event => {
     event.remove({output: 'create:electron_tube'});
     event.remove({output: 'createaddition:capacitor'});
 
+    event.recipes.createSandpaperPolishing(
+        'kubejs:polished_lapis',
+        'minecraft:lapis_lazuli'
+    );
+
     event.recipes.createSequencedAssembly(
         // Output
         [

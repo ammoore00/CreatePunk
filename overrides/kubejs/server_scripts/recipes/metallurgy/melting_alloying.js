@@ -3,6 +3,7 @@ onEvent('recipes', event => {
     event.remove({id: 'alloyed:mixing/bronze_ingot'});
     event.remove({id: 'alloyed:mixing/bronze_ingot_x3'});
     event.remove({id: 'alloyed:mixing/steel_ingot'});
+    event.remove({id: 'minecraft:netherite_ingot'});
 
     // Iron
     event.recipes.createMixing(
@@ -151,12 +152,48 @@ onEvent('recipes', event => {
         ]
     ).heated();
 
+    // Diamond
+    event.recipes.createSequencedAssembly(
+        // Output
+        [
+            'kubejs:diamondium_ingot'
+        ],
+        // Input
+        'alloyed:steel_ingot',
+        // Sequence
+        [
+            event.recipes.createDeploying(
+                'kubejs:unprocessed_diamondium_ingot', 
+                [
+                    'kubejs:unprocessed_diamondium_ingot',
+                    'createaddition:diamond_grit'
+                ]
+            ),
+            event.recipes.createFilling(
+                'kubejs:unprocessed_diamondium_ingot', 
+                [
+                    'kubejs:unprocessed_diamondium_ingot',
+                    Fluid.of('minecraft:lava', 125)
+                ]
+            ),
+            event.recipes.createPressing(
+                'kubejs:unprocessed_diamondium_ingot', 
+                [
+                    'kubejs:unprocessed_diamondium_ingot'
+                ]
+            )
+        ]
+    )
+    .transitionalItem('kubejs:unprocessed_diamondium_ingot')
+    .loops(4);
+
     // Netherite
     event.recipes.createMixing(
         Fluid.of('kubejs:molten_netherite', 90), 
         [
-            Fluid.of('kubejs:molten_steel', 360),
-            '4x minecraft:netherite_scrap'
+            Fluid.of('kubejs:molten_steel', 90),
+            '4x minecraft:netherite_scrap',
+            'kubejs:ender_slag'
         ]
     ).superheated();
 })

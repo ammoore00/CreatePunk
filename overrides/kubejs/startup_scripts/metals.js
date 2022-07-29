@@ -43,4 +43,11 @@ onEvent('item.registry', event => {
     event.create('coke');
 
     event.create('steel_nugget');
+    event.create('bronze_nugget');
+
+    event.create('raw_diamond');
+    event.create('unprocessed_diamondium_ingot', 'create:sequenced_assembly');
+    event.create('diamondium_ingot');
+
+    event.create('ender_slag');
 });

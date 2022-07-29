@@ -101,4 +101,25 @@ onEvent('recipes', event => {
         'kubejs:coke',
         '9x kubejs:refined_coal_dust'
     ).heated();
+
+    // Diamond
+    event.recipes.createSandpaperPolishing(
+        'minecraft:diamond',
+        'kubejs:raw_diamond'
+    );
+
+    event.recipes.createCrushing(
+        'createaddition:diamond_grit',
+        'kubejs:raw_diamond'
+    );
+    event.recipes.createCrushing(
+        'createaddition:diamond_grit',
+        'minecraft:diamond'
+    );
+
+    // Other
+    event.recipes.createCrushing(
+        'kubejs:ender_slag',
+        'minecraft:end_stone'
+    );
 })
