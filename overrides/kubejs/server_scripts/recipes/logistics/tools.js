@@ -205,6 +205,18 @@ onEvent('recipes', event => {
         'kubejs:diamondium_ingot'
     );
     
+    event.shaped(
+        'kubejs:diamond_chisel',
+        [
+            ' D',
+            'S '
+        ],
+        {
+            D: 'minecraft:diamond',
+            S: 'minecraft:stick'
+        }
+    )
+
     event.remove({id: 'minecraft:diamond_helmet'});
     event.remove({id: 'minecraft:diamond_chestplate'});
     event.remove({id: 'minecraft:diamond_leggings'});
