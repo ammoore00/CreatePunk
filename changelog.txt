@@ -6,3 +6,4 @@
 -= Bugfixes =-
 - Fixed an issue where the diamond chisel could not be crafted
 - Fixed an issue where train controls could not be crafted
+- Fixed an issue where the enchanting table and jukebox were crafted using diamondium ingots instead of polished diamonds

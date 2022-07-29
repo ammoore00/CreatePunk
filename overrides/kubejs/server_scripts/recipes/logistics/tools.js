@@ -162,6 +162,9 @@ onEvent('recipes', event => {
 
     event.replaceInput('minecraft:diamond', 'kubejs:diamondium_ingot');
 
+    event.replaceInput({output: 'minecraft:enchanting_table'}, 'kubejs:diamondium_ingot', 'minecraft:diamond');
+    event.replaceInput({output: 'minecraft:jukebox'}, 'kubejs:diamondium_ingot', 'minecraft:diamond');
+
     event.remove({id: 'minecraft:diamond_pickaxe'});
     event.remove({id: 'minecraft:diamond_axe'});
     event.remove({id: 'minecraft:diamond_shovel'});
