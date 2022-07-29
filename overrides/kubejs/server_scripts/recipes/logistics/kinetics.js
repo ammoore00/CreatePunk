@@ -230,9 +230,22 @@ onEvent('recipes', event => {
     );
 
     event.shaped(
+        'littlelogistics:contraption_barge',
+        [
+            'BAB',
+            'III'
+        ],
+        {
+            B: 'alloyed:bronze_ingot',
+            A: 'create:andesite_alloy',
+            I: 'createdeco:cast_iron_ingot'
+        }
+    );
+
+    event.shaped(
         'littlelogistics:tug',
         [
-            '  W',
+            'W  ',
             'TSF',
             'III'
         ],
@@ -318,7 +331,7 @@ onEvent('recipes', event => {
     event.shaped(
         'littlelogistics:steam_locomotive',
         [
-            '  W',
+            'W  ',
             'TSF',
             'IMI'
         ],
