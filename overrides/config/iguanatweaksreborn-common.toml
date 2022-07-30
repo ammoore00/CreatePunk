@@ -424,7 +424,13 @@
 	[Miscellaneous."Tool Stats"]
 		#A list of items which should have their durability changed.
 		#Format is 'modid:itemid,durability'
-		"Tools Durability" = ["minecraft:wooden_sword,10", "minecraft:wooden_pickaxe,10", "minecraft:wooden_shovel,10", "minecraft:wooden_hoe,10", "minecraft:wooden_axe,10", "minecraft:stone_sword,50", "minecraft:stone_pickaxe,50", "minecraft:stone_shovel,50", "minecraft:stone_hoe,50", "minecraft:stone_axe,50", "minecraft:iron_sword,375", "minecraft:iron_pickaxe,375", "minecraft:iron_shovel,375", "minecraft:iron_hoe,375", "minecraft:iron_axe,375", "kubejs:diamond_chisel,50"]
+		"Tools Durability" = [
+			"minecraft:wooden_sword,10", "minecraft:wooden_pickaxe,10", "minecraft:wooden_shovel,10", "minecraft:wooden_hoe,10", "minecraft:wooden_axe,10",
+			"minecraft:stone_sword,50", "minecraft:stone_pickaxe,50", "minecraft:stone_shovel,50", "minecraft:stone_hoe,50", "minecraft:stone_axe,50",
+			"minecraft:iron_sword,500", "minecraft:iron_pickaxe,500", "minecraft:iron_shovel,500", "minecraft:iron_hoe,500", "minecraft:iron_axe,500",
+			"minecraft:diamond_sword,2000", "minecraft:diamond_pickaxe,2000", "minecraft:diamond_shovel,2000", "minecraft:diamond_hoe,2000", "minecraft:diamond_axe,2000",
+			"minecraft:netherite_sword,500", "minecraft:netherite_pickaxe,500", "minecraft:netherite_shovel,500", "minecraft:netherite_hoe,500", "minecraft:netherite_axe,500",
+			"kubejs:diamond_chisel,50"]
 		#A list of items and multipliers that will apply to mining speed when breaking blocks with that item.
 		#Format is 'modid:itemid,efficiency_multiplier'
 		"Tools Efficiency" = []
