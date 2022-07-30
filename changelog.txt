@@ -2,13 +2,14 @@
 -= Additions =-
 - Added a guidebook to replace the recipe book. Note that many entries are still missing, so expect this to be updated in the future!
 - Added the ability to melt metal sheets into molten metal
+- Added the ability to use coal products as fuel. Crushed coal will smelt 8 items, refined coal dust 1 item, and coke 12 items
 
 -= Changes =-
 - Integrated Little Logistics recipes into progression
 - Integrated Chunk Loaders recipes into progression
 - Changed the recipe for diamondium to require filling with more molten steel rather than lava
-- Changed coal products to be valid fuel. Crushed coal will smelt 8 items, refined coal dust 1 item, and coke 12 items
 - Increased durability on diamond and netherite tools
+- Unified dough between create and farmer's delight. Create's dough item has been deprecated, and may be converted into farmer's delight dough in a crafting grid.
 
 -= Bugfixes =-
 - Fixed an issue where the diamond chisel could not be crafted

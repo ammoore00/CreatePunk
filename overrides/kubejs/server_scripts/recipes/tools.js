@@ -218,7 +218,7 @@ onEvent('recipes', event => {
             D: 'minecraft:diamond',
             S: 'minecraft:stick'
         }
-    ).id('createpunk:logistics/tools/diamond_chisel');
+    ).id('createpunk:tools/diamond_chisel');
 
     event.remove({id: 'minecraft:diamond_helmet'});
     event.remove({id: 'minecraft:diamond_chestplate'});

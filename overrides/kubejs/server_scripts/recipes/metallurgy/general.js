@@ -1,7 +1,9 @@
 onEvent('recipe', event => {
     event.shapeless(
         '9x kubejs:steel_nugget',
-        'alloyed:steel_ingot'
+        [
+            'alloyed:steel_ingot'
+        ]
     );
     event.shaped(
         'alloyed:steel_ingot',
@@ -17,7 +19,9 @@ onEvent('recipe', event => {
 
     event.shapeless(
         '9x kubejs:bronze_nugget',
-        'alloyed:bronze_ingot'
+        [
+            'alloyed:bronze_ingot'
+        ]
     );
     event.shaped(
         'alloyed:bronze_ingot',
