@@ -1,7 +1,11 @@
----=== Version 0.1.1 ===---
+---=== Version 0.2.0 ===---
+-= Additions =-
+- Added a guidebook to replace the recipe book. Note that many entries are still missing, so expect this to be updated in the future!
+
 -= Changes =-
 - Integrated Little Logistics recipes into progression
 - Integrated Chunk Loaders recipes into progression
+- Changed the recipe for diamondium to require filling with more molten steel rather than lava
 
 -= Bugfixes =-
 - Fixed an issue where the diamond chisel could not be crafted

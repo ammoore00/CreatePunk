@@ -173,7 +173,7 @@ onEvent('recipes', event => {
                 'kubejs:unprocessed_diamondium_ingot', 
                 [
                     'kubejs:unprocessed_diamondium_ingot',
-                    Fluid.of('minecraft:lava', 125)
+                    Fluid.of('kubejs:molten_steel', '90')
                 ]
             ),
             event.recipes.createPressing(
