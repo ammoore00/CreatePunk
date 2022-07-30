@@ -1,0 +1,46 @@
+{
+    "name": "Tools",
+    "icon": "minecraft:iron_pickaxe",
+    "category": "patchouli:vanilla_changes",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Tool progression in CreatePunk is slightly different to that of vanilla.$(br2)In general, progression has been spread out, with some tweaks to durability. Additionally, steel tools have been added as a tier between iron and diamond tools."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:stone_pickaxe",
+            "title": "Wood and Stone Tools",
+            "text": "Wood and stone tools have had their durability significantly reduced."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:iron_pickaxe",
+            "title": "Iron Tools",
+            "text": "Tools better than iron have been pushed back significantly, so iron tools have had their durabilities increased to compensate."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "createpunk:diamond_chisel",
+            "text": "Steel and diamond tools require nether access, and as such the diamond chisel has been added as a weak diamond pickaxe in order to obtain obsidian."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "alloyed:steel_pickaxe",
+            "title": "Steel Tools",
+            "text": "Steel tools can mine anything that diamond can, but are slightly slower and less durable. See $(l:materials/alloying#steel)alloying/$ to learn more about making steel."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:diamond_pickaxe",
+            "title": "Diamond Tools",
+            "text": "Diamond tools have had their durabilities slightly increased to account for being pushed back in the tech tree. See $(l:materials/alloying#diamondium)alloying/$ to learn more about making diamondium."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:netherite_pickaxe",
+            "title": "Netherite Tools",
+            "text": "Netherite tools have had their durabilities significantly increased to account for the requirement of accessing the end. See $(l:materials/alloying#netherite)alloying/$ to learn more about making netherite."
+        }
+    ]
+}

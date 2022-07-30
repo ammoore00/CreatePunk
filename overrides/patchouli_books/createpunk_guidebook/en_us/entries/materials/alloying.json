@@ -1,0 +1,51 @@
+{
+    "name": "Alloying",
+    "icon": "create:brass_ingot",
+    "category": "patchouli:materials",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Alloying is the process of mixing together metals to form a new metal with its own properties.$(br)The various alloys included in CreatePunk are used to create many of the more advanced tools and machines available.$(br)Generally, alloying requires mixing molten metals with other components in a mixer heated by a blaze burner."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:brass_ingot",
+            "title": "Brass",
+            "link_recipe": true,
+            "anchor": "brass",
+            "text": "Brass"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "alloyed:bronze_ingot",
+            "title": "Bronze",
+            "link_recipe": true,
+            "anchor": "bronze",
+            "text": "Bronze"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "alloyed:steel_ingot",
+            "title": "Steel",
+            "link_recipe": true,
+            "anchor": "steel",
+            "text": "Steel"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "kubejs:diamondium_ingot",
+            "title": "Diamondium",
+            "link_recipe": true,
+            "anchor": "diamondium",
+            "text": "Diamondium"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:netherite_ingot",
+            "title": "Netherite",
+            "link_recipe": true,
+            "anchor": "netherite",
+            "text": "Netherite"
+        }
+    ]
+}

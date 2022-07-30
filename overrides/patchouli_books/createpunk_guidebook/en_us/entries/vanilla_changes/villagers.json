@@ -1,0 +1,11 @@
+{
+    "name": "Villagers",
+    "icon": "minecraft:emerald",
+    "category": "patchouli:vanilla_changes",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Villager changes here"
+        }
+    ]
+}

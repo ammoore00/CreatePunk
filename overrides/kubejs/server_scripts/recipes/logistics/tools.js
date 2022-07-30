@@ -170,7 +170,7 @@ onEvent('recipes', event => {
     event.remove({id: 'minecraft:diamond_shovel'});
     event.remove({id: 'minecraft:diamond_hoe'});
     event.remove({id: 'minecraft:diamond_sword'});
-    event.remove({id: 'minecraft:diamond_knife'});
+    event.remove({id: 'farmersdelight:diamond_knife'});
 
     event.smithing(
         'minecraft:diamond_pickaxe',
@@ -218,7 +218,7 @@ onEvent('recipes', event => {
             D: 'minecraft:diamond',
             S: 'minecraft:stick'
         }
-    )
+    ).id('createpunk:diamond_chisel');
 
     event.remove({id: 'minecraft:diamond_helmet'});
     event.remove({id: 'minecraft:diamond_chestplate'});
