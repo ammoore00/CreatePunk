@@ -1,6 +1,7 @@
 ---=== Version 0.2.0 ===---
 -= Additions =-
 - Added a guidebook to replace the recipe book. Note that many entries are still missing, so expect this to be updated in the future!
+- Added the ability to melt metal sheets into molten metal
 
 -= Changes =-
 - Integrated Little Logistics recipes into progression
@@ -11,3 +12,5 @@
 - Fixed an issue where the diamond chisel could not be crafted
 - Fixed an issue where train controls could not be crafted
 - Fixed an issue where the enchanting table and jukebox were crafted using diamondium ingots instead of polished diamonds
+- Fixed an issue where bronze and steel nuggets could not be crafted or melted
+- Fixed an issue where steel tools had a separate recipe registered for mechanical crafting resulting in duplicate recipes

@@ -11,6 +11,10 @@ onEvent('recipes', event => {
         ['minecraft:iron_ingot']
     ).heated();
     event.recipes.createMixing(
+        Fluid.of('kubejs:molten_iron', 90),
+        ['create:iron_sheet']
+    ).heated();
+    event.recipes.createMixing(
         Fluid.of('kubejs:molten_iron', 10),
         ['minecraft:iron_nugget']
     ).heated();
@@ -31,6 +35,10 @@ onEvent('recipes', event => {
     event.recipes.createMixing(
         Fluid.of('kubejs:molten_copper', 90),
         ['minecraft:copper_ingot']
+    ).heated();
+    event.recipes.createMixing(
+        Fluid.of('kubejs:molten_copper', 90),
+        ['create:copper_sheet']
     ).heated();
     event.recipes.createMixing(
         Fluid.of('kubejs:molten_copper', 10),
@@ -55,6 +63,10 @@ onEvent('recipes', event => {
         ['minecraft:gold_ingot']
     ).heated();
     event.recipes.createMixing(
+        Fluid.of('kubejs:molten_gold', 90),
+        ['create:gold_sheet']
+    ).heated();
+    event.recipes.createMixing(
         Fluid.of('kubejs:molten_gold', 10),
         ['minecraft:gold_nugget']
     ).heated();
@@ -77,6 +89,10 @@ onEvent('recipes', event => {
         ['create:zinc_ingot']
     ).heated();
     event.recipes.createMixing(
+        Fluid.of('kubejs:molten_zinc', 90),
+        ['createaddition:zinc_sheet']
+    ).heated();
+    event.recipes.createMixing(
         Fluid.of('kubejs:molten_zinc', 10),
         ['create:zinc_nugget']
     ).heated();
@@ -97,6 +113,10 @@ onEvent('recipes', event => {
     event.recipes.createMixing(
         Fluid.of('kubejs:molten_brass', 90),
         ['create:brass_ingot']
+    ).heated();
+    event.recipes.createMixing(
+        Fluid.of('kubejs:molten_brass', 90),
+        ['create:brass_sheet']
     ).heated();
     event.recipes.createMixing(
         Fluid.of('kubejs:molten_brass', 10),
@@ -124,6 +144,14 @@ onEvent('recipes', event => {
         Fluid.of('kubejs:molten_bronze', 90),
         ['alloyed:bronze_ingot']
     ).heated();
+    event.recipes.createMixing(
+        Fluid.of('kubejs:molten_bronze', 90),
+        ['alloyed:bronze_sheet']
+    ).heated();
+    event.recipes.createMixing(
+        Fluid.of('kubejs:molten_bronze', 10),
+        ['kubejs:bronze_nugget']
+    ).heated();
 
     event.recipes.createMixing(
         Fluid.of('kubejs:molten_bronze', 360), 
@@ -138,6 +166,10 @@ onEvent('recipes', event => {
     event.recipes.createMixing(
         Fluid.of('kubejs:molten_steel', 90),
         ['alloyed:steel_ingot']
+    ).heated();
+    event.recipes.createMixing(
+        Fluid.of('kubejs:molten_steel', 90),
+        ['alloyed:steel_sheet']
     ).heated();
     event.recipes.createMixing(
         Fluid.of('kubejs:molten_steel', 10),
@@ -188,6 +220,19 @@ onEvent('recipes', event => {
     .loops(4);
 
     // Netherite
+    event.recipes.createMixing(
+        Fluid.of('kubejs:molten_netherite', 90),
+        ['minecraft:netherite_ingot']
+    ).heated();
+    event.recipes.createMixing(
+        Fluid.of('kubejs:molten_netherite', 90),
+        ['createdeco:netherite_sheet']
+    ).heated();
+    event.recipes.createMixing(
+        Fluid.of('kubejs:molten_netherite', 10),
+        ['createdeco:netherite_nugget']
+    ).heated();
+
     event.recipes.createMixing(
         Fluid.of('kubejs:molten_netherite', 90), 
         [

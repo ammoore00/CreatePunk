@@ -21,7 +21,7 @@
         },
         {
             "type": "patchouli:crafting",
-            "recipe": "createpunk:diamond_chisel",
+            "recipe": "createpunk:logistics/tools/diamond_chisel",
             "text": "Steel and diamond tools require nether access, and as such the diamond chisel has been added as a weak diamond pickaxe in order to obtain obsidian."
         },
         {

@@ -8,7 +8,7 @@ onEvent('recipes', event => {
     });
     event.remove({
         input: 'alloyed:steel_ingot',
-        type: 'createMechanicalCrafting'
+        type: 'mechanical_crafting'
     });
 
     event.shaped(
@@ -211,14 +211,14 @@ onEvent('recipes', event => {
     event.shaped(
         'kubejs:diamond_chisel',
         [
-            ' D',
-            'S '
+            'D ',
+            ' S'
         ],
         {
             D: 'minecraft:diamond',
             S: 'minecraft:stick'
         }
-    ).id('createpunk:diamond_chisel');
+    ).id('createpunk:logistics/tools/diamond_chisel');
 
     event.remove({id: 'minecraft:diamond_helmet'});
     event.remove({id: 'minecraft:diamond_chestplate'});
@@ -311,3 +311,9 @@ onEvent('recipes', event => {
         'minecraft:netherite_ingot'
     );
 });
+
+onEvent('tags.items', event => {
+    event.add('forge:tools', 'kubejs:diamond_chisel');
+    event.add('forge:tools/pickaxes', 'kubejs:diamond_chisel');
+    event.add('forge:tools/diamond', 'kubejs:diamond_chisel');
+})
