@@ -7,6 +7,7 @@
 - Integrated Little Logistics recipes into progression
 - Integrated Chunk Loaders recipes into progression
 - Changed the recipe for diamondium to require filling with more molten steel rather than lava
+- Changed coal products to be valid fuel. Crushed coal will smelt 8 items, refined coal dust 1 item, and coke 12 items
 
 -= Bugfixes =-
 - Fixed an issue where the diamond chisel could not be crafted

@@ -38,9 +38,9 @@ onEvent('item.registry', event => {
     event.create('refined_gold_ore');
     event.create('refined_zinc_ore');
 
-    event.create('crushed_coal');
-    event.create('refined_coal_dust');
-    event.create('coke');
+    event.create('crushed_coal').burnTime(1600);
+    event.create('refined_coal_dust').burnTime(200);
+    event.create('coke').burnTime(2400);
 
     event.create('steel_nugget');
     event.create('bronze_nugget');
