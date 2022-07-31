@@ -1,0 +1,17 @@
+{
+    "name": "Andesite Alloy",
+    "icon": "create:andesite_alloy",
+    "category": "patchouli:getting_started",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(item)Andesite Alloy/$ is one of the most basic and important resources in CreatePunk, used to make many of the various tools and contraptions for automation.$(br2)While it can be crafted by hand early on, it can be made more efficiently later in progression by pouring $(bold)$(l:materials/metallurgy)$(thing)Molten/$ $(item)Iron/$ or $(item)Zinc/$ over $(item)Andesite/$."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/materials/andesite_alloy",
+            "recipe2": "create:crafting/materials/andesite_alloy_from_zinc"
+        }
+    ]
+}

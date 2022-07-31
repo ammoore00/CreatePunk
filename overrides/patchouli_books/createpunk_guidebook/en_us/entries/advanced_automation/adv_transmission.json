@@ -1,0 +1,18 @@
+{
+    "name": "Advanced Power Transmission",
+    "icon": "createaddition:connector",
+    "category": "patchouli:advanced_automation",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:adjustable_chain_gearshift",
+            "title": "Chain Gearshift",
+            "text": "$(item)Adjustable Chain Gearshifts/$ can be used in a similar manner to $(l:getting_started/transmission)Encased Chain Drives/$, except that they can be used to increase of decrease the rotation speed of the chain drive.$(ponder)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/adjustable_chain_gearshift",
+            "title": "Chain Gearshift"
+        }
+    ]
+}

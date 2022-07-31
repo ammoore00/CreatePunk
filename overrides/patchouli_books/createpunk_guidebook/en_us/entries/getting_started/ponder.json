@@ -1,0 +1,16 @@
+{
+    "name": "Ponder",
+    "icon": "createdeco:orange_decal",
+    "category": "patchouli:getting_started",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Many items in the pack have the ability to $(thing)Ponder/$ about them to understand how they work.$(br2)In order to ponder about an item or block with a defined ponder scene, hold 'w' while holding the mouse over the item. Items or blocks that can be pondered will say so in the item tooltip."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "This book will often direct you to ponder on items or blocks to learn more about them than what this book can teach you. Items which can be pondered will have their item displayed so you can do so directly from the book."
+        }
+    ]
+}

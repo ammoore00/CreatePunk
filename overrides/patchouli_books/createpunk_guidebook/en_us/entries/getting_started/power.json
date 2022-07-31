@@ -1,0 +1,13 @@
+{
+    "name": "Mechanical Power Generation",
+    "icon": "create:water_wheel",
+    "category": "patchouli:getting_started",
+    "sortnum": 20,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:hand_crank",
+            "text": "The $(item)Hand Crank/$ can be used to manually power mechanical devices"
+        }
+    ]
+}

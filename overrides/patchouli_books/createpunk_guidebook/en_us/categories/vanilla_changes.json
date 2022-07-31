@@ -1,5 +1,6 @@
 {
     "name": "Changes from Vanilla",
     "description": "Elements in the pack which have changed from vanilla.",
-    "icon": "minecraft:grass_block"
+    "icon": "minecraft:grass_block",
+    "sortnum": 0
 }

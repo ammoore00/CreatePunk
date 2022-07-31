@@ -1,0 +1,77 @@
+{
+    "name": "Mechanical Power Transmission",
+    "icon": "create:cogwheel",
+    "category": "patchouli:getting_started",
+    "sortnum": 30,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:shaft",
+            "text": "$(item)Shafts/$ can be used to transmit mechanical power between devices. Devices with a shaft on one or more of their sides can accept power from a shaft running into that side. Note that some devices care about the direction of rotation.$(ponder)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/shaft"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:cogwheel",
+            "text": "$(item)Cogwheels/$ can be used to transmit mechanical power. Combining small and large cogwheels can also be used to change the RPM of attached shafts and devices. Devices with a cogwheel built into them can accept power from an adjacent cogwheel.$(ponder)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/cogwheel",
+            "recipe2": "create:crafting/kinetics/large_cogwheel"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:gearbox",
+            "text": "$(item)Gearboxes/$ can be used to change the orientation of mechanical power. Opposite faces of a gearbox will also spin in opposite directions to allow for changing of rotation direction. Horizontal and vertical gearboxes can be exchanged in a crafting grid.$(ponder)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/gearbox",
+            "reccipe2": "create/crafting/kinetics/vertical_gearboxfrom_conversion"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:gearshift",
+            "text": "$(item)Gearshifts/$ can be used to change the direction of rotation of mechanical power based on redstone input.$(ponder)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/gearshift"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:clutch",
+            "text": "$(item)Clutches/$ can be used to disengage mechanical power based on redstone input.$(ponder)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/clutch"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:encased_chain_drive",
+            "text": "$(item)Encased Chain Drives/$ can be used to transmit mechanical power parallel to the direction of motion without reversing it. They can also be rotated by 90 degrees to provide power perpendicular to the source.$(ponder)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/encased_chain_drive"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:belt_connector",
+            "anchor": "belt",
+            "text": "$(item)Belts/$ can be used to transmit power between any attached $(item)Shafts/$, including shafts in the middle of the belt. Note that belts can face in any direction, as well as go up 45 degree slopes. See $(bold)$(l:getting_started/transport#belt)Item Transportation/$ for more information."
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "patchouli:getting_started/power",
+                "patchouli:advanced_automation/adv_transmission"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Item Transportation",
+    "icon": "create:belt_connector",
+    "category": "patchouli:getting_started",
+    "sortnum": 60,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "anchor": "belt",
+            "item": "create:belt_connector",
+            "text": ""
+        }
+    ]
+}

@@ -1,5 +1,6 @@
 {
     "name": "Getting Started",
     "description": "Everything needed to get started in CreatePunk!",
-    "icon": "create:wrench"
+    "icon": "create:wrench",
+    "sortnum": 10
 }

@@ -64,7 +64,7 @@ onEvent('recipes', event => {
     ).heated();
     event.recipes.createMixing(
         Fluid.of('kubejs:molten_gold', 90),
-        ['create:gold_sheet']
+        ['create:golden_sheet']
     ).heated();
     event.recipes.createMixing(
         Fluid.of('kubejs:molten_gold', 10),

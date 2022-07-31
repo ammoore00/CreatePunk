@@ -37,7 +37,7 @@ onEvent('recipe', event => {
 });
 
 onEvent('tags.items', event => {
-    event.add('forge:nuggets', ['kubejs:steel_nugget', 'kubejs:iron_nugget']);
+    event.add('forge:nuggets', ['kubejs:steel_nugget', 'kubejs:bronze_nugget']);
     event.add('forge:nuggets/steel', 'kubejs:steel_nugget');
     event.add('forge:nuggets/bronze', 'kubejs:bronze_nugget');
 

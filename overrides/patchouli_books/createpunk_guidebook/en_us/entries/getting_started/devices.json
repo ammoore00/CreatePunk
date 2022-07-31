@@ -1,0 +1,14 @@
+{
+    "name": "Basic Mechanical Devices",
+    "icon": "create:mechanical_press",
+    "category": "patchouli:getting_started",
+    "sortnum": 50,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "anchor": "press",
+            "item": "create:mechanical_press",
+            "text": ""
+        }
+    ]
+}

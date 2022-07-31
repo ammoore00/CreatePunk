@@ -1,6 +1,22 @@
 onEvent('recipes', event => {
+    event.remove({type: 'mixing', output: 'create:andesite_alloy'});
     event.remove({id: 'create:sequenced_assembly/sturdy_sheet'});
     event.remove({id: 'create:sequenced_assembly/precision_mechanism'});
+
+    event.recipes.createFilling(
+        'create:andesite_alloy',
+        [
+            'minecraft:andesite',
+            Fluid.of('kubejs:molten_iron', 10)
+        ]
+    );
+    event.recipes.createFilling(
+        'create:andesite_alloy',
+        [
+            'minecraft:andesite',
+            Fluid.of('kubejs:molten_zinc', 10)
+        ]
+    );
 
     event.recipes.createSequencedAssembly(
         // Output
