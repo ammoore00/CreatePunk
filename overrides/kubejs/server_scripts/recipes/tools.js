@@ -8,7 +8,7 @@ onEvent('recipes', event => {
     });
     event.remove({
         input: 'alloyed:steel_ingot',
-        type: 'mechanical_crafting'
+        type: 'create:mechanical_crafting'
     });
 
     event.shaped(

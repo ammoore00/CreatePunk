@@ -1,5 +1,5 @@
 onEvent('recipes', event => {
-    event.remove({type: 'mixing', output: 'create:andesite_alloy'});
+    event.remove({type: 'create:mixing', output: 'create:andesite_alloy'});
     event.remove({id: 'create:sequenced_assembly/sturdy_sheet'});
     event.remove({id: 'create:sequenced_assembly/precision_mechanism'});
 

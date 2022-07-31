@@ -31,7 +31,7 @@
         {
             "type": "patchouli:crafting",
             "recipe": "create:crafting/kinetics/gearbox",
-            "reccipe2": "create/crafting/kinetics/vertical_gearboxfrom_conversion"
+            "recipe2": "create/crafting/kinetics/vertical_gearboxfrom_conversion"
         },
         {
             "type": "patchouli:spotlight",
@@ -64,7 +64,7 @@
             "type": "patchouli:spotlight",
             "item": "create:belt_connector",
             "anchor": "belt",
-            "text": "$(item)Belts/$ can be used to transmit power between any attached $(item)Shafts/$, including shafts in the middle of the belt. Note that belts can face in any direction, as well as go up 45 degree slopes. See $(bold)$(l:getting_started/transport#belt)Item Transportation/$ for more information."
+            "text": "$(item)Belts/$ can be used to transmit power between any attached $(item)Shafts/$, including shafts in the middle of the belt. Note that belts can face in any direction, as well as go up 45 degree slopes. See $(bold)$(l:getting_started/transport#belt)Item Transportation/$ or $(br2)$(bold)$(l:getting_started/ponder)Ponder/$ the item for more information."
         },
         {
             "type": "patchouli:relations",
