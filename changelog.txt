@@ -12,6 +12,9 @@
 - Unified dough between create and farmer's delight. Create's dough item has been deprecated, and may be converted into farmer's delight dough in a crafting grid
 - Reduced the hunger restored by most food ingredients to encourage creation of full meals, which have not been affected.
 
+-= Removals =-
+- Removed overlapping crates and bundles from Quark (carrot, potato, beetroot, bamboo)
+
 -= Bugfixes =-
 - Fixed an issue where the diamond chisel could not be crafted
 - Fixed an issue where train controls could not be crafted
