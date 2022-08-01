@@ -27,7 +27,7 @@
         },
         {
             "type": "patchouli:spotlight",
-            "item": "fruittrees:apple_oak_sapling",
+            "item": "fruittrees:apple_sapling",
             "title": "Apple Oak Trees",
             "text": "$(thing)Apple Oak Trees/$ only generate in $(thing)Plains Villages/$. Additionally, a $(thing)Villager Child/$ may give you an $(item)Apple Oak Sapling/$ as a gift while you have $(thing)Hero of the Village/$."
         },
@@ -45,7 +45,8 @@
             "text": "When bees polinate multiple different varieties of $(item)Fruit Trees/$, if they are compatible, there is a chance that one of the polinated $(item)Leaves/$ will $(thing)Hybridize/$ into another variety of fruit tree.$(br2)$(item)Citrus Trees/$ may $(thing)Hybridize/$ amongst themselves, and $(item)Cherry/$ and $(item)Apple Oak Trees/$ with each other."
         },
         {
-            "type": "patchouli:text",
+            "type": "patchouli:entity",
+            "entity": "minecraft:bee",
             "text": "$(bold)$(l:getting_started/ponder)Ponder/$ any $(item)Fruit Tree Sapling/$ for more information. Also search $(bold)'Hybrids'/$ in $(jei) for specific hybridization recipes."
         }
     ]

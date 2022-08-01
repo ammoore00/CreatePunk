@@ -13,7 +13,7 @@
             "type": "patchouli:spotlight",
             "item": "minecraft:emerald",
             "title": "Demand",
-            "text": "Villagers will now more appropriately respond to $(thing)Supply/$ and $(thing)Demand/$. In vanilla, $(thing)Demand/$ has no cap on how low it can go, and as such, over time, trades will have such low negative $(thing)Demand/$ that it becomes a non-factor. In $(thing)CreatePunk/$, $(thing)Demand/$ now has a cap on how negative it can be, allowing for trades to increase in price as they are used."
+            "text": "Villagers will now more appropriately respond to $(thing)Supply/$ and $(thing)Demand/$. In vanilla, $(thing)Demand/$ has no cap on how low it can go, and as such, over time, trades will have such low negative $(thing)Demand/$ that it becomes a non-factor. In $(thing)CreatePunk/$, $(thing)Demand/$ now has a cap on how negative it can be, allowing for trades to increase in price when used repeatedly."
         },
         {
             "type": "patchouli:spotlight",

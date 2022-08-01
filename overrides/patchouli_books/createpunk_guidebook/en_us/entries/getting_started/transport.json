@@ -29,12 +29,12 @@
         {
             "type": "patchouli:spotlight",
             "item": "create:chute",
-            "text": "$(item)Chutes/$ can be used to transfer items vertically. They allow for direct transfer between inventories, as well as picking up items thrown into them, and are able to dispense items onto the ground below them. They can also be connected diagonally to allow for sideways movement of items.$(br2)See $(bold)$(l:advanced_automation/adv_devices#smart_chute)Smart Chutes/$ for filtering options."
+            "text": "$(item)Chutes/$ can be used to transfer items vertically. They allow for direct transfer between inventories, as well as picking up items thrown into them, and are able to dispense items onto the ground below them. They can also be connected diagonally to allow for sideways movement of items."
         },
         {
             "type": "patchouli:crafting",
             "recipe": "create:crafting/kinetics/chute",
-            "text": "When combined with an $(bold)$(l:getting_started/devices#encased_fan)Encased Fan/$, items can also be transported upwards.$(ponder)"
+            "text": "When combined with an $(bold)$(l:getting_started/devices#encased_fan)Encased Fan/$, items can also be transported upwards.$(br2)See $(bold)$(l:advanced_automation/adv_devices#smart_chute)Smart Chutes/$ for filtering options. $(ponder_inline)"
         },
         {
             "type": "patchouli:spotlight",
@@ -55,6 +55,16 @@
         {
             "type": "patchouli:crafting",
             "recipe": "create:crafting/kinetics/weighted_ejector"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "patchouli:advanced_automation/adv_transport",
+                "patchouli:getting_started/transmission",
+                "patchouli:getting_started/power",
+                "patchouli:getting_started/devices",
+                "patchouli:getting_started/fluids"
+            ]
         }
     ]
 }

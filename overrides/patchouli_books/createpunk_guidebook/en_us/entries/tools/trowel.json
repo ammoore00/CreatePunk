@@ -11,7 +11,7 @@
         },
         {
             "type": "patchouli:crafting",
-            "recipe": "createpunk:tools/trowel",
+            "recipe": "quark:tools/crafting/trowel",
             "text": "$(item)Metal Sheets/$ can be created using the $(bold)$(item)$(l:getting_started/devices#press)Mechanical Press/$."
         }
     ]
