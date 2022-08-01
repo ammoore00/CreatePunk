@@ -10,6 +10,7 @@
 - Changed the recipe for diamondium to require filling with more molten steel rather than lava
 - Increased durability on diamond and netherite tools
 - Unified dough between create and farmer's delight. Create's dough item has been deprecated, and may be converted into farmer's delight dough in a crafting grid
+- Reduced the hunger restored by most food ingredients to encourage creation of full meals, which have not been affected.
 
 -= Bugfixes =-
 - Fixed an issue where the diamond chisel could not be crafted
