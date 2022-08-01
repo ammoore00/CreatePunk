@@ -11,7 +11,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "Feel free to skip around and read at your own pace. Important concepts will be linked to when they are mentioned, and while this book is open, the game will pause if you are playing in Singleplayer."
+            "text": "Feel free to skip around and read at your own pace. Important concepts will be linked to when they are mentioned, and while this book is open, the game will pause if you are playing in Singleplayer.$(br2)This book assumes knowledge of Vanilla mechanics, but does not assume any experience with Modded Minecraft."
         },
         {
             "type": "patchouli:text",

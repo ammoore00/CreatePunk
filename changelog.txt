@@ -8,12 +8,13 @@
 - Integrated Little Logistics recipes into progression
 - Integrated Chunk Loaders recipes into progression
 - Changed the recipe for diamondium to require filling with more molten steel rather than lava
-- Increased durability on diamond and netherite tools
+- Increased durability on diamond and netherite tools, and further increased the durability of iron tools
 - Unified dough between create and farmer's delight. Create's dough item has been deprecated, and may be converted into farmer's delight dough in a crafting grid
 - Reduced the hunger restored by most food ingredients to encourage creation of full meals, which have not been affected.
 
 -= Removals =-
 - Removed overlapping crates and bundles from Quark (carrot, potato, beetroot, bamboo)
+- Hid several unused items from the JEI menu
 
 -= Bugfixes =-
 - Fixed an issue where the diamond chisel could not be crafted
@@ -22,3 +23,5 @@
 - Fixed an issue where bronze and steel nuggets could not be crafted or melted
 - Fixed an issue where steel tools had a separate recipe registered for mechanical crafting resulting in duplicate recipes
 - Fixed an issue where several foods were missing food groups from Diet
+- Fixed an issue where chests from Every Compat could not be put into boats
+- Fixed an issue where knives were not affected by the tool durability changes

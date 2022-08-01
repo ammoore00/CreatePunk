@@ -452,8 +452,15 @@
 			"minecraft:stone_sword,50", "minecraft:stone_pickaxe,50", "minecraft:stone_shovel,50", "minecraft:stone_hoe,50", "minecraft:stone_axe,50",
 			"minecraft:iron_sword,500", "minecraft:iron_pickaxe,500", "minecraft:iron_shovel,500", "minecraft:iron_hoe,500", "minecraft:iron_axe,500",
 			"minecraft:diamond_sword,2000", "minecraft:diamond_pickaxe,2000", "minecraft:diamond_shovel,2000", "minecraft:diamond_hoe,2000", "minecraft:diamond_axe,2000",
-			"minecraft:netherite_sword,500", "minecraft:netherite_pickaxe,500", "minecraft:netherite_shovel,500", "minecraft:netherite_hoe,500", "minecraft:netherite_axe,500",
-			"kubejs:diamond_chisel,50"]
+			"minecraft:netherite_sword,3000", "minecraft:netherite_pickaxe,3000", "minecraft:netherite_shovel,3000", "minecraft:netherite_hoe,3000", "minecraft:netherite_axe,3000",
+
+			"farmersdelight:flint_knife,50",
+			"farmersdelight:iron_knife,500",
+			"farmersdelight:diamond_knife,2000",
+			"farmersdelight:netherite_knife,3000",
+
+			"kubejs:diamond_chisel,50"
+		]
 		#A list of items and multipliers that will apply to mining speed when breaking blocks with that item.
 		#Format is 'modid:itemid,efficiency_multiplier'
 		"Tools Efficiency" = []

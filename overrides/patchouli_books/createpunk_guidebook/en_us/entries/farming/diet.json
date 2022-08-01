@@ -12,7 +12,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "Combining multiple $(thing)Ingredients/$ in $(thing)Meals/$ is significantly more efficient than eating individual items on their own. Searching $(jei) for 'Meal' will return all foods classified as $(thing)Meals/$."
+            "text": "Combining multiple $(thing)Ingredients/$ in $(thing)Meals/$ is significantly more efficient than eating individual items on their own. Searching $(jei) for $(bold)'Meal'/$ will return all foods classified as $(thing)Meals/$."
         },
         {
             "type": "patchouli:text",

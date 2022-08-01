@@ -15,6 +15,14 @@
         {
             "type": "patchouli:text",
             "text": "Some items or blocks will also show additional tabs with relevant information. Items can also be $(bold)$(l:getting_started/ponder)Pondered/$ directly from within $(thing)JEI/$.$(br2)Additionally, you can press $(bold)$(k:jei.bookmark)/$ while hovering over an item to bookmark an item to the left tab for later reference, or press $(bold)$(k:findme.search)/$ to highlight nearby inventories which contain that same item. These will both work from any inventory menu, or the $(thing)JEI/$ panel itself."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Lastly, some useful search categories have been added to help you find items (searchable items are in bold):$(li)$(bold)Tools/$$(li)$(bold)Create/$$(li2)$(bold)Devices/$$(li2)$(bold)Transmission/$$(li2)$(bold)Generation/$$(li2)$(bold)Transport/$$(li)$(bold)Building Blocks/$$(li2)Colors (e.g. $(bold)Red/$, $(bold)Blue/$, etc)$(li)$(bold)Decorations/$$(li)$(bold)Food/$$(li2)$(bold)Meals/$$(br2)See the next page for more."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Search categories continued:$(li)$(bold)Plants/$$(li2)$(bold)Crops/$$(li2)$(bold)Fruit Trees/$$(li3)$(bold)Hybrids/$"
         }
     ]
 }
