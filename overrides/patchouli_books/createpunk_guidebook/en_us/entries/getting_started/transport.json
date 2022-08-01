@@ -9,6 +9,40 @@
             "anchor": "belt",
             "item": "create:belt_connector",
             "text": ""
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/belt_connector"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:andesite_funnel",
+            "anchor": "funnel",
+            "text": "$(item)Funnels/$ can be used to move items in and out of inventories. They can be placed on any side of a block with an inventory, and their direction can be configured with the $(bold)$(l:getting_started/create_tools#wrench)Wrench/$. The arrows on the sides of the $(item)Funnel/$ will tell you which direction it is facing.$(ponder)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/logistics/andesite_funnel",
+            "text": "Basic $(item)Funnels/$ made of Andesite can only transfer single items, and cannot filter items. See $(bold)$(l:advanced_automation/adv_transport#brass_funnel)Brass Funnels/$ for filtering and mass item transfer."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:chute",
+            "text": ""
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/chute"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "anchor": "depot",
+            "item": "create:depot",
+            "text": ""
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/depot"
         }
     ]
 }

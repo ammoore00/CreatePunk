@@ -1,0 +1,16 @@
+{
+    "name": "Welcome to CreatePunk",
+    "icon": "create:wrench",
+    "category": "patchouli:getting_started",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Welcome to CreatePunk! This book will show you all the ins and outs of everything you need to know to get going in the modpack. There's a lot of information, so I've tried to condense it down as much as possible.$(br2)Entries and categories are generally sorted in the order that they should be read, but that's more of a guideline than anything else."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Feel free to skip around and read at your own pace. Important concepts will be linked to when they are mentioned, and while this book is open, the game will pause if you are playing in Singleplayer."
+        }
+    ]
+}

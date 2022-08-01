@@ -1,10 +1,13 @@
 {
     "name": "CreatePunk Guidebook",
-    "landing_text": "Welcome to CreatePunk! This guidebook will give you all the information needed to get started!$(br2)Note that entries and categories are generally sorted in the order that they should be read.",
+    "landing_text": "Welcome to CreatePunk! This guidebook will give you all the information needed to get started!",
     "model": "createpunk:guide",
     "book_texture": "patchouli:textures/gui/book_brown.png",
     "show_progress": false,
+    "pause_game": true,
     "macros": {
-        "$(ponder)": "$(br2)$(bold)$(l:getting_started/ponder)Ponder/$ the item for more information."
+        "$(ponder)": "$(br2)$(bold)$(l:getting_started/ponder)Ponder/$ the item for more information.",
+        "$(jei)": "$(bold)$(l:getting_started/ei)JEI/$",
+        "$(stress)": "$(bold)$(l:getting_started/stress)Stress/$"
     }
 }

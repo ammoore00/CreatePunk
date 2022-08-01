@@ -9,7 +9,7 @@
 - Integrated Chunk Loaders recipes into progression
 - Changed the recipe for diamondium to require filling with more molten steel rather than lava
 - Increased durability on diamond and netherite tools
-- Unified dough between create and farmer's delight. Create's dough item has been deprecated, and may be converted into farmer's delight dough in a crafting grid.
+- Unified dough between create and farmer's delight. Create's dough item has been deprecated, and may be converted into farmer's delight dough in a crafting grid
 
 -= Bugfixes =-
 - Fixed an issue where the diamond chisel could not be crafted

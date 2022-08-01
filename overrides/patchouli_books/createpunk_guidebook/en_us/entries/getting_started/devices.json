@@ -5,10 +5,94 @@
     "sortnum": 50,
     "pages": [
         {
+            "type": "patchouli:text",
+            "text": "This section outlines some of the basic mechanical devices available. All mechanical devices require $(stress) to operate, with the amount of stress varying based on the current $(thing)RPM/$ of the device.$(br2)Devices can accept $(thing)Mechanical Power/$ through either an attached $(bold)$(l:getting_started/transmission#shaft)Shaft/$ or $(bold)$(l:getting_started/transmission#cog)Cogwheel/$, depending on what inputs are available to each device."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Note that some devices care about the direction of rotation supplied to them, while others do not. Some devices also have a minimum speed requirement.$(br2)$(bold)$(l:getting_started/create_tools#goggles)Engineer's Goggles/$ let you see the current $(thing)Stress/$ being used by a device, as well as any problems which may be causing it not to function (such as too low $(thing)RPM/$)."
+        },
+        {
             "type": "patchouli:spotlight",
             "anchor": "press",
             "item": "create:mechanical_press",
-            "text": ""
+            "text": "The $(item)Mechanical Press/$ is one of the most basic mechanical tools, which can be used in a number of ways. It can be used to press items on a $(bold)$(l:getting_started/transport#belt)Belt/$ or $(bold)$(l:getting_started/transport#depot)Depot/$, or items simply on the ground below it.$(ponder)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/mechanical_press",
+            "text": "The $(item)Mechanical PRess/$ can also be used when combined with a $(bold)$(l:getting_started/devices#basin)Basin/$ to compact items."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "anchor": "basin",
+            "item": "create:basin",
+            "text": "The $(item)Basin/$ can be used in combination with the $(bold)$(l:getting_started/devices#press)Mechanical Press/$ or $(bold)$(l:getting_started/devices#mixer)Mechanical Mixer/$ in order to process recipes automatically. Some recipes require extra heating from a $(bold)$(l:advanced_automation/adv_devices#burner)Blaze Burner/$, which is covered later in this book."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/basin",
+            "text": "Items can be placed into the $(item)Basin/$ with a $(bold)$(l:getting_started/transport#funnel)Funnel/$ or $(bold)$(l:advanced_automation/adv_transport#arm)Mechanical Arm/$, or when thrown on top. Fluids can be input and output using $(bold)$(l:getting_started/fluids#pipe)Pipes/$. See the next page or $(bold)$(l:getting_started/ponder)Ponder/$ for more information."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:basin",
+            "text": "When placed next to a $(item)Belt/$, a funnal will appear on the $(item)Basin/$ to export finished products. This can be toggled using a $(bold)$(l:getting_started/create_tools#wrench)Wrench/$.$(br2)In case of conflicts in recipes, a filter can also be applied to the basic to set which output is desired."
+        },
+        {
+            "type": "patchouli:empty"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "anchor": "mixer",
+            "item": "create:mechanical_mixer",
+            "text": "The $(item)Mechanical Mixer/$, when used in combination with a $(bold)$(l:getting_started/devices#basi)Basin/$, allows for automatic processing of any $(thing)Shapeless Recipe/$, as well as several other mixing recipes. Note that the $(item)Mixer/$ must run at 32 $(thing)RPM/$ or more.$(ponder)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/mechanical_mixer",
+            "recipe2": "create:crafting/kinetics/whisk"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "anchor": "saw",
+            "item": "create:mechanical_saw",
+            "text": "The $(item)Mechanical Saw/$ can be used to automate stonecutting recipes, as well as some others like wood processing. When placed in line with $(bold)$(l:getting_started/transport#belt)Belts/$, the item will move from one $(item)Belt/$, along the $(item)Saw/$, and continue onto the next $(item)Belt/$.$(ponder)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/mechanical_saw",
+            "text": "$(br2)Saws can also be used as blocks or in $(bold)$(l:contraptions/contraption_devices#saw)Contraptions/$ to chop down $(thing)Trees/$."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "anchor": "drill",
+            "item": "create:mechanical_drill",
+            "text": "The $(item)Mechanical Drill/$ can be used to automatically break blocks in front of its drill head. It can also be used as part of a $(bold)$(l:contraptions/contraption_devices#saw)Contraption/$ to break blocks as well.$(ponder)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/mechanical_drill"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "anchor": "drill",
+            "item": "create:millstone",
+            "text": "The $(item)Millstone/$ lets you process items by grinding them. It accepts items dropped in from the top, or inserted via $(bold)$(l:getting_started/transport)other automatic methods/$. After it is done processing, the items can be extracted via $(k:use) or other automatic methods.$(ponder)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/millstone"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:encased_fan",
+            "text": "The $(item)Encased Fan/$ can be used push or pull items depending on which way the fan is spinning. They can also be used with $(bold)$(l:getting_started/transport#chute)Chutes/$ to move items upward.$(br2)When air is blown over $(item)Water/$, $(item)Lava/$, a $(item)Campfire/$, or a $(item)Soul Campfire/$, items in front of the air stream will be processed accordingly. Recipes can be found in $(jei).$(ponder)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/encased_fan",
+            "recipe2": "create:crafting/kinetics/propeller"
         }
     ]
 }

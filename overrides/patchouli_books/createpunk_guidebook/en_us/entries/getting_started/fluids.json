@@ -1,0 +1,9 @@
+{
+    "name": "Fluid Handling",
+    "icon": "create:fluid_tank",
+    "category": "patchouli:getting_started",
+    "sortnum": 70,
+    "pages": [
+
+    ]
+}

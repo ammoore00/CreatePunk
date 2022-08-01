@@ -7,6 +7,7 @@
         {
             "type": "patchouli:spotlight",
             "item": "create:shaft",
+            "anchor": "shaft",
             "text": "$(item)Shafts/$ can be used to transmit mechanical power between devices. Devices with a shaft on one or more of their sides can accept power from a shaft running into that side. Note that some devices care about the direction of rotation.$(ponder)"
         },
         {
@@ -16,6 +17,7 @@
         {
             "type": "patchouli:spotlight",
             "item": "create:cogwheel",
+            "anchor": "cog",
             "text": "$(item)Cogwheels/$ can be used to transmit mechanical power. Combining small and large cogwheels can also be used to change the RPM of attached shafts and devices. Devices with a cogwheel built into them can accept power from an adjacent cogwheel.$(ponder)"
         },
         {
