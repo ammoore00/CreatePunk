@@ -17,3 +17,4 @@
 - Fixed an issue where the enchanting table and jukebox were crafted using diamondium ingots instead of polished diamonds
 - Fixed an issue where bronze and steel nuggets could not be crafted or melted
 - Fixed an issue where steel tools had a separate recipe registered for mechanical crafting resulting in duplicate recipes
+- Fixed an issue where several foods were missing food groups from Diet
