@@ -11,7 +11,7 @@
         },
         {
             "type": "patchouli:spotlight",
-            "item": "minecraft:cooked_beef",
+            "item": "farmersdelight:roasted_mutton_chops",
             "title": "Diet",
             "text": "When you die, you will lose a flat $(bold)50%/$ progress in each $(bold)$(l:food/diet)Diet/$ category, regardless of what percentage you had when you died."
         }
