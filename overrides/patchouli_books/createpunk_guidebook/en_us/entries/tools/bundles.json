@@ -1,0 +1,18 @@
+{
+    "name": "Bundles",
+    "icon": "minecraft:bundle",
+    "category": "patchouli:tools",
+    "sortnum": 100,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:bundle",
+            "text": "$(item)Bundles/$ can be used to store different types of items in the same inventory slot, up to a single stack. Note that items with a stack size of less than 64 will count proportionally based on their stack sizes.$(br2)$(item)Seed Pouches/$ work in a similar manner, but can only store $(item)Seeds/$. However, they are able to store up to 10 stacks."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "quark:tools/crafting/bundle",
+            "recipe2": "quark:tools/crafting/seed_pouch"
+        }
+    ]
+}

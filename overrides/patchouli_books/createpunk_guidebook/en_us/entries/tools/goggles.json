@@ -1,0 +1,19 @@
+{
+    "name": "Engineer's Goggles",
+    "icon": "create:goggles",
+    "category": "patchouli:tools",
+    "sortnum": 20,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:goggles",
+            "anchor": "goggles",
+            "text": "The $(item)Engineer's Goggles/$ let you see more information about mechanical devices and systems when looking at them, such as stress generation and consumption. The goggles can be worn either in the helmet slot or in the $(thing)Curios/$ head slot."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/goggles",
+            "text": "$(item)Metal Sheets/$ can be created using the $(bold)$(item)$(l:getting_started/devices#press)Mechanical Press/$."
+        }
+    ]
+}

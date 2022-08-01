@@ -1,5 +1,21 @@
 onEvent('recipes', event => {
     
+    //------ Iron ------//
+
+    event.remove({output: 'quark:trowel'});
+
+    event.shaped(
+        'quark:trowel'
+        [
+            'S  ',
+            ' II'
+        ],
+        {
+            S: 'minecraft:stick',
+            I: 'create:iron_sheet'
+        }
+    ).id('createpunk:tools/trowel')
+
     //------ Steel ------//
 
     event.remove({

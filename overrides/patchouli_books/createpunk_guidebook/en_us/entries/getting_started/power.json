@@ -34,7 +34,7 @@
             "type": "patchouli:spotlight",
             "item": "create:white_sail",
             "title": "Sail",
-            "text": "$(item)Sail/$ blocks can be attached to blocks and each other without having to use $(bold)$(l:getting_started/create_tools)Superglue/$. They can be used to generate power when part of windmill, as well as some other blocks such as $(item)Wool Blocks/$ or $(item)Empty Sail Frames/$. See the next page for crafting recipes."
+            "text": "$(item)Sail/$ blocks can be attached to blocks and each other without having to use $(bold)$(l:tools/super_glue)Super Glue/$. They can be used to generate power when part of windmill, as well as some other blocks such as $(item)Wool Blocks/$ or $(item)Empty Sail Frames/$. See the next page for crafting recipes."
         },
         {
             "type": "patchouli:crafting",
@@ -52,7 +52,7 @@
         {
             "type": "patchouli:crafting",
             "recipe": "create:crafting/kinetics/steam_engine",
-            "text": "$(br2)Looking at a $(thing)Boiler/$ while wearing $(bold)$(l:getting_started/create_tools#goggles)Engineer's Goggles/$ will let you see more information."
+            "text": "$(br2)Looking at a $(thing)Boiler/$ while wearing $(bold)$(l:tools/goggles)Engineer's Goggles/$ will let you see more information."
         }
     ]
 }

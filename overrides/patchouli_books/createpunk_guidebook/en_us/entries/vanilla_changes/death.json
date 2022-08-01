@@ -1,0 +1,19 @@
+{
+    "name": "Death",
+    "icon": "graveyard:leaning_skeleton",
+    "category": "patchouli:vanilla_changes",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "graveyard:leaning_skeleton",
+            "title": "Death",
+            "text": "When youn die, you will leave behind a $(item)Gravestone/$ which will hold on to all of your items. Breaking the $(item)Gravestone/$ will return your items to your inventory.$(br2)A $(thing)Waypoint/$ will also be added to your $(thing)Map/$ at the location of your death to help you find your way back."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:cooked_beef",
+            "title": "Diet",
+            "text": "When you die, you will lose a flat $(bold)50%/$ progress in each $(bold)$(l:food/diet)Diet/$ category, regardless of what percentage you had when you died."
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Wrench",
+    "icon": "create:wrench",
+    "category": "patchouli:tools",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:wrench",
+            "anchor": "wrench",
+            "text": "The $(item)Wrench/$ is one of the most useful tools you can have while building contraptions, as it lets you easily pick up or rotate mechanical blocks. See the item tooltip for more information."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/wrench",
+            "text": "$(item)Metal Sheets/$ can be created using the $(bold)$(item)$(l:getting_started/devices#press)Mechanical Press/$."
+        }
+    ]
+}

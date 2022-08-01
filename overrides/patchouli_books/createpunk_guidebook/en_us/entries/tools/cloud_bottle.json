@@ -1,0 +1,13 @@
+{
+    "name": "Cloud in a Bottle",
+    "icon": "quark:bottled_cloud",
+    "category": "patchouli:tools",
+    "sortnum": 100,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "quark:bottled_cloud",
+            "text": "Using a $(item)Bottle/$ at cloud level (Between Y level 192 and 196) will get you a $(item)Cloud in a Bottle/$, which can be used to place temporary blocks in the air. They are non-solid and will disappear after a few seconds, but placing a block on it will instead replace the cloud. The $(thing)Cloud/$ will return to the $(item)Bottle/$ when you do this."
+        }
+    ]
+}

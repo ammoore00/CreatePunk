@@ -1,0 +1,13 @@
+{
+    "name": "Insect Bottling",
+    "icon": "buzzier_bees:bee_bottle",
+    "category": "patchouli:vanilla_changes",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "buzzier_bees:bee_bottle",
+            "title": "Insect Bottling",
+            "text": "Various $(thing)Insects/$, such as $(thing)Bees/$, $(thing)Silverfish/$, and $(thing)Endermites/$ can now be bottled by using an $(item)Empty Bottle/$ on them.$(br2)The $(thing)Insect/$ can then be released by $(bold)Right Clicking/$ the ground with the $(item)Bottle/$."
+        }
+    ]
+}

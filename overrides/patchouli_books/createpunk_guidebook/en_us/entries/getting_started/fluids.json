@@ -1,6 +1,6 @@
 {
     "name": "Fluid Handling",
-    "icon": "create:fluid_tank",
+    "icon": "create:mechanical_pump",
     "category": "patchouli:getting_started",
     "sortnum": 70,
     "pages": [

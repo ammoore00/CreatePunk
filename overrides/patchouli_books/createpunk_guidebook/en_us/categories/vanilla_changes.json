@@ -1,6 +1,6 @@
 {
     "name": "Changes from Vanilla",
-    "description": "Elements in the pack which have changed from vanilla.",
+    "description": "Elements in the pack which have changed from vanilla.$(br2)These entries are listed in no particular order, so feel free to explore them as you wish.",
     "icon": "minecraft:grass_block",
-    "sortnum": 0
+    "sortnum": 10
 }

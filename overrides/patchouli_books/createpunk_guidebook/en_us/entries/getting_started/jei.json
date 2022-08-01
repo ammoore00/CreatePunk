@@ -4,6 +4,17 @@
     "category": "patchouli:getting_started",
     "sortnum": 5,
     "pages": [
-        
+        {
+            "type": "patchouli:text",
+            "text": "This book cannot possibly cover everything there is to discover, unless it ended up being a full on textbook. However, $(thing)JEI (Just Enough Items)/$ is a great way to explore beyond what this book discusses.$(br2)Anyone with previous experience with modded Minecraft should find this familiar, but for those who aren't it is effectively an index of every relevant item or block in the game."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Hovering over an item in the panel to the right of your inventory, you can $(bold)Left Click/$ and entry to view all the recipes to make that item. You can also $(bold)Right Click/$ to show all the recipes that item is used in, or recipes using that block for things such as a crafting table. You can also press $(bold)$(k:jei.showRecipe)/$ or $(bold)$(k:jei.showUses)/$, respectively, to do the same. These keybinds also work from any inventory menu."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Some items or blocks will also show additional tabs with relevant information. Items can also be $(bold)$(l:getting_started/ponder)Pondered/$ directly from within $(thing)JEI/$.$(br2)Additionally, you can press $(bold)$(k:jei.bookmark)/$ while hovering over an item to bookmark an item to the left tab for later reference, or press $(bold)$(k:findme.search)/$ to highlight nearby inventories which contain that same item. These will both work from any inventory menu, or the $(thing)JEI/$ panel itself."
+        }
     ]
 }

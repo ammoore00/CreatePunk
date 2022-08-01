@@ -41,6 +41,12 @@
             "item": "minecraft:netherite_pickaxe",
             "title": "Netherite Tools",
             "text": "Netherite tools have had their durabilities significantly increased to account for the requirement of accessing the end. See $(bold)$(l:materials/alloying#netherite)Alloying/$ to learn more about making netherite."
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "patchouli:materials/alloying"
+            ]
         }
     ]
 }

@@ -1,0 +1,17 @@
+{
+    "name": "Abacus",
+    "icon": "quark:abacus",
+    "category": "patchouli:tools",
+    "sortnum": 100,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "quark:abacus",
+            "text": "The $(item)Abacus/$ can be used for measuring distances, up to 48 blocks. Use $(bold)$(k:use)/$ on a block to select it with the $(item)Abacus/$ and it will begin measuring the total distance along all axes from that block to the block you are looking at."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "quark:tools/crafting/abacus"
+        }
+    ]
+}

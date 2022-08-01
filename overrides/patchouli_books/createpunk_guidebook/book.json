@@ -7,6 +7,7 @@
     "pause_game": true,
     "macros": {
         "$(ponder)": "$(br2)$(bold)$(l:getting_started/ponder)Ponder/$ the item for more information.",
+        "$(ponder_inline)": "$(bold)$(l:getting_started/ponder)Ponder/$ the item for more information.",
         "$(jei)": "$(bold)$(l:getting_started/ei)JEI/$",
         "$(stress)": "$(bold)$(l:getting_started/stress)Stress/$"
     }

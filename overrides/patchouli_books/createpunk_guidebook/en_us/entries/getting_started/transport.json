@@ -8,11 +8,12 @@
             "type": "patchouli:spotlight",
             "anchor": "belt",
             "item": "create:belt_connector",
-            "text": ""
+            "text": "$(item)Belts/$ can stretch between two $(bold)$(l:getting_started/transmission#shaft)Shafts/$ to provide a method of item transport between them. $(item)Belts/$ intended to carry items can be placed horizontally or at a 45 degree angle. See $(bold)$(l:getting_started/transmission#belt)Power Transmission/$ for other uses of $(item)Belts/$.$(ponder)"
         },
         {
             "type": "patchouli:crafting",
-            "recipe": "create:crafting/kinetics/belt_connector"
+            "recipe": "create:crafting/kinetics/belt_connector",
+            "text": "Items on $(item)Belts/$ may be made available to other $(bold)$(l:getting_started/devices)Mechanical Devices/$ placed on or next to the $(item)Belt/$."
         },
         {
             "type": "patchouli:spotlight",
@@ -28,21 +29,32 @@
         {
             "type": "patchouli:spotlight",
             "item": "create:chute",
-            "text": ""
+            "text": "$(item)Chutes/$ can be used to transfer items vertically. They allow for direct transfer between inventories, as well as picking up items thrown into them, and are able to dispense items onto the ground below them. They can also be connected diagonally to allow for sideways movement of items.$(br2)See $(bold)$(l:advanced_automation/adv_devices#smart_chute)Smart Chutes/$ for filtering options."
         },
         {
             "type": "patchouli:crafting",
-            "recipe": "create:crafting/kinetics/chute"
+            "recipe": "create:crafting/kinetics/chute",
+            "text": "When combined with an $(bold)$(l:getting_started/devices#encased_fan)Encased Fan/$, items can also be transported upwards.$(ponder)"
         },
         {
             "type": "patchouli:spotlight",
             "anchor": "depot",
             "item": "create:depot",
-            "text": ""
+            "text": "$(item)Depots/$ allow a single stack of items to rest of them, allowing devices to interact with the items.$(ponder)"
         },
         {
             "type": "patchouli:crafting",
             "recipe": "create:crafting/kinetics/depot"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "anchor": "ejector",
+            "item": "create:weighted_ejector",
+            "text": "$(item)Weighted Ejectors/$ allow flinging items from one place to another. $(bold)Right Click/$ on the desired destination, then place the $(item)Ejector/$ where you would like items to be input. Note that items can only be thrown in straight lines, and have limited range.$(ponder)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/weighted_ejector"
         }
     ]
 }

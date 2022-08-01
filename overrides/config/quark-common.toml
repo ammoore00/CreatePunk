@@ -48,7 +48,7 @@
 	"Metal Buttons" = true
 	"Jukebox Automation" = true
 	"Iron Rod" = false
-	Gravisand = true
+	Gravisand = false
 	"Feeding Trough" = true
 	"Ender Watcher" = false
 	"Dispensers Place Blocks" = false
@@ -404,7 +404,7 @@
 	"Better Elytra Rocket" = true
 	"Automatic Recipe Unlock" = true
 	"Armed Armor Stands" = true
-	"Skull Pikes" = true
+	"Skull Pikes" = false
 
 	[tweaks.utility_recipes]
 		#Can any wool color be dyed?

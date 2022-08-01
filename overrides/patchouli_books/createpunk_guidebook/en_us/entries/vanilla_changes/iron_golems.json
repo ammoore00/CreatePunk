@@ -1,0 +1,13 @@
+{
+    "name": "Iron Golems",
+    "icon": "minecraft:poppy",
+    "category": "patchouli:vanilla_changes",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:poppy",
+            "title": "Iron Golems",
+            "text": "$(thing)Iron Golems/$ will no longer drop $(item)Iron Ingots/$ unless killed by the player, in order to encourage the more interesting methods of farming iron provided by the pack."
+        }
+    ]
+}

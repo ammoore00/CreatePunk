@@ -1,0 +1,36 @@
+{
+    "name": "Redstone",
+    "icon": "minecraft:redstone",
+    "category": "patchouli:vanilla_changes",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:piston",
+            "title": "Pistons",
+            "text": "Pistons can now move tile entities, keeping all data intact.$(br2)Additionally, $(item)Chains/$ can connect blocks when pushed by pistons if they are visually connected to the $(item)Chains/$. This also applies to $(item)Slime Blocks/$ and $(item)Honey Blocks/$, which will only connect to $(item)Chains/$ if they connect visually."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:hopper",
+            "title": "Hoppers",
+            "text": "$(item)Hoppers/$ have been removed in favor of more interesting options which fill the same role such as $(bold)$(l:getting_started/transport#chute)Chutes/$ and $(bold)$(l:getting_started/transport#funnel)Funnels/$."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "kubejs:redstone_eye",
+            "title": "Detection",
+            "text": "$(item)Comparators/$ and $(item)Observers/$ have had their recipes changed to include the $(bold)$(l:advanced_automation/adv_circuits#redstone_eye)Redstone Eye/$."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "createpunk:circuits/redstone/comparator",
+            "recipe2": "createpunk:circuits/redstone/observer"
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "patchouli:advanced_automation/adv_circuits"
+            ]
+        }
+    ]
+}

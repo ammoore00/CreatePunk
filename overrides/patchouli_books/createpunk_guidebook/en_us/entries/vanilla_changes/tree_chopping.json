@@ -1,0 +1,17 @@
+{
+    "name": "Tree Chopping",
+    "icon": "minecraft:oak_sapling",
+    "category": "patchouli:vanilla_changes",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:iron_axe",
+            "title": "Tree Chopping",
+            "text": "$(thing)Trees/$ can be progressively chopped by using an $(item)Axe/$ on the base. Note that there must be natural (not placed by the player) $(item)Leaves/$ connected to the logs to count as a $(thing)Tree/$. An icon of an $(item)Axe/$ will appear next to the crosshairs if $(thing)Tree Chopping/$ is active."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "This behavior can be disabled by $(bold)Sneaking/$ while mining the block, causing each individual $(item)Log/$ to drop normally."
+        }
+    ]
+}

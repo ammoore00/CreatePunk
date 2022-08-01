@@ -1,0 +1,19 @@
+{
+    "name": "Elytras",
+    "icon": "minecraft:elytra",
+    "category": "patchouli:vanilla_changes",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:firework_rocket",
+            "title": "Rockets",
+            "text": "$(item)Rockets/$ can be used to activate flight directly from the ground, without having to start flying first."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:campfire",
+            "title": "Campfires",
+            "text": "$(item)Campfires/$ over a $(item)Hay Bale/$ provide an upwards boost to players when flying with an $(item)Elytra/$.$(br2)$(item)Soul Campfires/$ provide the opposite effect, pulling players to the ground."
+        }
+    ]
+}

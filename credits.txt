@@ -2,3 +2,6 @@ Textures and assets created by the following people:
 - Dawnraider00 / The Lady Dawn
 - Sockthing
 - Cocona20xx
+
+Texture and assets have been modified from the following sources:
+- Chisels and Bits (LGPL)

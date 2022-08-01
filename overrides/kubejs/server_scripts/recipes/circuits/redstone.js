@@ -36,7 +36,7 @@ onEvent('recipes', event => {
             E: 'kubejs:redstone_eye',
             S: '#bookshelf:stones'
         }
-    );
+    ).id('createpunk:circuits/redstone/comparator');
 
     event.shaped(
         'minecraft:observer',
@@ -50,7 +50,7 @@ onEvent('recipes', event => {
             E: 'kubejs:redstone_eye',
             S: '#bookshelf:stones'
         }
-    );
+    ).id('createpunk:circuits/redstone/observer');
 
     event.shaped(
         'create:content_observer',

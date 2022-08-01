@@ -1,0 +1,13 @@
+{
+    "name": "Other Useful Info",
+    "icon": "",
+    "category": "patchouli:getting_started",
+    "sortnum": 90,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "quark:feeding_trough",
+            "text": ""
+        }
+    ]
+}

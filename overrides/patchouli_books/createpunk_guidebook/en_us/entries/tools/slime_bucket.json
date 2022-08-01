@@ -1,0 +1,13 @@
+{
+    "name": "Bucket of Slime",
+    "icon": "quark:slime_in_a_bucket",
+    "category": "patchouli:tools",
+    "sortnum": 100,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "quark:slime_in_a_bucket",
+            "text": "Using a $(item)Bucket/$ on a $(thing)Tiny Slime/$ will capture it in the bucket. It will then begin jumping inside the bucket while you are in a $(thing)Slime Chunk/$.$(br2)You can also release the slime by using $(bold)$(k:use)/$ on the ground."
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Crops and Plants",
+    "icon": "minecraft:wheat",
+    "category": "patchouli:vanilla_changes",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:wheat",
+            "title": "Crops",
+            "text": "In order to encourage $(bold)$(l:getting_started)Automation/$, $(item)Crops/$, as well as other plants such as $(item)Cacti/$, $(item)Sugar Cane/$, or $(item)Saplings/$, have had their growth slowed down significantly."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:bone_meal",
+            "text": "The effectiveness of $(item)Bone Meal/$ has been reduced, only providing a single stage of growth each time it is used, again to encourage automation."
+        }
+    ]
+}

@@ -2,6 +2,7 @@
     "name": "Welcome to CreatePunk",
     "icon": "create:wrench",
     "category": "patchouli:getting_started",
+    "priority": true,
     "sortnum": 0,
     "pages": [
         {
@@ -11,6 +12,15 @@
         {
             "type": "patchouli:text",
             "text": "Feel free to skip around and read at your own pace. Important concepts will be linked to when they are mentioned, and while this book is open, the game will pause if you are playing in Singleplayer."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Navigating this Book",
+            "text": "As you read through this book, you will notice several different colors and styles of text. Text highlighted magenta refers to $(item)Items/$ or $(item)Blocks/$, while green text refers to generic $(thing)Concepts/$. Bold black text usually refers to $(bold)Keybindings/$ or important information, while blue text are $(bold)$(l:getting_started)Links/$ which can be clicked on."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "In case you want to save specific entries to come back to later, you can bookmark them by pressiong the $(bold)+/$ icon in the top right of the book while an entry is open."
         }
     ]
 }
