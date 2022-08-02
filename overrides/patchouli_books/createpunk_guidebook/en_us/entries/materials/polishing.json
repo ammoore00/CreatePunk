@@ -1,0 +1,29 @@
+{
+    "name": "Polishing",
+    "icon": "create:polished_rose_quartz",
+    "category": "patchouli:materials",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:sand_paper",
+            "text": "Several gems require $(thing)Polishing/$ in order to be used. $(thing)Polishing/$, whether done manually or automatically, requires some form of $(item)Sand Paper/$, which can be created from any form of $(item)Sand/$, or from $(item)Diamonds/$ to make the much more durable $(item)Diamond Grit Sandpaper/$."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/materials/sand_paper",
+            "recipe2": "createaddition:crafting/diamond_grit_sandpaper"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:brass_hand",
+            "title": "Manual Sanding",
+            "text": "Holding $(bold)Right Click/$ while holding any form of $(item)Sand Paper/$ will $(thing)Polish/$ any items held in the $(bold)Off Hand/$, or resting on the floor in front of you."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:deployer",
+            "title": "Automatic Sanding",
+            "text": "$(item)Sand Paper can also be applied automatically by using a $(bold)$(l:advanced_automation/adv_devices#deployer)Deployer/$. $(ponder_link) the $(item)Deployer/$ for more information."
+        }
+    ]
+}

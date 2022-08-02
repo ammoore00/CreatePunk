@@ -5,6 +5,16 @@
     "pages": [
         {
             "type": "patchouli:spotlight",
+            "item": "quark:dragon_scale",
+            "title": "Duplication",
+            "text": "Any player-spawned $(thing)Ender Dragon/$ will drop a $(item)Dragon Scale/$ when killed. This allows crafting a new $(item)Elytra/$ from an existing one, leaving the old one intact."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "quarks:tweaks/crafting/elytra_duplication"
+        },
+        {
+            "type": "patchouli:spotlight",
             "item": "minecraft:firework_rocket",
             "title": "Rockets",
             "text": "$(item)Rockets/$ can be used to activate flight directly from the ground, without having to start flying first."

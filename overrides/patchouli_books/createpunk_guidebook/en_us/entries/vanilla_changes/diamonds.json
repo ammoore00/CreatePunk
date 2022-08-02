@@ -1,0 +1,12 @@
+{
+    "name": "Diamonds",
+    "icon": "miencraft:diamond",
+    "category": "patchouli:vanilla_changes",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "kubejs:raw_diamond",
+            "text": "$(item)Diamond Ore/$ will now drop $(item)Raw Diamonds/$. These can either be $(bold)$(l:materials/polishing)Polished/$ into $(item)Polished Diamonds/$, or $(bold)$(l:materials/alloying)Alloyed/$ into $(item)Diamondium Ingots/$."
+        }
+    ]
+}

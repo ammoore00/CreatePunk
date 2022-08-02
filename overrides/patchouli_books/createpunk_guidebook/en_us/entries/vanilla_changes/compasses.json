@@ -1,0 +1,12 @@
+{
+    "name": "Compasses",
+    "icon": "minecraft:compass",
+    "category": "patchouli:vanilla_changes",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:compass",
+            "text": "$(item)Compasses/$ have been changed to work in any $(thing)Dimension/$.$(li)In the $(thing)Nether/$, they will point to the $(thing)Portal/$ you entered from, as you as you had the $(item)Compass on you when you entered/$.$(li)In the $(thing)End/$, they will point towards the $(thing)Exit Portal/$."
+        }
+    ]
+}

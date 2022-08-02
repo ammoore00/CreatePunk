@@ -8,6 +8,7 @@
     "macros": {
         "$(ponder)": "$(br2)$(bold)$(l:getting_started/ponder)Ponder/$ the item for more information.",
         "$(ponder_inline)": "$(bold)$(l:getting_started/ponder)Ponder/$ the item for more information.",
+        "$(ponder_link)": "$(bold)$(l:getting_started/ponder)Ponder/$",
         "$(jei)": "$(bold)$(l:getting_started/jei)JEI/$",
         "$(stress)": "$(bold)$(l:getting_started/stress)Stress/$"
     }
