@@ -1,7 +1,0 @@
-type = last_world
-
-last_world {
-  is_server = false
-  world = C:/Users/Abigail Moore/curseforge/minecraft/Instances/Rise of Steam/saves/Twains
-}
-

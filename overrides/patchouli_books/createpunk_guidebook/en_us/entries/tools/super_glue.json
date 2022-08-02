@@ -2,12 +2,12 @@
     "name": "Super Glue",
     "icon": "create:super_glue",
     "category": "patchouli:tools",
-    "sortnum": 30,
+    "sortnum": 60,
     "pages": [
         {
             "type": "patchouli:spotlight",
             "item": "create:super_glue",
-            "text": "$(item)Superglue/$ can be used to attach blocks together when building $(bold)$(l:contraptions)Contraptions/$.$(ponder)$(br2)$(item)Slime Balls/$ can be crafted to save you the trouble of finding slimes early on, and $(item)Metal Sheets/$ can be created using the $(bold)$(item)$(l:getting_started/devices#press)Mechanical Press/$."
+            "text": "$(item)Superglue/$ can be used to attach blocks together when building $(bold)$(l:contraptions)Contraptions/$.$(ponder)$(br2)$(item)Slime Balls/$ can be crafted to save you the trouble of finding slimes early on."
         },
         {
             "type": "patchouli:crafting",

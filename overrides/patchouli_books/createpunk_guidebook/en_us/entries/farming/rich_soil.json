@@ -2,8 +2,27 @@
     "name": "Rich Soil",
     "icon": "farmersdelight:rich_soil",
     "category": "patchouli:farming",
-    "sortnum": 20,
+    "sortnum": 40,
     "pages": [
-        
+        {
+            "type": "patchouli:spotlight",
+            "item": "farmersdelight:rich_soil",
+            "text": "$(item)Rich Soil/$ can be made by leaving $(item)Organic Compost/$ out to dry. $(item)Mushrooms/$, $(item)Water/$, and $(item)The Sun/$ will speed up the process.$(br2)$(item)Rich Soil/$ will increase the speed at which $(bold)$(l:farming/crops)Crops/$ grow, and will also allow $(item)Mushrooms/$ to grow into $(item)Mushroom Colonies/$. $(item)Straw/$ can be obtained by cutting or harvesting $(item)Grass/$, $(item)Wheat/$, or $(item)Rice/$ with a knife."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "farmersdelight:organic_compost_from_rotten_flesh",
+            "recipe2": "farmersdelight:organic_compost_from_tree_bark"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "nethersdelight:rich_soul_soil",
+            "text": "$(item)Rich Soul Soil/$ behaves in much the same way as $(item)Rich Soil/$, except that it allows $(bold)$(l:farming/nether_crops)Nether Crops/$ to grow when irrigated with $(item)Lava/$.$(br2)In addition, when in complete darkness, $(item)Mimicarnations/$ can sometimes spawn on top of $(item)Rich Soul Soil/$."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "nethersdelight:soul_compost_from_hoglin_hide",
+            "recipe2": "nethersdelight:soul_compost_from_warped_roots"
+        }
     ]
 }

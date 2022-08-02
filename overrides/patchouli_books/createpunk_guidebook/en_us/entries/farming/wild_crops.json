@@ -1,0 +1,59 @@
+{
+    "name": "Wild Crops",
+    "icon": "farmersdelight:wild_carrots",
+    "category": "patchouli:farming",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "farmersdelight:wild_carrots",
+            "title": "Wild Crops",
+            "text": "Most $(item)Crops/$ can be found in their wild form in various places around the world."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "farmersdelight:wild_cabbage",
+            "text": ""
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "farmersdelight:wild_onions",
+            "text": ""
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "farmersdelight:wild_carrots",
+            "text": ""
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "farmersdelight:wild_potatoes",
+            "text": ""
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "farmersdelight:wild_rice",
+            "text": ""
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "farmersdelight:wild_tomatoes",
+            "text": ""
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "corn_delight:wild_corn",
+            "text": ""
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "farmersrespite:wild_tea_bush",
+            "text": ""
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "supplementaries:wild_flax",
+            "text": ""
+        }
+    ]
+}

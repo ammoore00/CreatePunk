@@ -1,8 +1,11 @@
 onEvent('recipes', event => {
     
-    //------ Iron ------//
+    //------ General ------//
 
     event.replaceInput({output: 'quark:trowel'}, 'minecraft:iron_ingot', 'create:iron_sheet');
+    event.replaceInput({output: 'quark:backpack'}, 'minecraft:iron_ingot', 'create:iron_sheet');
+    event.replaceInput({output: 'toolbelt:belt'}, 'minecraft:iron_ingot', 'create:iron_sheet');
+    event.replaceInput({output: 'toolbelt:pouch'}, 'minecraft:gold_ingot', 'create:golden_sheet');
 
     //------ Steel ------//
 

@@ -1,6 +1,6 @@
 {
     "name": "Chest Boats",
-    "item": "minecraft:oak_boat",
+    "icon": "minecraft:oak_boat",
     "category": "patchouli:vanilla_changes",
     "pages": [
         {

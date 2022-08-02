@@ -2,7 +2,7 @@
     "name": "Toolbox",
     "icon": "create:brown_toolbox",
     "category": "patchouli:tools",
-    "sortnum": 40,
+    "sortnum": 50,
     "pages": [
         {
             "type": "patchouli:spotlight",

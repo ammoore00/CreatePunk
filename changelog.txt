@@ -1,4 +1,17 @@
 ---=== Version 0.2.0 ===---
+IMPORTANT: Please remove any items you had in backpacks BEFORE updating as the previous backpack mod has been removed! There is a different solution for backpacks in this version.
+
+-= Modlist Changes =-
+- Added Quark Oddities. All features currently disabled except for the Backpack
+- Added Curious Quark Oddities backpack
+- Added Polymorph to fix problems with recipe overlap
+- Added Controlling to be able to search keybinds
+- Added Eclectic Trove for more variety with tooltips
+- Added Embellished Stone for better Advancement Plaques
+- Added Loot Integrations, JEI Integration, JER Integration, and JourneyMap Integration for compatibility
+- Removed Backpacked as it was not working as intended
+- Removed CraftTweaker as it was not being used
+
 -= Additions =-
 - Added a guidebook to replace the recipe book. Note that many entries are still missing, so expect this to be updated in the future!
 - Added the ability to melt metal sheets into molten metal

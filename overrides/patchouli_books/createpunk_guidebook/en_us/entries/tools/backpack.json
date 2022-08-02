@@ -1,0 +1,17 @@
+{
+    "name": "Backpack",
+    "icon": "quark:backpack",
+    "category": "patchouli:tools",
+    "sortnum": 40,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "quark:backpack",
+            "text": "The $(item)Backpack/$ can be used to extend your inventory space. When equipped in the chest armor slot, or back $(thing)Curios/$ slot, your inventory will be expanded by an addition $(bold)27/$ slots.$(br2)$(item)Ravager Hide/$ is a guaranteed drop from killing $(thing)Ravagers/$."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "quark:oddities/crafting/backpack"
+        }
+    ]
+}

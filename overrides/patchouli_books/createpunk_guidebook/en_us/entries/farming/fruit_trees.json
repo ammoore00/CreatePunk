@@ -2,7 +2,7 @@
     "name": "Fruit Trees",
     "icon": "fruittrees:cherry_sapling",
     "category": "patchouli:farming",
-    "sortnum": 30,
+    "sortnum": 50,
     "pages": [
         {
             "type": "patchouli:spotlight",

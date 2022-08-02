@@ -2,7 +2,7 @@
     "name": "Tool Belt",
     "icon": "toolbelt:belt",
     "category": "patchouli:tools",
-    "sortnum": 0,
+    "sortnum": 20,
     "pages": [
         {
             "type": "patchouli:spotlight",

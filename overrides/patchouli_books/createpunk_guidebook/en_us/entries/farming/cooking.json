@@ -2,7 +2,7 @@
     "name": "Domesticated Crops",
     "icon": "minecraft:wheat",
     "category": "patchouli:farming",
-    "sortnum": 20,
+    "sortnum": 5,
     "pages": [
         
     ]

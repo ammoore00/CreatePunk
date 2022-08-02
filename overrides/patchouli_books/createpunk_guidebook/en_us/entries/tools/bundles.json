@@ -2,7 +2,7 @@
     "name": "Bundles",
     "icon": "minecraft:bundle",
     "category": "patchouli:tools",
-    "sortnum": 100,
+    "sortnum": 30,
     "pages": [
         {
             "type": "patchouli:spotlight",

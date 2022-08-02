@@ -2,7 +2,7 @@
     "name": "Engineer's Goggles",
     "icon": "create:goggles",
     "category": "patchouli:tools",
-    "sortnum": 20,
+    "sortnum": 10,
     "pages": [
         {
             "type": "patchouli:spotlight",
@@ -12,8 +12,7 @@
         },
         {
             "type": "patchouli:crafting",
-            "recipe": "create:crafting/kinetics/goggles",
-            "text": "$(item)Metal Sheets/$ can be created using the $(bold)$(item)$(l:getting_started/devices#press)Mechanical Press/$."
+            "recipe": "create:crafting/kinetics/goggles"
         }
     ]
 }
