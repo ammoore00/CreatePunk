@@ -1,3 +1,17 @@
+---=== Version 0.2.1 ===---
+-= Modlist Changes =-
+- Added Drippy Loading Screen and It's the Little Things to allow for more UI customization in the future
+- Added Excavated Variants to add ore variants for stone types
+- Added Ambient Sounds 5
+- Added GoProne to allow for going prone on demand
+- Added In Control to allow customization of mobs
+- Added Fx Control to allow customization of player effects
+- Added FastSuite, FastWorkbench, and FastFurnace for performance
+- Added MacCraft to help with MacOS compatibility
+
+-= Changes =-
+- Updated in game Guidebook
+
 ---=== Version 0.2.0 ===---
 IMPORTANT: Please remove any items you had in backpacks BEFORE updating as the previous backpack mod has been removed! There is a different solution for backpacks in this version.
 
