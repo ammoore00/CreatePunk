@@ -32,15 +32,16 @@
         {
             "type": "patchouli:crafting",
             "recipe": "create:crafting/kinetics/basin",
-            "text": "Items can be placed into the $(item)Basin/$ with a $(bold)$(l:getting_started/transport#funnel)Funnel/$ or $(bold)$(l:advanced_automation/adv_transport#arm)Mechanical Arm/$, or when thrown on top. When placed next to a $(bold)$(l:getting_started/transport#belt)Belt/$, a small funnel will appear on the $(item)Basin/$ to export finished products. See the next page or $(bold)$(l:getting_started/ponder)Ponder/$ for more information. This can be toggled using a $(bold)$(l:tools/wrench)Wrench/$."
+            "text": "In case of conflicts in recipes, a filter can also be applied to the side of the $(item)Basin/$ to set which output is desired.. See the next page or $(bold)$(l:getting_started/ponder)Ponder/$ for more information."
         },
         {
             "type": "patchouli:spotlight",
             "item": "create:basin",
-            "text": "Fluids can be input and output using $(bold)$(l:getting_started/fluids#pipe)Pipes/$.$(br2)In case of conflicts in recipes, a filter can also be applied to the side of the $(item)Basin/$ to set which output is desired."
+            "text": "Items can be placed into the $(item)Basin/$ with a $(bold)$(l:getting_started/transport#funnel)Funnel/$ or $(bold)$(l:advanced_automation/adv_transport#arm)Mechanical Arm/$, or when thrown on top. Fluids can be input and output using $(bold)$(l:getting_started/fluids#pipe)Pipes/$.$(br2)Additionally, when placed next to a $(bold)$(l:getting_started/transport#belt)Belt/$, $(bold)$(l:getting_started/transport#depot)Depot/$, $(item)Basin/$, or other block capable of accepting items, a small funnel will appear on the $(item)Basin/$"
         },
         {
-            "type": "patchouli:empty"
+            "type": "patchouli:text",
+            "text": "to export finished items (or fluids as well, in the case of another $(item)Basin/$). This can be toggled using a $(bold)$(l:tools/wrench)Wrench/$."
         },
         {
             "type": "patchouli:spotlight",
@@ -57,12 +58,12 @@
             "type": "patchouli:spotlight",
             "item": "create:mechanical_saw",
             "anchor": "saw",
-            "text": "The $(item)Mechanical Saw/$ can be used to automate $(thing)Stonecutting Recipes/$, as well as some others like wood processing. When placed in line with $(bold)$(l:getting_started/transport#belt)Belts/$, the item will move from one $(item)Belt/$, along the $(item)Saw/$, and continue onto the next $(item)Belt/$.$(ponder)"
+            "text": "The $(item)Mechanical Saw/$ can be used to automate $(thing)Stonecutting Recipes/$, as well as some others like wood processing. When items are put onto the $(item)Saw, by a $(bold)$(l:getting_started/transport#belt)Belt/$, other method of $(bold)$(l:getting_started/transport)Transport/$, or even another $(item)Saw/$, the item will move along the saw and continue to the other side."
         },
         {
             "type": "patchouli:crafting",
             "recipe": "create:crafting/kinetics/mechanical_saw",
-            "text": "Saws can also be used as blocks or in $(bold)$(l:contraptions/contraption_devices#saw)Contraptions/$ to chop down $(thing)Trees/$."
+            "text": "Saws can also be used as blocks or in $(bold)$(l:contraptions/contraption_devices#saw)Contraptions/$ to chop down $(thing)Trees/$.$(ponder)"
         },
         {
             "type": "patchouli:spotlight",
@@ -88,7 +89,7 @@
             "type": "patchouli:spotlight",
             "item": "create:encased_fan",
             "anchor": "encased_fan",
-            "text": "The $(item)Encased Fan/$ can be used push or pull items depending on which way the fan is spinning. They can also be used with $(bold)$(l:getting_started/transport#chute)Chutes/$ to move items upward.$(br2)When air is blown over $(item)Water/$, $(item)Lava/$, a $(item)Campfire/$, or a $(item)Soul Campfire/$, items in front of the air stream will be processed accordingly. Recipes can be found in $(jei).$(ponder_inline)"
+            "text": "The $(item)Encased Fan/$ can be used push or pull items depending on which way the fan is spinning. They can also be used with $(bold)$(l:getting_started/transport#chute)Chutes/$ to move items upward.$(br2)$(item)Encased Fans/$ can also be used for $(bold)$(l:materials/bulk_processing)Bulk Item Processing/$.$(ponder_inline)"
         },
         {
             "type": "patchouli:crafting",

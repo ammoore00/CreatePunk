@@ -4,6 +4,89 @@
     "category": "patchouli:getting_started",
     "sortnum": 70,
     "pages": [
-
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:fluid_pipe",
+            "anchor": "pipe",
+            "text": "$(item)Pipes/$ can be used to transport fluids from one place to another. When powered by a $(bold)$(l:getting_started/fluids#pump)Mechanical Pump/$, $(item)Pipes/$ will move fluids between inventories, suck up blocks from the world, or eject fluids as blocks into the world.$(ponder)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/fluid_pipe",
+            "text": "$(item)Copper Casing/$ can be applied to a $(item)Pipe/$ to lock its connections in place, or a $(bold)$(l:tools/wrench)Wrench/$ can be used to make a window and prevent the $(item)Pipe/$ from turning."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:mechanical_pump",
+            "anchor": "pump",
+            "text": "The $(item)Mechanical Pump/$ can be used to move fluids through $(bold)$(l:getting_started/fluids#pipe)Pipes/$. When it is powered by an adjacent $(bold)$(l:getting_started/transmission#cogwheel)Cogwheel/$ it can push or pull fluids up to $(bold)15/$ blocks away from it.$(ponder)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/mechanical_pump",
+            "text": "The $(bold)$(l:tools/wrench)Wrench/$ can be used to change the direction of flow. Note that the direction may get changed when $(bold)$(l:getting_started/power)Mechanical Power/$ is applied, so make sure your $(item)Pumps/$ are all still facing the right way."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:fluid_valve",
+            "anchor": "valve",
+            "text": "The $(item)Fluid Valve/$ May be used to allow or deny fluid flow through a $(bold)$(l:getting_started/fluids#pipe)Pipe/$. Applying $(bold)$(l:getting_started/power)Mechanical Power/$ to the $(item)Valve/$ in one direction will open it, while applying it in the other direction will close the $(item)Valve/$.$(ponder)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/fluid_valve"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:copper_valve_handle",
+            "title": "Valve Handle",
+            "text": "$(item)Valve Handles/$ can be used to manually supply $(stress) like a $(bold)$(l:getting_started/power#crank)Hand Crank/$, styled to match the $(bold)$(l:getting_started/fluids#valve)Fluid Valve/$. Holding $(bold)$(k:use)/$ will rotate it counter-clockwise, while $(bold)Sneaking/$ while holding $(bold)$(k:use)/$ will rotate it clockwise. $(item)Valve Handles/$ may also be $(thing)Dyed/$. $(ponder_inline)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/copper_valve_handle",
+            "recipe2": "create:crafting/kinetics/cyan_valve_handle_from_other_valve_handle"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:fluid_tank",
+            "anchor": "tank",
+            "text": "$(item)Fluid Tanks/$ can be used to store large amounts of fluids. They can be placed with a square base up to $(bold)3x3/$ blocks in size, and stacked up to $(bold)32/$ blocks tall. Note that fluids cannot be placed or removed manually, nor will fluids be retained when broken.$(ponder)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/fluid_tank"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:hose_pulley",
+            "anchor": "hose_pulley",
+            "text": "The $(item)Hose Pulley/$ allows for filling or draining of large bodies of fluids. $(bold)$(l:getting_started/power)Mechanical Power/$ can be applied to extend or retract the hose, depending on direction. On the other side, pipes can be attached to move fluids in or out.$(ponder)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/hose_pulley",
+            "text": "When the pulley is connected to a large enough body of fluid ($(bold)10000/$ source blocks or more), it counts as infinite for filling or draining and will not be affected."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:spout",
+            "anchor": "spout",
+            "text": "The $(item)Spout/$ can be used to fill items on a $(bold)$(l:getting_started/transport#belt)Belt/$ or $(bold)$(l:getting_started/transport#depot)Depot/$ with fluid.$(ponder)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/spout"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:item_drain",
+            "anchor": "drain",
+            "text": "The $(item)Item Drain/$ can be used to drain fluids from items. Items placed on top of the $(item)Drain/$ will roll along the drain, allowing for further processing or collection.$(ponder)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "create:crafting/kinetics/item_drain"
+        }
     ]
 }

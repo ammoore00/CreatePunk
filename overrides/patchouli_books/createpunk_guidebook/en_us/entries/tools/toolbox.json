@@ -1,0 +1,14 @@
+{
+    "name": "Toolbox",
+    "icon": "create:brown_toolbox",
+    "category": "patchouli:tools",
+    "sortnum": 40,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:brown_toolbox",
+            "title": "Toolbox",
+            "text": ""
+        }
+    ]
+}

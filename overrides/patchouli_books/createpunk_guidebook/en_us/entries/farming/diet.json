@@ -11,8 +11,7 @@
             "text": "Maintaining a healthy $(thing)Diet/$ is important, as you can gain additional benefits for eating a variety of foods. The $(thing)Diet/$ menu can be accessed via the button next to the button for this book which shows a hunger shank.$(br2)Note that if you $(bold)$(l:vanilla_changes/death)Die/$, you will lose some progress on your $(thing)Diet/$!"
         },
         {
-            "type": "patchouli:spotlight",
-            "item": "minecraft:carrot",
+            "type": "patchouli:text",
             "title": "Ingredients",
             "text": "Individual $(thing)Ingredients/$ do not provide very much food value on their own. Combining multiple $(thing)Ingredients/$ in $(thing)Meals/$ is significantly more efficient, and will restore much more $(thing)Hunger/$ than eating individual items on their own. Searching $(jei) for $(bold)'Meal'/$ will return all foods classified as $(thing)Meals/$.$(br2)$(thing)Meals/$ also generally provide additional positive $(thing)Status Effects/$ when eaten."
         },

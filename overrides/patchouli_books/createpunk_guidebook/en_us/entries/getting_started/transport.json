@@ -50,7 +50,7 @@
             "type": "patchouli:spotlight",
             "anchor": "ejector",
             "item": "create:weighted_ejector",
-            "text": "$(item)Weighted Ejectors/$ allow flinging items from one place to another. $(bold)Right Click/$ on the desired destination, then place the $(item)Ejector/$ where you would like items to be input. Note that items can only be thrown in straight lines, and have limited range.$(ponder)"
+            "text": "$(item)Weighted Ejectors/$ allow flinging items from one place to another. $(bold)Sneak + Right Click/$ on the desired destination, then place the $(item)Ejector/$ where you would like items to be input. Note that items can only be thrown in straight lines, and have limited range.$(ponder)"
         },
         {
             "type": "patchouli:crafting",

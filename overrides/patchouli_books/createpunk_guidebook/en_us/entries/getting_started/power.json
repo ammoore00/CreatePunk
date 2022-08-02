@@ -7,6 +7,7 @@
         {
             "type": "patchouli:spotlight",
             "item": "create:hand_crank",
+            "anchor": "crank",
             "text": "The $(item)Hand Crank/$ can be used to manually supply a weak amount of $(bold)$(l:getting_started/stress)Stress/$ to $(bold)$(l:getting_started/devices)Mechanical Devices/$. Holding $(bold)$(k:use)/$ will rotate it counter-clockwise, while $(bold)Sneaking/$ while holding $(bold)$(k:use)/$ will rotate it clockwise.$(ponder)"
         },
         {

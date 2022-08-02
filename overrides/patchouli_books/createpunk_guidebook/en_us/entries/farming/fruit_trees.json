@@ -42,11 +42,10 @@
             "item": "fruittrees:grapefruit_sapling",
             "title": "Hybridization",
             "anchor": "hybrid",
-            "text": "When bees polinate multiple different varieties of $(item)Fruit Trees/$, if they are compatible, there is a chance that one of the polinated $(item)Leaves/$ will $(thing)Hybridize/$ into another variety of fruit tree.$(br2)$(item)Citrus Trees/$ may $(thing)Hybridize/$ amongst themselves, and $(item)Cherry/$ and $(item)Apple Oak Trees/$ with each other."
+            "text": "When $(thing)Bees/$ polinate multiple different varieties of $(item)Fruit Trees/$, if they are compatible, there is a chance that one of the polinated $(item)Leaves/$ will $(thing)Hybridize/$ into another variety of fruit tree.$(br2)$(item)Citrus Trees/$ may $(thing)Hybridize/$ amongst themselves, and $(item)Cherry/$ and $(item)Apple Oak Trees/$ with each other."
         },
         {
-            "type": "patchouli:entity",
-            "entity": "minecraft:bee",
+            "type": "patchouli:text",
             "text": "$(bold)$(l:getting_started/ponder)Ponder/$ any $(item)Fruit Tree Sapling/$ for more information. Also search $(bold)'Hybrids'/$ in $(jei) for specific hybridization recipes."
         }
     ]

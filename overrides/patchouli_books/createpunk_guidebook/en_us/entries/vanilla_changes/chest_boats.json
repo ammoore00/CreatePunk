@@ -1,0 +1,13 @@
+{
+    "name": "Chest Boats",
+    "item": "minecraft:oak_boat",
+    "category": "patchouli:vanilla_changes",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:oak_boat",
+            "title": "Chest Boats",
+            "text": "$(bold)Right Clicking/$ on a $(thing)Boat/$ with a $(item)Chest/$ will put the $(item)Chest/$ in the $(thing)Boat/$. Its inventory can then be accessed by accessing your own inventory while sitting in the $(thing)Boat/$."
+        }
+    ]
+}
