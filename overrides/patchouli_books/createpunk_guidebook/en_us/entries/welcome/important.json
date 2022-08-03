@@ -2,7 +2,7 @@
     "name": "Important References",
     "icon": "patchouli:book{patchouli:createpunk_guidebook}",
     "category": "patchouli:welcome",
-    "sortnum": 20,
+    "sortnum": 2,
     "pages": [
         {
             "type": "patchouli:spotlight",

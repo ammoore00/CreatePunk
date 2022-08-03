@@ -1,6 +1,3 @@
-Music is sourced from D. C. Kariri Sawler's The Adventurer's Journey, and is Royalty Free
-- https://store.steampowered.com/app/265461/RPG_Maker_VX_Ace__The_Adventurers_Journey/
-
 Textures and assets created by the following people:
 - Dawnraider00 / The Lady Dawn - All custom assets not otherwise listed
 - Sockthing - Coke
@@ -11,3 +8,9 @@ Texture and assets have been modified from the following sources:
     - https://www.curseforge.com/minecraft/mc-mods/chisels-bits
 - Bliss by Vazkii (CC-BY 3.0) - Music Configuration
     - https://www.curseforge.com/minecraft/modpacks/bliss
+
+Music has been sourced from the following locations - Royalty free for non-commercial projects
+- The Adventurer's Journey by Kariri Sawler
+    - https://store.steampowered.com/app/265461/RPG_Maker_VX_Ace__The_Adventurers_Journey/
+- Enderal by SureAI - Music composed by Marvin Kopp, Simon W. Autenrieth, Nicolas Samuel Lietzau, Andreas Makusev, and Sebastian Löbbers
+    - https://store.steampowered.com/app/933480/Enderal_Forgotten_Stories/

@@ -1,0 +1,14 @@
+{
+    "name": "Music",
+    "icon": "minecraft:music_disc_cat",
+    "category": "patchouli:welcome",
+    "sortnum": 20,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:music_disc_cat",
+            "title": "Music",
+            "text": "CreatePunk has a number of tracks which replace the vanilla soundtrack. Which track plays depends on the biome, time of day, current activity, and more! It's highly recommended to play with music on for the full experience.$(br2)Music has been sourced from the following locations:$(li)$(l:https://store.steampowered.com/app/933480/Enderal_Forgotten_Stories/)Enderal/$$(li)$(l:https://store.steampowered.com/app/265461/RPG_Maker_VX_Ace__The_Adventurers_Journey/)The Adventurer's Journey/$"
+        }
+    ]
+}
