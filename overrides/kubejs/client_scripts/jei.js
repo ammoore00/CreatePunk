@@ -8,6 +8,8 @@ onEvent('jei.hide.items', event => {
 
     event.hide('create:dough');
 
+    event.hide('buzzzier_bees:honeyed_apple');
+
     // Temporary, until beehive variants are properly added
     event.hide('compatoplenty:cherry_beehive');
     event.hide('compatoplenty:jacaranda_beehive');

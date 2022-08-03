@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "CreatePunk",
-  "version": "0.2.1_alpha1",
+  "version": "0.2.0_alpha2",
   "author": "",
   "files": [
     {
@@ -85,6 +85,11 @@
       "required": true
     },
     {
+      "projectID": 518410,
+      "fileID": 3796640,
+      "required": true
+    },
+    {
       "projectID": 626761,
       "fileID": 3801684,
       "required": true
@@ -112,7 +117,7 @@
     {
       "projectID": 291713,
       "fileID": 3585003,
-      "required": true
+      "required": false
     },
     {
       "projectID": 511770,
@@ -187,11 +192,6 @@
     {
       "projectID": 492890,
       "fileID": 3874313,
-      "required": true
-    },
-    {
-      "projectID": 521932,
-      "fileID": 3797980,
       "required": true
     },
     {

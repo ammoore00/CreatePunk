@@ -1,7 +1,13 @@
+Music is sourced from D. C. Kariri Sawler's The Adventurer's Journey, and is Royalty Free
+- https://store.steampowered.com/app/265461/RPG_Maker_VX_Ace__The_Adventurers_Journey/
+
 Textures and assets created by the following people:
-- Dawnraider00 / The Lady Dawn
-- Sockthing
-- Cocona20xx
+- Dawnraider00 / The Lady Dawn - All custom assets not otherwise listed
+- Sockthing - Coke
+- Cocona20xx - Diamondium Ingot
 
 Texture and assets have been modified from the following sources:
-- Chisels and Bits (LGPL)
+- Chisels and Bits (LGPL) - Diamond Chisel
+    - https://www.curseforge.com/minecraft/mc-mods/chisels-bits
+- Bliss by Vazkii (CC-BY 3.0) - Music Configuration
+    - https://www.curseforge.com/minecraft/modpacks/bliss

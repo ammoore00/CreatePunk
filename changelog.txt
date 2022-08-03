@@ -3,14 +3,20 @@
 - Added Drippy Loading Screen and It's the Little Things to allow for more UI customization in the future
 - Added Excavated Variants to add ore variants for stone types
 - Added Ambient Sounds 5
+- Added Music Triggers along with music from The Adventurer's Journey by D. C. Kariri Sawler 
 - Added GoProne to allow for going prone on demand
 - Added In Control to allow customization of mobs
 - Added Fx Control to allow customization of player effects
 - Added FastSuite, FastWorkbench, and FastFurnace for performance
 - Added MacCraft to help with MacOS compatibility
+- Removed Medieval Music as it has been replaced by Music Triggers
+- Removed Infinite Music as it is made obsolete by Music Triggers
 
 -= Changes =-
 - Updated in game Guidebook
+
+-= Removals =-
+- Removed the Honeyed Apple from Buzzier Bees as it overlapped the one from Create
 
 ---=== Version 0.2.0 ===---
 IMPORTANT: Please remove any items you had in backpacks BEFORE updating as the previous backpack mod has been removed! There is a different solution for backpacks in this version.
