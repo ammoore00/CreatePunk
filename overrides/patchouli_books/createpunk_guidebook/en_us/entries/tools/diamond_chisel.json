@@ -1,0 +1,17 @@
+{
+    "name": "Diamond Chisel",
+    "icon": "kubejs:diamond_chisel",
+    "category": "patchouli:tools",
+    "sortnum": 15,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "kubejs:diamond_chisel",
+            "text": "Since $(item)Steel/$ and $(item)Diamond/$ tools are locked behind $(bold)$(l:materials/alloying)Alloying/$, the $(item)Diamond Chisel/$ acts as a way to access obsidian and the $(thing)Nether/$ before having access to such materials.$(br2)$(item)Polished Diamonds/$ can be obtained by $(bold)$(l:materials/polishing)Polishing/$ $(item)Raw Diamonds/$."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "createpunk:tools/diamond_chisel"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "name": "Important References",
+    "icon": "patchouli:book{patchouli:createpunk_guidebook}",
+    "category": "patchouli:welcome",
+    "sortnum": 20,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "patchouli:book{patchouli:createpunk_guidebook}",
+            "title": "Important References",
+            "text": "This chapter has some quick references to important game mechanics discussed elsewhere in this book."
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "Tools",
+            "entries": [
+                "patchouli:tools/diamond_chisel",
+                "patchouli:tools/wrench",
+                "patchouli:tools/goggles",
+                "patchouli:tools/toolbelt"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "Game Mechanics",
+            "entries": [
+                "patchouli:farming/diet",
+                "patchouli:vanilla_changes/death",
+                "patchouli:vanilla_changes/tree_chopping",
+                "patchouli:getting_started/stress"
+            ]
+        }
+    ]
+}

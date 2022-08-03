@@ -20,11 +20,6 @@
             "text": "Tools better than iron have been pushed back significantly, so iron tools have had their durabilities increased to compensate."
         },
         {
-            "type": "patchouli:crafting",
-            "recipe": "createpunk:tools/diamond_chisel",
-            "text": "Steel and diamond tools require nether access, and as such the diamond chisel has been added as a weak diamond pickaxe in order to obtain obsidian."
-        },
-        {
             "type": "patchouli:spotlight",
             "item": "alloyed:steel_pickaxe",
             "title": "Steel Tools",
@@ -45,7 +40,8 @@
         {
             "type": "patchouli:relations",
             "entries": [
-                "patchouli:materials/alloying"
+                "patchouli:materials/alloying",
+                "patchouli:tools/diamond_chisel"
             ]
         }
     ]

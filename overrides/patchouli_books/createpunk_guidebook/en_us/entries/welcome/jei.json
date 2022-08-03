@@ -1,7 +1,7 @@
 {
     "name": "JEI",
     "icon": "minecraft:knowledge_book",
-    "category": "patchouli:getting_started",
+    "category": "patchouli:welcome",
     "sortnum": 5,
     "pages": [
         {

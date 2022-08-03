@@ -1,7 +1,7 @@
 {
     "name": "Welcome to CreatePunk",
     "icon": "create:wrench",
-    "category": "patchouli:getting_started",
+    "category": "patchouli:welcome",
     "priority": true,
     "sortnum": 0,
     "pages": [

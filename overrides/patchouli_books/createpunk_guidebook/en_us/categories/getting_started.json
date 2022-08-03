@@ -1,6 +1,6 @@
 {
-    "name": "Getting Started",
+    "name": "Beginning Automation",
     "description": "Everything needed to get started in CreatePunk!",
-    "icon": "create:wrench",
-    "sortnum": 0
+    "icon": "create:belt_connector",
+    "sortnum": 25
 }

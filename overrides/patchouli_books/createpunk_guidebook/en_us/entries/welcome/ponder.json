@@ -1,7 +1,7 @@
 {
     "name": "Ponder",
     "icon": "createdeco:orange_decal",
-    "category": "patchouli:getting_started",
+    "category": "patchouli:welcome",
     "sortnum": 1,
     "pages": [
         {
