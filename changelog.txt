@@ -16,6 +16,7 @@
 - Updated in game Guidebook
 - Changed the anvil to be made from 7 cast iron ingots in an I pattern
 - Changed phantoms to spawn in the end, and disabled insomnia, preventing phantoms from spawning fron not sleeping
+- Changed mushroom stew and beetroot soup to count as meals, and thus their food value has been increased. Their recipes have also been updated.
 
 -= Removals =-
 - Removed the Honeyed Apple from Buzzier Bees as it overlapped the one from Create
