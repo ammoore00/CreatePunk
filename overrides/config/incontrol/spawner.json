@@ -1,0 +1,16 @@
+[
+    {
+        "mob": "minecraft:phantom",
+        "persecond": 0.5,
+        "attempts": 1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimensions": "minecraft:end",
+            "maxtotal": 10,
+            "inair": true
+        }
+    }
+]
