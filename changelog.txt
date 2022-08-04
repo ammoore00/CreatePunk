@@ -16,6 +16,7 @@
 - Added search category tags to JEI. See the guidebook for more.
 
 -= Changes =-
+- Changed the menu panorama
 - Updated in game Guidebook
 - Changed the anvil to be made from 7 cast iron ingots in an I pattern
 - Changed phantoms to spawn in the end, and disabled insomnia, preventing phantoms from spawning fron not sleeping
