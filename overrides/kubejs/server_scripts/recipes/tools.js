@@ -7,6 +7,9 @@ onEvent('recipes', event => {
     event.replaceInput({output: 'toolbelt:belt'}, 'minecraft:iron_ingot', 'create:iron_sheet');
     event.replaceInput({output: 'toolbelt:pouch'}, 'minecraft:gold_ingot', 'create:golden_sheet');
 
+    event.replaceInput({id: 'minecraft:anvil'}, 'minecraft:iron_ingot', 'createdeco:cast_iron_ingot');
+    event.replaceInput({id: 'minecraft:anvil'}, 'minecraft:iron_block', 'createdeco:cast_iron_ingot');
+
     //------ Steel ------//
 
     event.remove({

@@ -14,6 +14,7 @@
 
 -= Changes =-
 - Updated in game Guidebook
+- Changed the anvil to be made from 7 cast iron ingots in an I pattern
 
 -= Removals =-
 - Removed the Honeyed Apple from Buzzier Bees as it overlapped the one from Create
