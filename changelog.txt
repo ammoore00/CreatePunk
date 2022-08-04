@@ -30,6 +30,7 @@
 
 -= Bugfixes =-
 - Fixed an issue where JourneyMap Integrations was trying to integrate with FTBChunks when FTBChunks is not present
+- Fixed an issue where grilled corn, boiled corn, and cornbread dressing were note craftable
 
 ---=== Version 0.2.0 ===---
 IMPORTANT: Please remove any items you had in backpacks BEFORE updating as the previous backpack mod has been removed! There is a different solution for backpacks in this version.

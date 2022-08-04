@@ -8,7 +8,7 @@
             "maximum": 4
         },
         "conditions": {
-            "dimensions": "minecraft:end",
+            "dimension": "minecraft:end",
             "maxtotal": 10,
             "inair": true
         }
