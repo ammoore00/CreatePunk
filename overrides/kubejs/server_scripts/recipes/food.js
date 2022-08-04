@@ -10,8 +10,33 @@ onEvent('recipes', event => {
     );
 
     event.replaceOutput('corn_delight:grilled_corn', 'kubejs:grilled_corn');
-    event.replaceOutput('corn_delight:boiled_corn', 'kubejs:boiled_corn');
-    event.replaceOutput('corn_delight:cornbread_stuffing', 'kubejs:cornbread_stuffing');
+
+    event.remove({id: 'corn_delight:cooking/boiled_corn'});
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            Item.of('corn_delight:corn').toResultJson()
+        ],
+        result: Item.of('kubejs:boiled_corn').toResultJson(),
+        experience: 0.2,
+        cookingtime: 200
+    })
+    .id('corn_delight:cooking/boiled_corn');
+
+    event.remove({id: 'corn_delight:cooking/cornbread_stuffing'});
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            Item.of('corn_delight:cornbread').toResultJson(),
+            Item.of('#forge:vegetables').toResultJson(),
+            Item.of('minecraft:baked_potato').toResultJson(),
+            Item.of('minecraft:sweet_berries').toResultJson()
+        ],
+        result: Item.of('kubejs:cornbread_stuffing').toResultJson(),
+        experience: 0.2,
+        cookingtime: 200
+    })
+    .id('corn_delight:cooking/cornbread_stuffing');
 
     event.remove({output: 'minecraft:mushroom_stew'});
     event.custom({
@@ -26,7 +51,8 @@ onEvent('recipes', event => {
         container: Item.of('minecraft:bowl').toResultJson(),
         experience: 0.2,
         cookingtime: 200
-    });
+    })
+    .id('createpunk:food/mushroom_stew');
 
     event.remove({output: 'minecraft:beetroot_soup'});
     event.custom({
@@ -34,13 +60,50 @@ onEvent('recipes', event => {
         ingredients: [
             Item.of('minecraft:beetroot').toResultJson(),
             Item.of('minecraft:beetroot').toResultJson(),
+            Item.of('minecraft:carrot').toResultJson(),
             Item.of('#forge:vegetables').toResultJson()
         ],
         result: Item.of('minecraft:mushroom_stew').toResultJson(),
         container: Item.of('minecraft:bowl').toResultJson(),
         experience: 0.2,
         cookingtime: 200
-    });
+    })
+    .id('createpunk:food/beetroot_soup');
+
+    event.remove({output: 'farmersdelight:fruit_salad'});
+    event.shapeless(
+        'farmersdelight:fruit_salad',
+        [
+            '#forge:apples',
+            'minecraft:melon_slice',
+            'minecraft:sweet_berries',
+            'farmersdelight:pumpkin_slice',
+            '#forge:fruits'
+        ]
+    )
+    .id('createpunk:food/fruit_salad');
+
+    event.remove({output: 'buzzier_bees:honeyed_apple'});
+    
+    event.remove({output: 'buzzier_bees:honey_bread'});
+    event.recipes.createFilling(
+        'buzzier_bees:honey_bread',
+        [
+            'minecraft:bread',
+            Fluid.of('create:honey', 250)
+        ]
+    )
+    .id('createpunk:honey_bread');
+
+    event.remove({output: 'buzzier_bees:glazed_porkchop'});
+    event.recipes.createFilling(
+        'buzzier_bees:glazed_porkchop',
+        [
+            'minecraft:cooked_porkchop',
+            Fluid.of('create:honey', 250)
+        ]
+    )
+    .id('createpunk:glazed_porkchop');
 });
 
 onEvent('tags.items', event => {

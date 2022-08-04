@@ -12,11 +12,16 @@
 - Removed Medieval Music as it has been replaced by Music Triggers
 - Removed Infinite Music as it is made obsolete by Music Triggers
 
+-= Additions =-
+- Added search category tags to JEI. See the guidebook for more.
+
 -= Changes =-
 - Updated in game Guidebook
 - Changed the anvil to be made from 7 cast iron ingots in an I pattern
 - Changed phantoms to spawn in the end, and disabled insomnia, preventing phantoms from spawning fron not sleeping
-- Changed mushroom stew and beetroot soup to count as meals, and thus their food value has been increased. Their recipes have also been updated.
+- Changed the recipe of several food items: mushroom stew, beetroot soup, fruit salad
+- Changed honey bread and honey glazed porkchop to use spout filling instead of crafting
+- Changed mushroom stew and beetroot soup to count as meals, and thus their food value has been increased.
 
 -= Removals =-
 - Removed the Honeyed Apple from Buzzier Bees as it overlapped the one from Create
