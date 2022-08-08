@@ -1,267 +1,512 @@
 {
-  "music.bastion": {
+    "music.bastion1": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/bastion",
+			"name": "musictriggers:music/bastion1",
 			"stream": true
 		}]
 	},
-  "music.beach": {
+    "music.boss1": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/beach",
+			"name": "musictriggers:music/boss1",
 			"stream": true
 		}]
 	},
-  "music.deep_underground": {
+    "music.boss2": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/deep_underground",
+			"name": "musictriggers:music/boss2",
 			"stream": true
 		}]
 	},
-  "music.desert": {
+    "music.cave1": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/desert",
+			"name": "musictriggers:music/cave1",
 			"stream": true
 		}]
 	},
-  "music.desert_village": {
+    "music.cave2": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/desert_village",
+			"name": "musictriggers:music/cave2",
 			"stream": true
 		}]
 	},
-  "music.end": {
+    "music.cave3": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/end",
+			"name": "musictriggers:music/cave3",
 			"stream": true
 		}]
 	},
-  "music.forest": {
+    "music.cave4": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/forest",
+			"name": "musictriggers:music/cave4",
 			"stream": true
 		}]
 	},
-  "music.home": {
+    "music.crypt": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/home",
+			"name": "musictriggers:music/cave4",
 			"stream": true
 		}]
 	},
-  "music.icy": {
+    "music.desert_temple1": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/icy",
+			"name": "musictriggers:music/desert_temple1",
 			"stream": true
 		}]
 	},
-  "music.jungle": {
+    "music.desert1": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/jungle",
+			"name": "musictriggers:music/desert1",
 			"stream": true
 		}]
 	},
-  "music.main_menu": {
+    "music.desert2": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/main_menu",
+			"name": "musictriggers:music/desert2",
 			"stream": true
 		}]
 	},
-  "music.mesa": {
+    "music.desert3": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/mesa",
+			"name": "musictriggers:music/desert3",
 			"stream": true
 		}]
 	},
-  "music.mineshaft": {
+    "music.desert4": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/mineshaft",
+			"name": "musictriggers:music/desert4",
 			"stream": true
 		}]
 	},
-  "music.mountain": {
+    "music.desert5": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/mountain",
+			"name": "musictriggers:music/desert5",
 			"stream": true
 		}]
 	},
-  "music.mushroom": {
+    "music.dungeon1": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/mushroom",
+			"name": "musictriggers:music/dungeon1",
 			"stream": true
 		}]
 	},
-  "music.nether": {
+    "music.dungeon2": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/nether",
+			"name": "musictriggers:music/dungeon2",
 			"stream": true
 		}]
 	},
-  "music.night": {
+    "music.dungeon3": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/night",
+			"name": "musictriggers:music/dungeon3",
 			"stream": true
 		}]
 	},
-  "music.night_desert": {
+    "music.dungeon4": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/night_desert",
+			"name": "musictriggers:music/dungeon4",
 			"stream": true
 		}]
 	},
-  "music.night_forest": {
+    "music.dungeon5": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/night_forest",
+			"name": "musictriggers:music/dungeon5",
 			"stream": true
 		}]
 	},
-  "music.night_home": {
+    "music.end_city1": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/night_home",
+			"name": "musictriggers:music/end_city1",
 			"stream": true
 		}]
 	},
-  "music.night_snowy": {
+    "music.end1": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/night_snowy",
+			"name": "musictriggers:music/end1",
 			"stream": true
 		}]
 	},
-  "music.ocean": {
+    "music.end2": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/ocean",
+			"name": "musictriggers:music/end2",
 			"stream": true
 		}]
 	},
-  "music.plains": {
+    "music.end3": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/plains",
+			"name": "musictriggers:music/end3",
 			"stream": true
 		}]
 	},
-  "music.plains_village": {
+    "music.end4": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/plains_village",
+			"name": "musictriggers:music/end4",
 			"stream": true
 		}]
 	},
-  "music.raid": {
+    "music.forest1": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/raid",
+			"name": "musictriggers:music/forest1",
 			"stream": true
 		}]
 	},
-  "music.rain": {
+    "music.forest2": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/rain",
+			"name": "musictriggers:music/forest2",
 			"stream": true
 		}]
 	},
-  "music.river": {
+    "music.forest3": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/river",
+			"name": "musictriggers:music/forest3",
 			"stream": true
 		}]
 	},
-  "music.savanna": {
+    "music.forest4": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/savanna",
+			"name": "musictriggers:music/forest4",
 			"stream": true
 		}]
 	},
-  "music.savanna_village": {
+    "music.icy1": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/savanna_village",
+			"name": "musictriggers:music/icy1",
 			"stream": true
 		}]
 	},
-  "music.snowing": {
+    "music.icy2": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/snowing",
+			"name": "musictriggers:music/icy2",
 			"stream": true
 		}]
 	},
-  "music.snowy_village": {
+    "music.icy3": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/snowy_village",
+			"name": "musictriggers:music/icy3",
 			"stream": true
 		}]
 	},
-  "music.storm": {
+    "music.icy4": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/storm",
+			"name": "musictriggers:music/icy4",
 			"stream": true
 		}]
 	},
-  "music.stronghold": {
+    "music.icy5": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/stronghold",
+			"name": "musictriggers:music/icy5",
 			"stream": true
 		}]
 	},
-  "music.swamp": {
+    "music.jungle_temple1": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/swamp",
+			"name": "musictriggers:music/jungle_temple1",
 			"stream": true
 		}]
 	},
-  "music.taiga": {
+    "music.jungle1": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/taiga",
+			"name": "musictriggers:music/jungle1",
 			"stream": true
 		}]
 	},
-  "music.taiga_village": {
+    "music.jungle2": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/taiga_village",
+			"name": "musictriggers:music/jungle2",
 			"stream": true
 		}]
 	},
-  "music.underground": {
+    "music.jungle3": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/underground",
+			"name": "musictriggers:music/jungle3",
 			"stream": true
 		}]
 	},
-  "music.underground_biome": {
+	"music.menu1": {
 		"category": "music",
 		"sounds": [{
-			"name": "musictriggers:music/underground_biome",
+			"name": "musictriggers:music/menu1",
+			"stream": true
+		}]
+	},
+    "music.mountains1": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/mountains1",
+			"stream": true
+		}]
+	},
+    "music.mountains2": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/mountains2",
+			"stream": true
+		}]
+	},
+    "music.mountains3": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/mountains3",
+			"stream": true
+		}]
+	},
+    "music.mushroom1": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/mushroom1",
+			"stream": true
+		}]
+	},
+    "music.nether_fortress1": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/nether_fortress1",
+			"stream": true
+		}]
+	},
+    "music.nether1": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/nether1",
+			"stream": true
+		}]
+	},
+    "music.nether2": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/nether2",
+			"stream": true
+		}]
+	},
+    "music.nether3": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/nether3",
+			"stream": true
+		}]
+	},
+    "music.ocean_monument1": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/ocean_monument1",
+			"stream": true
+		}]
+	},
+    "music.ocean1": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/ocean1",
+			"stream": true
+		}]
+	},
+    "music.ocean2": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/ocean2",
+			"stream": true
+		}]
+	},
+    "music.ocean3": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/ocean3",
+			"stream": true
+		}]
+	},
+    "music.ocean4": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/ocean4",
+			"stream": true
+		}]
+	},
+    "music.plains1": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/plains1",
+			"stream": true
+		}]
+	},
+    "music.plains2": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/plains2",
+			"stream": true
+		}]
+	},
+    "music.plains3": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/plains3",
+			"stream": true
+		}]
+	},
+    "music.plains4": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/plains4",
+			"stream": true
+		}]
+	},
+    "music.plains5": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/plains5",
+			"stream": true
+		}]
+	},
+    "music.raid1": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/raid1",
+			"stream": true
+		}]
+	},
+    "music.raid2": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/raid2",
+			"stream": true
+		}]
+	},
+    "music.raid3": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/raid3",
+			"stream": true
+		}]
+	},
+    "music.raid4": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/raid4",
+			"stream": true
+		}]
+	},
+    "music.raid5": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/raid5",
+			"stream": true
+		}]
+	},
+    "music.raid6": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/raid6",
+			"stream": true
+		}]
+	},
+	"music.rain1": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/rain1",
+			"stream": true
+		}]
+	},
+	"music.storm1": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/storm1",
+			"stream": true
+		}]
+	},
+	"music.snow1": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/snow1",
+			"stream": true
+		}]
+	},
+    "music.stronghold1": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/stronghold1",
+			"stream": true
+		}]
+	},
+    "music.taiga1": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/taiga1",
+			"stream": true
+		}]
+	},
+    "music.taiga2": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/taiga2",
+			"stream": true
+		}]
+	},
+    "music.taiga3": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/taiga3",
+			"stream": true
+		}]
+	},
+    "music.underwater1": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/underwater1",
+			"stream": true
+		}]
+	},
+    "music.village1": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/village1",
+			"stream": true
+		}]
+	},
+    "music.village2": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/village2",
+			"stream": true
+		}]
+	},
+    "music.village3": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/village3",
 			"stream": true
 		}]
 	}

@@ -81,3 +81,137 @@ Level Emitter: cable + bronze casing + redstone eye
 
 //------ Biomes o Plenty ------//
 Rename rose quartz to ruby
+
+//------ Music ------//
+Categories:
+- Menu
+- Structures
+    - Villages
+    - Strongholds
+    - Mineshafts
+    - Dungeons
+    - Graveyard Dungeons
+    - Bastions
+    - Fortresses
+    - Temples
+    - End City
+    - Ocean Monument
+- Biomes
+    - taiga
+    - extreme_hills
+    - jungle
+    - mesa
+    - plains
+    - savanna
+    - icy
+    - the_end
+    - beach
+    - forest
+    - ocean
+    - desert
+    - river
+    - swamp
+    - mushroom
+    - nether
+    - underground
+    - mountain
+
+====== Music List ======
+-= Biomes =-
+cave1: Numinos - Marvin Kopp
+cave2: Among Leaves - Marvin Kopp
+cave3: Decay - Marvin Kopp
+cave4: The Trees Have Eyes - Marvin Kopp
+
+desert1: Dance with the Devil - Marvin Kopp
+desert2: Ocean of Sand - Marvin Kopp
+desert3: Through Sand and Dust - Marvin Kopp
+desert4: Song of Silence - Marvin Kopp
+desert5: Sound of Fugacity - Marvin Kopp, Andreas Makusev
+
+end1: Northwind - Marvin Kopp
+end2: Paths of the Dead - Andreas Makusev
+end3: Ralatha - Marvin Kopp
+end4: Temple Path - Simon W. Autenrieth
+
+forest1: In the Sunlight - Marvin Kopp
+forest2: Path-Abidingness - Marvin Kopp
+forest3: Trade Roads - Marvin Kopp
+forest4: Until Dawn - Marvin Kopp
+
+icy1: Spark of Hope - Marvin Kopp, Andreas Makusev
+icy2: Forgotten Homeland - Marvin Kopp
+icy3: In the Twilight - Marvin Kopp
+icy4: Mistwalker - Marvin Kopp
+icy5: Snow Nomad - Marvin Kopp
+
+jungle1: Empire by the Sea - Simon W. Autenrieth
+jungle2: Oishiiro Breeze - Kariri Sawler
+jungle3: Glades - Simon W. Autenrieth
+
+mountains1: Ancient Fathers - Marvin Kopp
+mountains2: Nightshade - Simon W. Autenrieth
+mountains3: Walk Blessed - Marvin Kopp
+
+mushroom1: Home of the Blessed - Simon W. Autenrieth
+
+nether1: Dreadly Indeed - Kariri Sawler
+nether2: Magic Contamination - Marvin Kopp
+nether3: Sunborn - Andreas Makusev
+
+plains1: Path-Abidingness (old) - Marvin Kopp
+plains2: Free Trade - Simon W. Autenrieth
+plains3: Traveller's Path - Marvin Kopp
+plains4: Painting the Universe - Kariri Sawler
+plains5: Prelude to Happiness - Kariri Sawler
+
+taiga1: Deceptive Peace - Marvin Kopp
+taiga2: The Lonely Mountain - Simon W. Autenrieth
+taiga3: The Old and Forgotten - Simon W. Autenrieth
+
+ocean1: Every Day like the Last - Marvin Kopp
+ocean2: Heading for new Shores - Marvin Kopp
+ocean3: The Bright Side - Marvin Kopp
+ocean4: Crying River - Kariri Sawler
+
+-= Events =-
+boss1: Prophet - Marvin Kopp
+boss2: Phoeniz - Marvin Kopp
+
+menu1: Strange Journey - Kariri Sawler
+
+raid1: Blood and Iron - Marvin Kopp
+raid2: Bloodthirsty - Marvin Kopp
+raid3: Dust at the Horizon - Marvin Kopp
+raid4: Pathless - Marvin Kopp
+raid5: Shieldmates - Marvin Kopp
+raid6: Storm and Stress - Marvin Kopp
+
+underwater1: Thunderfrost - Marvin Kopp
+
+-= Structures =-
+bastion1: Downward - Simon W. Autenrieth
+
+crypt1: Disorientation - Andreas Makusev
+
+desert_temple1: Fata Morgana - Andreas Makusev
+
+dungeon1: Darkness - Marvin Kopp
+dungeon2: Echo - Marvin Kopp
+dungeon3: Fridge - Marvin Kopp
+dungeon4: In the Deep - Marvin Kopp
+dungeon5: The Cleft - Marvin Kopp
+
+end_city1: Cave of crystals - Simon W. Autenrieth
+
+jungle_temple1: Realm of Earth - Marvin Kopp
+
+nether_fortress1: Crypt - Marvin Kopp
+
+ocean_monument1: Precursor Ruins - Simon W. Autenrieth
+
+stronghold1: Mud and stone - Simon W. Autenrieth
+
+village1: Homecoming - Simon W. Autenrieth
+village2: Enchanted - Simon W. Autenrieth
+village3: Suntemple - Marvin Kopp

@@ -3,341 +3,586 @@
 	fade_out = "100"
 	delay = "200"
 
-[main_menu]
-	[main_menu.trigger]
-		name = "menu"
+#|========|
+#| Events |
+#|========|
 
-[raid]
-	[raid.trigger]
-		priority = "11"
-		name = "raid"
-		identifier = "raid"
+# -= Boss =- #
 
-[night_home]
-	[[night_home.trigger]]
-		priority = "10"
-		name = "home"
-		detection_range = "64"
-	[[night_home.trigger]]
-		priority = "10"
-		name = "time"
-		start = "night"
-		identifier = "night10"
-	[[night_home.trigger]]
-		priority = "10"
-		name = "dimension"
-		resource_name = "overworld"
-		identifier = "overworld10"
+# -= Raid =- #
 
-[home]
-	[[home.trigger]]
-		priority = "9"
-		name = "home"
-		detection_range = "64"
-	[[home.trigger]]
-		priority = "9"
-		name = "dimension"
-		resource_name = "overworld"
-		identifier = "overworld9"
+#|============|
+#| Structures |
+#|============|
 
-[bastion]
-	[bastion.trigger]
-		priority = "8"
+# -= Bastion =- #
+
+# -= Crypt =- #
+
+[[crypt1]]
+	[[crypt1.trigger]]
 		name = "structure"
-		resource_name = "minecraft:bastion_remnant"
-		identifier = "str_bastion"
+		identifier = "crypt"
+		priority = "70"
+		resource_name = "graveyard:crypt"
 
-[mineshaft]
-	[mineshaft.trigger]
-		priority = "8"
-		name = "structure"
-		resource_name = "bettermineshafts:mineshaft"
-		identifier = "str_mineshaft"
+# -= Desert Temple =- #
 
-[stronghold]
-	[stronghold.trigger]
-		priority = "8"
-		name = "structure"
-		resource_name = "betterstrongholds:stronghold"
-		identifier = "str_stronghold"
+# -= Dungeon =- #
 
-[underground_biome]
-	[[underground_biome.trigger]]
-		priority = "7"
-		name = "biome"
-		biome_category = "underground"
-		identifier = "biome_underground"
-	[[underground_biome.trigger]]
-		priority = "7"
-		name = "dimension"
-		resource_name = "overworld"
-		identifier = "overworld7"
+# -= End City =- #
 
-[deep_underground]
-	[[deep_underground.trigger]]
-		priority = "6"
-		name = "height"
-		level = "-5"
-		identifier = "height_minus5"
-	[[deep_underground.trigger]]
-		priority = "6"
-		name = "dimension"
-		resource_name = "overworld"
-		identifier = "overworld6"
+# -= Jungle Temple =- #
 
-[underground]
-	[[underground.trigger]]
-		priority = "5"
-		name = "height"
-		level = "55"
-		identifier = "height_55"
-	[[underground.trigger]]
-		priority = "5"
-		name = "dimension"
-		resource_name = "overworld"
-		identifier = "overworld5"
+# -= Mineshaft =- #
 
-[rain]
-	[[rain.trigger]]
-		priority = "4"
-		name = "raining"
-	[[rain.trigger]]
-		priority = "4"
-		name = "biome"
-		rain_type = "rain"
-		identifier = "biome_rain4"
+# -= Nether Fortress =- #
 
-[storm]
-	[[storm.trigger]]
-		priority = "4"
-		name = "storming"
-	[[storm.trigger]]
-		name = "biome"
-		identifier = "biome_rain4"
+# -= Ocean Monument =- #
 
-[snowing]
-	[[snowing.trigger]]
-		priority = "4"
+# -= Stronghold =- #
+
+# -= Village =- #
+
+#|==============|
+#| Environments |
+#|==============|
+
+# -= Underwater =- #
+
+#|=========|
+#| Weather |
+#|=========|
+
+# -= Storm =- #
+
+# -= Snow =- #
+
+[[snow1]]
+	[[snow1.trigger]]
 		name = "snowing"
-	[[snowing.trigger]]
-		priority = "4"
-		name = "biome"
-		rain_type = "snow"
-		identifier = "biome_snow4"
+		priority = "52"
 
-[night_desert]
-	[[night_desert.trigger]]
-		priority = "3"
-		name = "biome"
-		biome_category = "desert"
-		identifier = "biome_desert3"
-	[[night_desert.trigger]]
-		priority = "3"
-		name = "time"
-		start = "night"
-		end = "day"
-		identifier = "night3"
+[[storm1]]
+	[[storm1.trigger]]
+		name = "storming"
+		priority = "51"
 
-[night_forest]
-	[[night_forest.trigger]]
-		priority = "3"
-		name = "biome"
-		biome_category = "forest"
-		identifier = "biome_forest3"
-	[[night_forest.trigger]]
-		name = "time"
-		identifier = "night3"
+# -= Rain =- #
 
-[night_snowy]
-	[[night_snowy.trigger]]
-		priority = "3"
-		name = "biome"
-		biome_category = "icy"
-		identifier = "biome_icy3"
-	[[night_snowy.trigger]]
-		name = "time"
-		identifier = "night3"
+[[rain1]]
+	[[rain1.trigger]]
+		name = "raining"
+		priority = "50"
 
-[night]
-	[[night.trigger]]
-		priority = "2"
-		name = "time"
-		start = "night"
-		identifier = "night2"
-	[[night.trigger]]
-		priority = "2"
+#|============|
+#| Dimensions |
+#|============|
+
+# -= Nether =- #
+
+[[nether1]]
+	[[nether1.trigger]]
 		name = "dimension"
-		resource_name = "overworld"
-		identifier = "overworld2"
+		identifier = "nether"
+		priority = "40"
+		resource_name = "nether"
 
-[desert_village]
-	[[desert_village.trigger]]
-		priority = "1"
-		name = "structure"
-		resource_name = "minecraft:village"
-		identifier = "str_desert_village"
-	[[desert_village.trigger]]
-		priority = "1"
+# -= End =- #
+
+[[end1]]
+	[[end1.trigger]]
+		name = "dimension"
+		identifier = "end"
+		priority = "40"
+		resource_name = "end"
+
+#|=============|
+#| Underground |
+#|=============|
+
+# -= Caves =- #
+
+[[cave1]]
+	[[cave1.trigger]]
+		name = "height"
+		identifier = "cave"
+		priority = "20"
+		level = "55"
+[[cave2]]
+	[[cave2.trigger]]
+		name = "height"
+		identifier = "cave"
+		priority = "20"
+		level = "55"
+[[cave3]]
+	[[cave3.trigger]]
+		name = "height"
+		identifier = "cave"
+		priority = "20"
+		level = "55"
+[[cave4]]
+	[[cave4.trigger]]
+		name = "height"
+		identifier = "cave"
+		priority = "20"
+		level = "55"
+
+#|=================|
+#| Biome Overrides |
+#|=================|
+
+# -= Underground Jungle =- #
+
+# This one in particular is higher priority to override underground triggers defined above
+[[jungle1]]
+	[[jungle1.trigger]]
 		name = "biome"
+		identifier = "jungle"
+		priority = "30"
+		resource_name = "minecraft:lush_caves"
+[[jungle2]]
+	[[jungle2.trigger]]
+		name = "biome"
+		identifier = "jungle"
+		priority = "30"
+		resource_name = "minecraft:lush_caves"
+[[jungle3]]
+	[[jungle3.trigger]]
+		name = "biome"
+		identifier = "jungle"
+		priority = "30"
+		resource_name = "minecraft:lush_caves"
+
+# -= Magicky Biomes =- #
+
+[[mushroom1]]
+	[[mushroom1.trigger]]
+		name = "biome"
+		identifier = "magicky"
+		priority = "15"
+		resource_name = "terralith:warped_mesa|terralith:mirage_isles"
+
+# -= Snowy Badlands =- #
+
+[[icy1]]
+	[[icy1.trigger]]
+		name = "biome"
+		identifier = "icy"
+		priority = "15"
+		resource_name = "terralith:snowy_badlands"
+[[icy2]]
+	[[icy2.trigger]]
+		name = "biome"
+		identifier = "icy"
+		priority = "15"
+		resource_name = "terralith:snowy_badlands"
+[[icy3]]
+	[[icy3.trigger]]
+		name = "biome"
+		identifier = "icy"
+		priority = "15"
+		resource_name = "terralith:snowy_badlands"
+[[icy4]]
+	[[icy4.trigger]]
+		name = "biome"
+		identifier = "icy"
+		priority = "15"
+		resource_name = "terralith:snowy_badlands"
+[[icy5]]
+	[[icy5.trigger]]
+		name = "biome"
+		identifier = "icy"
+		priority = "15"
+		resource_name = "terralith:snowy_badlands"
+
+#|========|
+#| Biomes |
+#|========|
+
+# -= Desert =- #
+
+[[desert1]]
+	[[desert1.trigger]]
+		name = "biome"
+		identifier = "desert"
+		priority = "10"
 		biome_category = "desert"
-		identifier = "biome_desert1"
-
-[plains_village]
-	[[plains_village.trigger]]
-		priority = "1"
-		name = "structure"
-		resource_name = "minecraft:village"
-		identifier = "str_plains_village"
-	[[plains_village.trigger]]
-		priority = "1"
+[[desert2]]
+	[[desert2.trigger]]
 		name = "biome"
-		biome_category = "plains"
-		identifier = "biome_plains1"
-
-[savanna_village]
-	[[savanna_village.trigger]]
-		priority = "1"
-		name = "structure"
-		resource_name = "minecraft:village"
-		identifier = "str_savanna_village"
-	[[savanna_village.trigger]]
-		priority = "1"
-		name = "biome"
-		biome_category = "savanna"
-		identifier = "biome_savanna1"
-
-[snowy_village]
-	[[snowy_village.trigger]]
-		priority = "1"
-		name = "structure"
-		resource_name = "minecraft:village"
-		identifier = "str_snowy_village"
-	[[snowy_village.trigger]]
-		priority = "1"
-		name = "biome"
-		biome_category = "icy"
-		identifier = "biome_icy1"
-
-[taiga_village]
-	[[taiga_village.trigger]]
-		priority = "1"
-		name = "structure"
-		resource_name = "minecraft:village"
-		identifier = "str_taiga_village"
-	[[taiga_village.trigger]]
-		priority = "1"
-		name = "biome"
-		biome_category = "taiga"
-		identifier = "biome_taiga1"
-
-[beach]
-	[beach.trigger]
-		priority = "0"
-		name = "biome"
-		biome_category = "beach"
-		identifier = "biome_beach"
-
-[desert]
-	[desert.trigger]
-		priority = "0"
-		name = "biome"
+		identifier = "desert"
+		priority = "10"
 		biome_category = "desert"
-		identifier = "biome_desert"
-
-[end]
-	[end.trigger]
-		priority = "0"
+[[desert3]]
+	[[desert3.trigger]]
 		name = "biome"
-		biome_category = "end"
-		identifier = "biome_end"
-
-[forest]
-	[forest.trigger]
-		priority = "0"
+		identifier = "desert"
+		priority = "10"
+		biome_category = "desert"
+[[desert4]]
+	[[desert4.trigger]]
 		name = "biome"
-		biome_category = "forest"
-		identifier = "biome_forest"
-
-[icy]
-	[icy.trigger]
-		priority = "0"
+		identifier = "desert"
+		priority = "10"
+		biome_category = "desert"
+[[desert5]]
+	[[desert5.trigger]]
 		name = "biome"
-		biome_category = "icy"
-		identifier = "biome_icy"
+		identifier = "desert"
+		priority = "10"
+		biome_category = "desert"
 
-[jungle]
-	[jungle.trigger]
-		priority = "0"
-		name = "biome"
-		biome_category = "jungle"
-		identifier = "biome_jungle"
+# -= Mesa =- #
 
-[mesa]
-	[mesa.trigger]
-		priority = "0"
+[[desert1]]
+	[[desert1.trigger]]
 		name = "biome"
+		identifier = "desert"
+		priority = "10"
 		biome_category = "mesa"
-		identifier = "biome_mesa"
-
-[mountain]
-	[[mountain.trigger]]
-		priority = "0"
+[[desert2]]
+	[[desert2.trigger]]
 		name = "biome"
-		biome_category = "mountain;extreme_hills"
-		identifier = "biome_extreme_hills"
-
-[mushroom]
-	[mushroom.trigger]
-		priority = "0"
+		identifier = "desert"
+		priority = "10"
+		biome_category = "mesa"
+[[desert3]]
+	[[desert3.trigger]]
 		name = "biome"
-		biome_category = "mushroom"
-		identifier = "biome_mushroom"
-
-[nether]
-	[nether.trigger]
-		priority = "0"
+		identifier = "desert"
+		priority = "10"
+		biome_category = "mesa"
+[[desert4]]
+	[[desert4.trigger]]
 		name = "biome"
-		biome_category = "nether"
-		identifier = "biome_nether"
-
-[ocean]
-	[ocean.trigger]
-		priority = "0"
+		identifier = "desert"
+		priority = "10"
+		biome_category = "mesa"
+[[desert5]]
+	[[desert5.trigger]]
 		name = "biome"
-		biome_category = "ocean"
-		identifier = "biome_ocean"
+		identifier = "desert"
+		priority = "10"
+		biome_category = "mesa"
 
-[plains]
-	[plains.trigger]
-		priority = "0"
-		name = "biome"
-		biome_category = "plains"
-		identifier = "biome_plains"
+# -= Savanna =- #
 
-[river]
-	[river.trigger]
-		priority = "0"
+[[desert1]]
+	[[desert1.trigger]]
 		name = "biome"
-		biome_category = "river"
-		identifier = "biome_river"
-
-[savanna]
-	[savanna.trigger]
-		priority = "0"
-		name = "biome"
+		identifier = "desert"
+		priority = "10"
 		biome_category = "savanna"
-		identifier = "biome_savanna"
-
-[swamp]
-	[swamp.trigger]
-		priority = "0"
+[[desert2]]
+	[[desert2.trigger]]
 		name = "biome"
+		identifier = "desert"
+		priority = "10"
+		biome_category = "savanna"
+[[desert3]]
+	[[desert3.trigger]]
+		name = "biome"
+		identifier = "desert"
+		priority = "10"
+		biome_category = "savanna"
+[[desert4]]
+	[[desert4.trigger]]
+		name = "biome"
+		identifier = "desert"
+		priority = "10"
+		biome_category = "savanna"
+[[desert5]]
+	[[desert5.trigger]]
+		name = "biome"
+		identifier = "desert"
+		priority = "10"
+		biome_category = "savanna"
+
+# -= Forest =- #
+
+[[forest1]]
+	[[forest1.trigger]]
+		name = "biome"
+		identifier = "forest"
+		priority = "10"
+		biome_category = "forest"
+[[forest2]]
+	[[forest2.trigger]]
+		name = "biome"
+		identifier = "forest"
+		priority = "10"
+		biome_category = "forest"
+[[forest3]]
+	[[forest3.trigger]]
+		name = "biome"
+		identifier = "forest"
+		priority = "10"
+		biome_category = "forest"
+[[forest4]]
+	[[forest4.trigger]]
+		name = "biome"
+		identifier = "forest"
+		priority = "10"
+		biome_category = "forest"
+
+# -= Icy =- #
+
+[[icy1]]
+	[[icy1.trigger]]
+		name = "biome"
+		identifier = "icy"
+		priority = "10"
+		biome_category = "icy"
+[[icy2]]
+	[[icy2.trigger]]
+		name = "biome"
+		identifier = "icy"
+		priority = "10"
+		biome_category = "icy"
+[[icy3]]
+	[[icy3.trigger]]
+		name = "biome"
+		identifier = "icy"
+		priority = "10"
+		biome_category = "icy"
+[[icy4]]
+	[[icy4.trigger]]
+		name = "biome"
+		identifier = "icy"
+		priority = "10"
+		biome_category = "icy"
+[[icy5]]
+	[[icy5.trigger]]
+		name = "biome"
+		identifier = "icy"
+		priority = "10"
+		biome_category = "icy"
+
+# -= Jungle =- #
+
+[[jungle1]]
+	[[jungle1.trigger]]
+		name = "biome"
+		identifier = "jungle"
+		priority = "10"
+		biome_category = "jungle"
+[[jungle2]]
+	[[jungle2.trigger]]
+		name = "biome"
+		identifier = "jungle"
+		priority = "10"
+		biome_category = "jungle"
+[[jungle3]]
+	[[jungle3.trigger]]
+		name = "biome"
+		identifier = "jungle"
+		priority = "10"
+		biome_category = "jungle"
+
+# -= Swamp =- #
+
+[[jungle1]]
+	[[jungle1.trigger]]
+		name = "biome"
+		identifier = "jungle"
+		priority = "10"
 		biome_category = "swamp"
-		identifier = "biome_swamp"
-
-[taiga]
-	[taiga.trigger]
-		priority = "0"
+[[jungle2]]
+	[[jungle2.trigger]]
 		name = "biome"
+		identifier = "jungle"
+		priority = "10"
+		biome_category = "swamp"
+[[jungle3]]
+	[[jungle3.trigger]]
+		name = "biome"
+		identifier = "jungle"
+		priority = "10"
+		biome_category = "swamp"
+
+# -= Mountains =- #
+
+[[mountains1]]
+	[[mountains1.trigger]]
+		name = "biome"
+		identifier = "mountain"
+		priority = "10"
+		biome_category = "mountain"
+[[mountains2]]
+	[[mountains2.trigger]]
+		name = "biome"
+		identifier = "mountain"
+		priority = "10"
+		biome_category = "mountain"
+[[mountains3]]
+	[[mountains3.trigger]]
+		name = "biome"
+		identifier = "mountain"
+		priority = "10"
+		biome_category = "mountain"
+
+# -= Extreme Hills =- #
+
+[[mountains1]]
+	[[mountains1.trigger]]
+		name = "biome"
+		identifier = "mountain"
+		priority = "10"
+		biome_category = "extreme_hills"
+[[mountains2]]
+	[[mountains2.trigger]]
+		name = "biome"
+		identifier = "mountain"
+		priority = "10"
+		biome_category = "extreme_hills"
+[[mountains3]]
+	[[mountains3.trigger]]
+		name = "biome"
+		identifier = "mountain"
+		priority = "10"
+		biome_category = "extreme_hills"
+
+# -= Mushroom =- #
+
+[[mushroom1]]
+	[[mushroom1.trigger]]
+		name = "biome"
+		identifier = "magicky"
+		priority = "10"
+		biome_category = "mushroom"
+
+# -= Ocean =- #
+
+[[ocean1]]
+	[[ocean1.trigger]]
+		name = "biome"
+		identifier = "ocean"
+		priority = "10"
+		biome_category = "ocean"
+[[ocean2]]
+	[[ocean2.trigger]]
+		name = "biome"
+		identifier = "ocean"
+		priority = "10"
+		biome_category = "ocean"
+[[ocean3]]
+	[[ocean3.trigger]]
+		name = "biome"
+		identifier = "ocean"
+		priority = "10"
+		biome_category = "ocean"
+[[ocean4]]
+	[[ocean4.trigger]]
+		name = "biome"
+		identifier = "ocean"
+		priority = "10"
+		biome_category = "ocean"
+
+# -= River =- #
+
+[[ocean1]]
+	[[ocean1.trigger]]
+		name = "biome"
+		identifier = "ocean"
+		priority = "10"
+		biome_category = "river"
+[[ocean2]]
+	[[ocean2.trigger]]
+		name = "biome"
+		identifier = "ocean"
+		priority = "10"
+		biome_category = "river"
+[[ocean3]]
+	[[ocean3.trigger]]
+		name = "biome"
+		identifier = "ocean"
+		priority = "10"
+		biome_category = "river"
+[[ocean4]]
+	[[ocean4.trigger]]
+		name = "biome"
+		identifier = "ocean"
+		priority = "10"
+		biome_category = "river"
+
+# -= Beach =- #
+
+[[ocean1]]
+	[[ocean1.trigger]]
+		name = "biome"
+		identifier = "ocean"
+		priority = "10"
+		biome_category = "beach"
+[[ocean2]]
+	[[ocean2.trigger]]
+		name = "biome"
+		identifier = "ocean"
+		priority = "10"
+		biome_category = "beach"
+[[ocean3]]
+	[[ocean3.trigger]]
+		name = "biome"
+		identifier = "ocean"
+		priority = "10"
+		biome_category = "beach"
+[[ocean4]]
+	[[ocean4.trigger]]
+		name = "biome"
+		identifier = "ocean"
+		priority = "10"
+		biome_category = "beach"
+
+# -= Plains =- #
+
+[[plains1]]
+	[[plains1.trigger]]
+		name = "biome"
+		identifier = "plains"
+		priority = "10"
+		biome_category = "plains"
+[[plains2]]
+	[[plains2.trigger]]
+		name = "biome"
+		identifier = "plains"
+		priority = "10"
+		biome_category = "plains"
+[[plains3]]
+	[[plains3.trigger]]
+		name = "biome"
+		identifier = "plains"
+		priority = "10"
+		biome_category = "plains"
+[[plains4]]
+	[[plains4.trigger]]
+		name = "biome"
+		identifier = "plains"
+		priority = "10"
+		biome_category = "plains"
+[[plains5]]
+	[[plains5.trigger]]
+		name = "biome"
+		identifier = "plains"
+		priority = "10"
+		biome_category = "plains"
+
+# -= Taiga =- #
+
+[[taiga1]]
+	[[taiga1.trigger]]
+		name = "biome"
+		identifier = "taiga"
+		priority = "10"
 		biome_category = "taiga"
-		identifier = "biome_taiga"
+[[taiga2]]
+	[[taiga2.trigger]]
+		name = "biome"
+		identifier = "taiga"
+		priority = "10"
+		biome_category = "taiga"
+[[taiga3]]
+	[[taiga3.trigger]]
+		name = "biome"
+		identifier = "taiga"
+		priority = "10"
+		biome_category = "taiga"
