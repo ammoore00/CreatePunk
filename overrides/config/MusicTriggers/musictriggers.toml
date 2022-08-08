@@ -23,10 +23,17 @@
 	[[crypt1.trigger]]
 		name = "structure"
 		identifier = "crypt"
-		priority = "70"
+		priority = "50"
 		resource_name = "graveyard:crypt"
 
 # -= Desert Temple =- #
+
+[[desert_temple1]]
+	[[desert_temple1.trigger]]
+		name = "structure"
+		identifier = "desert_temple"
+		priority = "50"
+		resource_name = "betterdeserttemples:desert_temple"
 
 # -= Dungeon =- #
 
@@ -43,37 +50,6 @@
 # -= Stronghold =- #
 
 # -= Village =- #
-
-#|==============|
-#| Environments |
-#|==============|
-
-# -= Underwater =- #
-
-#|=========|
-#| Weather |
-#|=========|
-
-# -= Storm =- #
-
-# -= Snow =- #
-
-[[snow1]]
-	[[snow1.trigger]]
-		name = "snowing"
-		priority = "52"
-
-[[storm1]]
-	[[storm1.trigger]]
-		name = "storming"
-		priority = "51"
-
-# -= Rain =- #
-
-[[rain1]]
-	[[rain1.trigger]]
-		name = "raining"
-		priority = "50"
 
 #|============|
 #| Dimensions |
@@ -107,26 +83,51 @@
 	[[cave1.trigger]]
 		name = "height"
 		identifier = "cave"
-		priority = "20"
+		priority = "25"
 		level = "55"
 [[cave2]]
 	[[cave2.trigger]]
 		name = "height"
 		identifier = "cave"
-		priority = "20"
+		priority = "25"
 		level = "55"
 [[cave3]]
 	[[cave3.trigger]]
 		name = "height"
 		identifier = "cave"
-		priority = "20"
+		priority = "25"
 		level = "55"
 [[cave4]]
 	[[cave4.trigger]]
 		name = "height"
 		identifier = "cave"
-		priority = "20"
+		priority = "25"
 		level = "55"
+
+#|=========|
+#| Weather |
+#|=========|
+
+# -= Snow =- #
+
+[[snow1]]
+	[[snow1.trigger]]
+		name = "snowing"
+		priority = "22"
+
+# -= Storm =- #
+
+[[storm1]]
+	[[storm1.trigger]]
+		name = "storming"
+		priority = "21"
+
+# -= Rain =- #
+
+[[rain1]]
+	[[rain1.trigger]]
+		name = "raining"
+		priority = "20"
 
 #|=================|
 #| Biome Overrides |
@@ -238,31 +239,31 @@
 [[desert1]]
 	[[desert1.trigger]]
 		name = "biome"
-		identifier = "desert"
+		identifier = "mesa"
 		priority = "10"
 		biome_category = "mesa"
 [[desert2]]
 	[[desert2.trigger]]
 		name = "biome"
-		identifier = "desert"
+		identifier = "mesa"
 		priority = "10"
 		biome_category = "mesa"
 [[desert3]]
 	[[desert3.trigger]]
 		name = "biome"
-		identifier = "desert"
+		identifier = "mesa"
 		priority = "10"
 		biome_category = "mesa"
 [[desert4]]
 	[[desert4.trigger]]
 		name = "biome"
-		identifier = "desert"
+		identifier = "mesa"
 		priority = "10"
 		biome_category = "mesa"
 [[desert5]]
 	[[desert5.trigger]]
 		name = "biome"
-		identifier = "desert"
+		identifier = "mesa"
 		priority = "10"
 		biome_category = "mesa"
 
@@ -271,31 +272,31 @@
 [[desert1]]
 	[[desert1.trigger]]
 		name = "biome"
-		identifier = "desert"
+		identifier = "savanna"
 		priority = "10"
 		biome_category = "savanna"
 [[desert2]]
 	[[desert2.trigger]]
 		name = "biome"
-		identifier = "desert"
+		identifier = "savanna"
 		priority = "10"
 		biome_category = "savanna"
 [[desert3]]
 	[[desert3.trigger]]
 		name = "biome"
-		identifier = "desert"
+		identifier = "savanna"
 		priority = "10"
 		biome_category = "savanna"
 [[desert4]]
 	[[desert4.trigger]]
 		name = "biome"
-		identifier = "desert"
+		identifier = "savanna"
 		priority = "10"
 		biome_category = "savanna"
 [[desert5]]
 	[[desert5.trigger]]
 		name = "biome"
-		identifier = "desert"
+		identifier = "savanna"
 		priority = "10"
 		biome_category = "savanna"
 
@@ -385,19 +386,19 @@
 [[jungle1]]
 	[[jungle1.trigger]]
 		name = "biome"
-		identifier = "jungle"
+		identifier = "swamp"
 		priority = "10"
 		biome_category = "swamp"
 [[jungle2]]
 	[[jungle2.trigger]]
 		name = "biome"
-		identifier = "jungle"
+		identifier = "swamp"
 		priority = "10"
 		biome_category = "swamp"
 [[jungle3]]
 	[[jungle3.trigger]]
 		name = "biome"
-		identifier = "jungle"
+		identifier = "swamp"
 		priority = "10"
 		biome_category = "swamp"
 
@@ -427,19 +428,19 @@
 [[mountains1]]
 	[[mountains1.trigger]]
 		name = "biome"
-		identifier = "mountain"
+		identifier = "extreme_hills"
 		priority = "10"
 		biome_category = "extreme_hills"
 [[mountains2]]
 	[[mountains2.trigger]]
 		name = "biome"
-		identifier = "mountain"
+		identifier = "extreme_hills"
 		priority = "10"
 		biome_category = "extreme_hills"
 [[mountains3]]
 	[[mountains3.trigger]]
 		name = "biome"
-		identifier = "mountain"
+		identifier = "extreme_hills"
 		priority = "10"
 		biome_category = "extreme_hills"
 
@@ -484,25 +485,25 @@
 [[ocean1]]
 	[[ocean1.trigger]]
 		name = "biome"
-		identifier = "ocean"
+		identifier = "river"
 		priority = "10"
 		biome_category = "river"
 [[ocean2]]
 	[[ocean2.trigger]]
 		name = "biome"
-		identifier = "ocean"
+		identifier = "river"
 		priority = "10"
 		biome_category = "river"
 [[ocean3]]
 	[[ocean3.trigger]]
 		name = "biome"
-		identifier = "ocean"
+		identifier = "river"
 		priority = "10"
 		biome_category = "river"
 [[ocean4]]
 	[[ocean4.trigger]]
 		name = "biome"
-		identifier = "ocean"
+		identifier = "river"
 		priority = "10"
 		biome_category = "river"
 
@@ -511,25 +512,25 @@
 [[ocean1]]
 	[[ocean1.trigger]]
 		name = "biome"
-		identifier = "ocean"
+		identifier = "beach"
 		priority = "10"
 		biome_category = "beach"
 [[ocean2]]
 	[[ocean2.trigger]]
 		name = "biome"
-		identifier = "ocean"
+		identifier = "beach"
 		priority = "10"
 		biome_category = "beach"
 [[ocean3]]
 	[[ocean3.trigger]]
 		name = "biome"
-		identifier = "ocean"
+		identifier = "beach"
 		priority = "10"
 		biome_category = "beach"
 [[ocean4]]
 	[[ocean4.trigger]]
 		name = "biome"
-		identifier = "ocean"
+		identifier = "beach"
 		priority = "10"
 		biome_category = "beach"
 
