@@ -15,7 +15,24 @@
 #| Structures |
 #|============|
 
+# Note that Additional Structures does things the lazy way and doesn't define its own structure types.
+# As such it's basically impossible to assign custom tracks to them, and it means that getting songs
+# meant for other structures NOT to play in them can also be funky, hence the villager mob check for
+# villages, and the dimension check for bastions.
+
 # -= Bastion =- #
+
+[[bastion1]]
+	[[bastion1.trigger]]
+		name = "structure"
+		identifier = "bastion"
+		priority = "50"
+		resource_name = "minecraft:bastion_remnant"
+	[[bastion1.trigger]]
+		name = "dimension"
+		identifier = "bastion_nether"
+		priority = "50"
+		resource_name = "nether"
 
 # -= Crypt =- #
 
@@ -37,19 +54,246 @@
 
 # -= Dungeon =- #
 
+[[dungeon1]]
+	[[dungeon1.trigger]]
+		name = "structure"
+		identifier = "skeleton_dungeon"
+		priority = "50"
+		resource_name = "betterdungeons:skeleton_dungeon"
+[[dungeon2]]
+	[[dungeon2.trigger]]
+		name = "structure"
+		identifier = "skeleton_dungeon"
+		priority = "50"
+		resource_name = "betterdungeons:skeleton_dungeon"
+[[dungeon3]]
+	[[dungeon3.trigger]]
+		name = "structure"
+		identifier = "skeleton_dungeon"
+		priority = "50"
+		resource_name = "betterdungeons:skeleton_dungeon"
+[[dungeon4]]
+	[[dungeon4.trigger]]
+		name = "structure"
+		identifier = "skeleton_dungeon"
+		priority = "50"
+		resource_name = "betterdungeons:skeleton_dungeon"
+[[dungeon5]]
+	[[dungeon5.trigger]]
+		name = "structure"
+		identifier = "skeleton_dungeon"
+		priority = "50"
+		resource_name = "betterdungeons:skeleton_dungeon"
+
+[[dungeon1]]
+	[[dungeon1.trigger]]
+		name = "structure"
+		identifier = "spider_dungeon"
+		priority = "50"
+		resource_name = "betterdungeons:spider_dungeon"
+[[dungeon2]]
+	[[dungeon2.trigger]]
+		name = "structure"
+		identifier = "spider_dungeon"
+		priority = "50"
+		resource_name = "betterdungeons:spider_dungeon"
+[[dungeon3]]
+	[[dungeon3.trigger]]
+		name = "structure"
+		identifier = "spider_dungeon"
+		priority = "50"
+		resource_name = "betterdungeons:spider_dungeon"
+[[dungeon4]]
+	[[dungeon4.trigger]]
+		name = "structure"
+		identifier = "spider_dungeon"
+		priority = "50"
+		resource_name = "betterdungeons:spider_dungeon"
+[[dungeon5]]
+	[[dungeon5.trigger]]
+		name = "structure"
+		identifier = "spider_dungeon"
+		priority = "50"
+		resource_name = "betterdungeons:spider_dungeon"
+
+[[dungeon1]]
+	[[dungeon1.trigger]]
+		name = "structure"
+		identifier = "zombie_dungeon"
+		priority = "50"
+		resource_name = "betterdungeons:zombie_dungeon"
+[[dungeon2]]
+	[[dungeon2.trigger]]
+		name = "structure"
+		identifier = "zombie_dungeon"
+		priority = "50"
+		resource_name = "betterdungeons:zombie_dungeon"
+[[dungeon3]]
+	[[dungeon3.trigger]]
+		name = "structure"
+		identifier = "zombie_dungeon"
+		priority = "50"
+		resource_name = "betterdungeons:zombie_dungeon"
+[[dungeon4]]
+	[[dungeon4.trigger]]
+		name = "structure"
+		identifier = "zombie_dungeon"
+		priority = "50"
+		resource_name = "betterdungeons:zombie_dungeon"
+[[dungeon5]]
+	[[dungeon5.trigger]]
+		name = "structure"
+		identifier = "zombie_dungeon"
+		priority = "50"
+		resource_name = "betterdungeons:zombie_dungeon"
+
+[[dungeon1]]
+	[[dungeon1.trigger]]
+		name = "structure"
+		identifier = "mega_dungeon"
+		priority = "50"
+		resource_name = "quark:mega_dungeon"
+[[dungeon2]]
+	[[dungeon2.trigger]]
+		name = "structure"
+		identifier = "mega_dungeon"
+		priority = "50"
+		resource_name = "quark:mega_dungeon"
+[[dungeon3]]
+	[[dungeon3.trigger]]
+		name = "structure"
+		identifier = "mega_dungeon"
+		priority = "50"
+		resource_name = "quark:mega_dungeon"
+[[dungeon4]]
+	[[dungeon4.trigger]]
+		name = "structure"
+		identifier = "mega_dungeon"
+		priority = "50"
+		resource_name = "quark:mega_dungeon"
+[[dungeon5]]
+	[[dungeon5.trigger]]
+		name = "structure"
+		identifier = "mega_dungeon"
+		priority = "50"
+		resource_name = "quark:mega_dungeon"
+
+[[dungeon1]]
+	[[dungeon1.trigger]]
+		name = "structure"
+		identifier = "small_dungeon"
+		priority = "50"
+		resource_name = "bettermineshafts:mineshaft"
+[[dungeon2]]
+	[[dungeon2.trigger]]
+		name = "structure"
+		identifier = "small_dungeon"
+		priority = "50"
+		resource_name = "bettermineshafts:mineshaft"
+[[dungeon3]]
+	[[dungeon3.trigger]]
+		name = "structure"
+		identifier = "small_dungeon"
+		priority = "50"
+		resource_name = "bettermineshafts:mineshaft"
+[[dungeon4]]
+	[[dungeon4.trigger]]
+		name = "structure"
+		identifier = "small_dungeon"
+		priority = "50"
+		resource_name = "bettermineshafts:mineshaft"
+[[dungeon5]]
+	[[dungeon5.trigger]]
+		name = "structure"
+		identifier = "small_dungeon"
+		priority = "50"
+		resource_name = "bettermineshafts:mineshaft"
+
 # -= End City =- #
+
+[[end_city1]]
+	[[end_city1.trigger]]
+		name = "structure"
+		identifier = "end_city"
+		priority = "50"
+		resource_name = "minecraft:end_city"
 
 # -= Jungle Temple =- #
 
-# -= Mineshaft =- #
+[[jungle_temple1]]
+	[[jungle_temple1.trigger]]
+		name = "structure"
+		identifier = "jungle_temple"
+		priority = "50"
+		resource_name = "minecraft:jungle_pyramid"
+
+# -= Mansion =- #
 
 # -= Nether Fortress =- #
 
+[[nether_fortress1]]
+	[[nether_fortress1.trigger]]
+		name = "structure"
+		identifier = "fortress"
+		priority = "50"
+		resource_name = "minecraft:fortress"
+
 # -= Ocean Monument =- #
+
+[[ocean_monument1]]
+	[[ocean_monument1.trigger]]
+		name = "structure"
+		identifier = "monument"
+		priority = "50"
+		resource_name = "minecraft:monument"
 
 # -= Stronghold =- #
 
+[[stronghold1]]
+	[[stronghold1.trigger]]
+		name = "structure"
+		identifier = "stronghold"
+		priority = "50"
+		resource_name = "minecraft:stronghold"
+
 # -= Village =- #
+
+[[village1]]
+	[[village1.trigger]]
+		name = "structure"
+		identifier = "village"
+		priority = "50"
+		resource_name = "minecraft:village"
+	[[village1.trigger]]
+		name = "mob"
+		identifier = "villager"
+		priority = "50"
+		resource_name = "minecraft:villager"
+		detection_range = 64
+[[village2]]
+	[[village2.trigger]]
+		name = "structure"
+		identifier = "village"
+		priority = "50"
+		resource_name = "minecraft:village"
+	[[village2.trigger]]
+		name = "mob"
+		identifier = "villager"
+		priority = "50"
+		resource_name = "minecraft:villager"
+		detection_range = 64
+[[village3]]
+	[[village3.trigger]]
+		name = "structure"
+		identifier = "village"
+		priority = "50"
+		resource_name = "minecraft:village"
+	[[village3.trigger]]
+		name = "mob"
+		identifier = "villager"
+		priority = "50"
+		resource_name = "minecraft:villager"
+		detection_range = 64
 
 #|============|
 #| Dimensions |
@@ -63,11 +307,41 @@
 		identifier = "nether"
 		priority = "40"
 		resource_name = "nether"
+[[nether2]]
+	[[nether2.trigger]]
+		name = "dimension"
+		identifier = "nether"
+		priority = "40"
+		resource_name = "nether"
+[[nether3]]
+	[[nether3.trigger]]
+		name = "dimension"
+		identifier = "nether"
+		priority = "40"
+		resource_name = "nether"
 
 # -= End =- #
 
 [[end1]]
 	[[end1.trigger]]
+		name = "dimension"
+		identifier = "end"
+		priority = "40"
+		resource_name = "end"
+[[end2]]
+	[[end2.trigger]]
+		name = "dimension"
+		identifier = "end"
+		priority = "40"
+		resource_name = "end"
+[[end3]]
+	[[end3.trigger]]
+		name = "dimension"
+		identifier = "end"
+		priority = "40"
+		resource_name = "end"
+[[end4]]
+	[[end4.trigger]]
 		name = "dimension"
 		identifier = "end"
 		priority = "40"
@@ -139,19 +413,19 @@
 [[jungle1]]
 	[[jungle1.trigger]]
 		name = "biome"
-		identifier = "jungle"
+		identifier = "lush_caves"
 		priority = "30"
 		resource_name = "minecraft:lush_caves"
 [[jungle2]]
 	[[jungle2.trigger]]
 		name = "biome"
-		identifier = "jungle"
+		identifier = "lush_caves"
 		priority = "30"
 		resource_name = "minecraft:lush_caves"
 [[jungle3]]
 	[[jungle3.trigger]]
 		name = "biome"
-		identifier = "jungle"
+		identifier = "lush_caves"
 		priority = "30"
 		resource_name = "minecraft:lush_caves"
 
@@ -449,7 +723,7 @@
 [[mushroom1]]
 	[[mushroom1.trigger]]
 		name = "biome"
-		identifier = "magicky"
+		identifier = "mushroom"
 		priority = "10"
 		biome_category = "mushroom"
 
