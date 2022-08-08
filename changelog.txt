@@ -13,6 +13,7 @@
 - Removed Infinite Music as it is made obsolete by Music Triggers
 
 -= Additions =-
+- Added biome-specific music, as well as music related to several other events
 - Added search category tags to JEI. See the guidebook for more.
 
 -= Changes =-
@@ -23,9 +24,11 @@
 - Changed the recipe of several food items: mushroom stew, beetroot soup, fruit salad
 - Changed honey bread and honey glazed porkchop to use spout filling instead of crafting
 - Changed mushroom stew and beetroot soup to count as meals, and thus their food value has been increased.
+- Significantly reduced the cooldown on milking cows (from 20 minutes down to 1 minute) as I misunderstood to units of the config file
 
 -= Removals =-
 - Removed the Honeyed Apple from Buzzier Bees as it overlapped the one from Create
+- Removed the penalties on breeding cooldown and growth time for babies
 - Zombies will no longer spawn reinforcements when attacked
 - Baby zombies will no longer spawn at all
 
