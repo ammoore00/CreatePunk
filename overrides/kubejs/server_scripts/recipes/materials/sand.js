@@ -4,6 +4,13 @@ onEvent('recipes', event => {
 
     event.recipes.createMilling(
         [
+            'minecraft:sand'
+        ],
+        'minecraft:gravel'
+    );
+
+    event.recipes.createMilling(
+        [
             'biomesoplenty:white_sand'
         ],
         'minecraft:calcite'

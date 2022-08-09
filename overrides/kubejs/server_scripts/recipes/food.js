@@ -63,7 +63,7 @@ onEvent('recipes', event => {
             Item.of('minecraft:carrot').toResultJson(),
             Item.of('#forge:vegetables').toResultJson()
         ],
-        result: Item.of('minecraft:mushroom_stew').toResultJson(),
+        result: Item.of('minecraft:beetroot_soup').toResultJson(),
         container: Item.of('minecraft:bowl').toResultJson(),
         experience: 0.2,
         cookingtime: 200
@@ -74,7 +74,7 @@ onEvent('recipes', event => {
     event.shapeless(
         'farmersdelight:fruit_salad',
         [
-            '#forge:apples',
+            '#forge:fruits/apple',
             'minecraft:melon_slice',
             'minecraft:sweet_berries',
             'farmersdelight:pumpkin_slice',
