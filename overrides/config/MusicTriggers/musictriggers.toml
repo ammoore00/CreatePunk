@@ -272,7 +272,7 @@
 		name = "height"
 		identifier = "mineshaft_height"
 		priority = "50"
-		level = "30"
+		level = "20"
 
 # -= Nether Fortress =- #
 
