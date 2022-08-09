@@ -249,6 +249,13 @@
 		priority = "50"
 		resource_name = "biomemakeover:mansion"
 
+[[mansion1]]
+	[[mansion1.trigger]]
+		name = "structure"
+		identifier = "pillager_outpost"
+		priority = "50"
+		resource_name = "minecraft:pillager_outpost"
+
 # -= Mineshaft =- #
 
 [[mineshaft1]]
