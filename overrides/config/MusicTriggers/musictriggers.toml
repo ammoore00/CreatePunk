@@ -482,9 +482,16 @@
 [[mushroom1]]
 	[[mushroom1.trigger]]
 		name = "biome"
-		identifier = "magicky"
+		identifier = "warped_mesa"
 		priority = "15"
-		resource_name = "terralith:warped_mesa|terralith:mirage_isles"
+		resource_name = "terralith:warped_mesa"
+
+[[mushroom1]]
+	[[mushroom1.trigger]]
+		name = "biome"
+		identifier = "mirage_isles"
+		priority = "15"
+		resource_name = "terralith:mirage_isles"
 
 # -= Snowy Badlands =- #
 

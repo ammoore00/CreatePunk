@@ -2,6 +2,7 @@ onEvent('recipes', event => {
     
     //------ General ------//
 
+    event.replaceInput({output: 'minecraft:shield'}, 'minecraft:iron_ingot', 'create:iron_sheet');
     event.replaceInput({output: 'quark:trowel'}, 'minecraft:iron_ingot', 'create:iron_sheet');
     event.replaceInput({output: 'quark:backpack'}, 'minecraft:iron_ingot', 'create:iron_sheet');
     event.replaceInput({output: 'toolbelt:belt'}, 'minecraft:iron_ingot', 'create:iron_sheet');

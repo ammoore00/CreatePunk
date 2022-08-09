@@ -24,7 +24,8 @@
 - Changed the anvil to be made from 7 cast iron ingots in an I pattern
 - Changed the recipes for little logistics vehicles to use brass instead of bronze to make it a little easier to make
 - Changed metal doors and trapdoors to use sheets instead of ingots
-- Changed phantoms to spawn in the end, and disabled insomnia, preventing phantoms from spawning fron not sleeping
+- Changed the shield to be made with an iron sheet instead of an ingot
+- Changed phantoms to spawn in the end, and disabled insomnia, preventing phantoms from spawning from not sleeping
 - Changed the recipe of several food items: mushroom stew, beetroot soup, fruit salad
 - Changed honey bread and honey glazed porkchop to use spout filling instead of crafting to match the honeyed apple
 - Changed mushroom stew and beetroot soup to count as meals, and thus their food value has been increased.
