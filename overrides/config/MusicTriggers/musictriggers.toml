@@ -3,6 +3,10 @@
 	fade_out = "100"
 	delay = "200"
 
+[menu1]
+	[menu1.trigger]
+		name = "menu"
+
 #|========|
 #| Events |
 #|========|

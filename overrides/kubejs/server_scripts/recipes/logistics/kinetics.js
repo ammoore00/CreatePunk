@@ -172,7 +172,7 @@ onEvent('recipes', event => {
             'III'
         ],
         {
-            B: 'alloyed:brass_ingot',
+            B: 'create:brass_ingot',
             C: '#forge:chests',
             I: 'createdeco:cast_iron_ingot'
         }
@@ -185,7 +185,7 @@ onEvent('recipes', event => {
             'III'
         ],
         {
-            B: 'alloyed:brass_ingot',
+            B: 'create:brass_ingot',
             C: 'chunkloaders:basic_chunk_loader',
             I: 'createdeco:cast_iron_ingot'
         }
@@ -210,7 +210,7 @@ onEvent('recipes', event => {
             'III'
         ],
         {
-            B: 'alloyed:brass_ingot',
+            B: 'create:brass_ingot',
             T: 'create:fluid_tank',
             I: 'createdeco:cast_iron_ingot'
         }
@@ -223,7 +223,7 @@ onEvent('recipes', event => {
             'III'
         ],
         {
-            B: 'alloyed:brass_ingot',
+            B: 'create:brass_ingot',
             S: '#create:seats',
             I: 'createdeco:cast_iron_ingot'
         }
@@ -236,7 +236,7 @@ onEvent('recipes', event => {
             'III'
         ],
         {
-            B: 'alloyed:brass_ingot',
+            B: 'create:brass_ingot',
             A: 'create:andesite_alloy',
             I: 'createdeco:cast_iron_ingot'
         }
@@ -287,7 +287,7 @@ onEvent('recipes', event => {
         ],
         {
             P: '#minecraft:planks',
-            B: 'alloyed:brass_ingot',
+            B: 'create:brass_ingot',
             I: 'createdeco:cast_iron_ingot'
         }
     );
