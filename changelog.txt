@@ -16,11 +16,13 @@
 - Added biome-specific music, as well as music related to several other events
 - Added food and meals search category tags to JEI. See the guidebook for more.
 - Added the ability for phantoms to spawn naturally in the outer end (anywhere but the spawn island)
+- Added recipes to produce white, black, and orange sand
 
 -= Changes =-
 - Changed the menu panorama
 - Updated in game Guidebook
 - Changed the anvil to be made from 7 cast iron ingots in an I pattern
+- Changed the recipes for little logistics vehicles to use brass instead of bronze to make it a little easier to make
 - Changed phantoms to spawn in the end, and disabled insomnia, preventing phantoms from spawning fron not sleeping
 - Changed the recipe of several food items: mushroom stew, beetroot soup, fruit salad
 - Changed honey bread and honey glazed porkchop to use spout filling instead of crafting to match the honeyed apple

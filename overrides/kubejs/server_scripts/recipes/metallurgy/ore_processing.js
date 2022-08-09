@@ -1,4 +1,7 @@
 onEvent('recipes', event => {
+
+    //------ Advanced Processing ------//
+
     event.remove({id: 'create:splashing/crushed_iron_ore'});
     event.remove({id: 'create:splashing/crushed_copper_ore'});
     event.remove({id: 'create:splashing/crushed_gold_ore'});
