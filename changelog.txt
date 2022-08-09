@@ -3,7 +3,7 @@
 - Added Drippy Loading Screen and It's the Little Things to allow for more UI customization in the future
 - Added Excavated Variants to add ore variants for stone types
 - Added Ambient Sounds 5
-- Added Music Triggers along with music from The Adventurer's Journey by D. C. Kariri Sawler 
+- Added Music Triggers along with music from The Adventurer's Journey by Kariri Sawler and Enderal by SureAI. More information can be found in the credits.
 - Added GoProne to allow for going prone on demand
 - Added In Control to allow customization of mobs
 - Added Fx Control to allow customization of player effects
