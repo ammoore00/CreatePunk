@@ -7,9 +7,53 @@
 #| Events |
 #|========|
 
+# -= Raid =- #
+
+[[raid1]]
+	[[raid1.trigger]]
+		name = "raid"
+		priority = "61"
+		identifier = "raid"
+[[raid2]]
+	[[raid2.trigger]]
+		name = "raid"
+		priority = "61"
+		identifier = "raid"
+[[raid3]]
+	[[raid3.trigger]]
+		name = "raid"
+		priority = "61"
+		identifier = "raid"
+[[raid4]]
+	[[raid4.trigger]]
+		name = "raid"
+		priority = "61"
+		identifier = "raid"
+[[raid5]]
+	[[raid5.trigger]]
+		name = "raid"
+		priority = "61"
+		identifier = "raid"
+[[raid6]]
+	[[raid6.trigger]]
+		name = "raid"
+		priority = "61"
+		identifier = "raid"
+
 # -= Boss =- #
 
-# -= Raid =- #
+[[boss1]]
+	[[boss1.trigger]]
+		name = "mob"
+		identifier = "boss"
+		priority = "60"
+		resource_name = "BOSS"
+[[boss2]]
+	[[boss2.trigger]]
+		name = "mob"
+		identifier = "boss"
+		priority = "60"
+		resource_name = "BOSS"
 
 #|============|
 #| Structures |
@@ -178,37 +222,6 @@
 		priority = "50"
 		resource_name = "quark:mega_dungeon"
 
-[[dungeon1]]
-	[[dungeon1.trigger]]
-		name = "structure"
-		identifier = "small_dungeon"
-		priority = "50"
-		resource_name = "bettermineshafts:mineshaft"
-[[dungeon2]]
-	[[dungeon2.trigger]]
-		name = "structure"
-		identifier = "small_dungeon"
-		priority = "50"
-		resource_name = "bettermineshafts:mineshaft"
-[[dungeon3]]
-	[[dungeon3.trigger]]
-		name = "structure"
-		identifier = "small_dungeon"
-		priority = "50"
-		resource_name = "bettermineshafts:mineshaft"
-[[dungeon4]]
-	[[dungeon4.trigger]]
-		name = "structure"
-		identifier = "small_dungeon"
-		priority = "50"
-		resource_name = "bettermineshafts:mineshaft"
-[[dungeon5]]
-	[[dungeon5.trigger]]
-		name = "structure"
-		identifier = "small_dungeon"
-		priority = "50"
-		resource_name = "bettermineshafts:mineshaft"
-
 # -= End City =- #
 
 [[end_city1]]
@@ -216,7 +229,7 @@
 		name = "structure"
 		identifier = "end_city"
 		priority = "50"
-		resource_name = "minecraft:end_city"
+		resource_name = "minecraft:endcity"
 
 # -= Jungle Temple =- #
 
@@ -228,6 +241,27 @@
 		resource_name = "minecraft:jungle_pyramid"
 
 # -= Mansion =- #
+
+[[mansion1]]
+	[[mansion1.trigger]]
+		name = "structure"
+		identifier = "mansion"
+		priority = "50"
+		resource_name = "biomemakeover:mansion"
+
+# -= Mineshaft =- #
+
+[[mineshaft1]]
+	[[mineshaft1.trigger]]
+		name = "structure"
+		identifier = "mineshaft"
+		priority = "50"
+		resource_name = "bettermineshafts:mineshaft"
+	[[mineshaft1.trigger]]
+		name = "height"
+		identifier = "mineshaft_height"
+		priority = "50"
+		level = "30"
 
 # -= Nether Fortress =- #
 
@@ -268,8 +302,9 @@
 		name = "mob"
 		identifier = "villager"
 		priority = "50"
-		resource_name = "minecraft:villager"
-		detection_range = 64
+		resource_name = "Villager"
+		level = "1"
+		detection_range = "64"
 [[village2]]
 	[[village2.trigger]]
 		name = "structure"
@@ -280,8 +315,9 @@
 		name = "mob"
 		identifier = "villager"
 		priority = "50"
-		resource_name = "minecraft:villager"
-		detection_range = 64
+		resource_name = "Villager"
+		level = "1"
+		detection_range = "64"
 [[village3]]
 	[[village3.trigger]]
 		name = "structure"
@@ -292,8 +328,9 @@
 		name = "mob"
 		identifier = "villager"
 		priority = "50"
-		resource_name = "minecraft:villager"
-		detection_range = 64
+		resource_name = "Villager"
+		level = "1"
+		detection_range = "64"
 
 #|============|
 #| Dimensions |
@@ -443,31 +480,31 @@
 [[icy1]]
 	[[icy1.trigger]]
 		name = "biome"
-		identifier = "icy"
+		identifier = "snowy_badlands"
 		priority = "15"
 		resource_name = "terralith:snowy_badlands"
 [[icy2]]
 	[[icy2.trigger]]
 		name = "biome"
-		identifier = "icy"
+		identifier = "snowy_badlands"
 		priority = "15"
 		resource_name = "terralith:snowy_badlands"
 [[icy3]]
 	[[icy3.trigger]]
 		name = "biome"
-		identifier = "icy"
+		identifier = "snowy_badlands"
 		priority = "15"
 		resource_name = "terralith:snowy_badlands"
 [[icy4]]
 	[[icy4.trigger]]
 		name = "biome"
-		identifier = "icy"
+		identifier = "snowy_badlands"
 		priority = "15"
 		resource_name = "terralith:snowy_badlands"
 [[icy5]]
 	[[icy5.trigger]]
 		name = "biome"
-		identifier = "icy"
+		identifier = "snowy_badlands"
 		priority = "15"
 		resource_name = "terralith:snowy_badlands"
 

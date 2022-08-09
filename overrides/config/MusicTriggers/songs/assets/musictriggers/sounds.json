@@ -258,10 +258,24 @@
 			"stream": true
 		}]
 	},
+	"music.mansion1": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/mansion1",
+			"stream": true
+		}]
+	},
 	"music.menu1": {
 		"category": "music",
 		"sounds": [{
 			"name": "musictriggers:music/menu1",
+			"stream": true
+		}]
+	},
+	"music.mineshaft1": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/mineshaft1",
 			"stream": true
 		}]
 	},

@@ -111,6 +111,10 @@ end_city1: Cave of crystals - Simon W. Autenrieth
 
 jungle_temple1: Realm of Earth - Marvin Kopp
 
+mansion1: Cycle - Marvin Kopp
+
+mineshaft1: Thalgard - Philipp Kapusta
+
 nether_fortress1: Crypt - Marvin Kopp
 
 ocean_monument1: Precursor Ruins - Simon W. Autenrieth
