@@ -4,7 +4,7 @@
 - Removed Better Villages
 
 - Added Ambient Sounds 5
-- Added Music Triggers along with music from The Adventurer's Journey by Kariri Sawler and Enderal by SureAI. More information can be found in the credits.
+- Added Music Triggers along with music from The Adventurer's Journey by Kairi Sawler and Enderal by SureAI. More information can be found in the credits.
 - Removed Medieval Music
 - Removed Infinite Music
 

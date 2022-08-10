@@ -1,4 +1,7 @@
 onEvent('recipes', event => {
+
+    //------ Sand Milling ------//
+
     event.remove({id: 'create:milling/calcite'});
     event.remove({id: 'create:milling/diorite'});
 
@@ -35,5 +38,22 @@ onEvent('recipes', event => {
             'minecraft:sand',
             'minecraft:red_sand'
         ]
+    );
+
+    //------ Sand Washing ------//
+
+    event.recipes.createWashing(
+        [
+            Item.of('create:zinc_nugget').withChance(.125),
+            Item.of('ecologics:seashell').withChance(.01)
+        ],
+        'biomesoplenty:white_sand'
+    );
+
+    event.recipes.createWashing(
+        [
+            Item.of('create:copper_nugget').withChance(.125)
+        ],
+        'biomesoplenty:orange_sand'
     );
 });
