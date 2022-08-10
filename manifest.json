@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "CreatePunk",
-  "version": "0.2.0_alpha2",
+  "version": "0.3.0",
   "author": "",
   "files": [
     {
@@ -47,11 +47,6 @@
     {
       "projectID": 265917,
       "fileID": 3812175,
-      "required": true
-    },
-    {
-      "projectID": 503839,
-      "fileID": 3549465,
       "required": true
     },
     {
@@ -190,18 +185,8 @@
       "required": true
     },
     {
-      "projectID": 492890,
-      "fileID": 3874313,
-      "required": true
-    },
-    {
       "projectID": 416935,
       "fileID": 3768769,
-      "required": true
-    },
-    {
-      "projectID": 504062,
-      "fileID": 3749681,
       "required": true
     },
     {
@@ -270,11 +255,6 @@
       "required": true
     },
     {
-      "projectID": 543275,
-      "fileID": 3601210,
-      "required": true
-    },
-    {
       "projectID": 453925,
       "fileID": 3817472,
       "required": true
@@ -300,23 +280,18 @@
       "required": true
     },
     {
-      "projectID": 257356,
-      "fileID": 3906997,
-      "required": true
-    },
-    {
       "projectID": 496394,
       "fileID": 3756127,
       "required": true
     },
     {
-      "projectID": 232791,
-      "fileID": 3909804,
+      "projectID": 257356,
+      "fileID": 3906997,
       "required": true
     },
     {
-      "projectID": 538850,
-      "fileID": 3586308,
+      "projectID": 232791,
+      "fileID": 3909804,
       "required": true
     },
     {
@@ -422,6 +397,11 @@
     {
       "projectID": 362528,
       "fileID": 3697638,
+      "required": true
+    },
+    {
+      "projectID": 623908,
+      "fileID": 3822420,
       "required": true
     },
     {
@@ -752,7 +732,7 @@
     {
       "projectID": 615352,
       "fileID": 3815082,
-      "required": true
+      "required": false
     },
     {
       "projectID": 417645,

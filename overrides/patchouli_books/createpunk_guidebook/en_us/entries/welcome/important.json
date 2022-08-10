@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "patchouli:spotlight",
-            "item": "patchouli:book{patchouli:createpunk_guidebook}",
+            "item": "patchouli:guide_book{patchouli:createpunk_guidebook}",
             "title": "Important References",
             "text": "This chapter has some quick references to important game mechanics discussed elsewhere in this book."
         },
