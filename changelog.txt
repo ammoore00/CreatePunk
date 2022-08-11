@@ -10,7 +10,7 @@
 - Added ChoiceTheorem's Overhauled Villages as it is more complete than Better Villages, and has compatibility with Towns & Towers to improve the non-vanilla villages there
 - Removed Better Villages
 - Added Ambient Sounds 5
-- Added Music Triggers along with music from The Adventurer's Journey by Kariri Sawler and Enderal by SureAI. More information can be found in the credits.
+- Added Music Triggers along with music from The Adventurer's Journey by Kairi Sawler and Enderal by SureAI. More information can be found in the credits.
 - Removed Medieval Music
 - Removed Infinite Music
 - Added Excavated Variants to add ore variants for stone types
