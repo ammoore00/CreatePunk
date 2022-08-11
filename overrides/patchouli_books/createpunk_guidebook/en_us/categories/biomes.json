@@ -1,6 +1,6 @@
 {
     "name": "Biome Index",
     "icon": "supplementaries:globe",
-    "sortnum": 10000,
-    "description": "Index of all biomes available in the world, organized by category."
+    "sortnum": 1000,
+    "description": "An index of all biomes available in the world, organized by category."
 }

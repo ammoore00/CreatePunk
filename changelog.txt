@@ -6,9 +6,10 @@
 
 -= Changes =-
 - Tweaked sand production, and added the ability to get zinc and copper from sand
+- Changed soap to be made from tallow
 
 -= Removals =-
-- Removed the music for mineshafts, as their bounding boxes are incredibly large compared to their actual size and it meant their music would often play at inopportune times
+- Removed the music for mineshafts, as their bounding boxes are incredibly large compared to their actual size and it meant their music would often play at incorrect times
 
 ---=== Version 0.3.0 ===---
 -= Modlist Changes =-

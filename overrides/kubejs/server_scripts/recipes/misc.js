@@ -6,6 +6,8 @@ onEvent('recipes', event => {
         ]
     );
 
+    event.replaceInput({id: 'supplementaries:soap'}, 'minecraft:porkchop', 'quark:tallow');
+
     event.replaceInput('graveyard:dark_iron_ingot', 'createdeco:cast_iron_ingot');
 
     event.replaceInput({output: 'minecraft:iron_door'}, 'minecraft:iron_ingot', 'create:iron_sheet');
