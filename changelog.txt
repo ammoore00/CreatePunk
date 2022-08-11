@@ -1,48 +1,47 @@
+---=== Version 0.4.0 ===---
+-= Additions =-
+- Added crushing recipes specific to different ore variantsm with different secondary products
+
+-= Changes =-
+- Tweaked sand production
+
 ---=== Version 0.3.0 ===---
 -= Modlist Changes =-
 - Added ChoiceTheorem's Overhauled Villages as it is more complete than Better Villages, and has compatibility with Towns & Towers to improve the non-vanilla villages there
 - Removed Better Villages
-
 - Added Ambient Sounds 5
-- Added Music Triggers along with music from The Adventurer's Journey by Kairi Sawler and Enderal by SureAI. More information can be found in the credits.
+- Added Music Triggers along with music from The Adventurer's Journey by Kariri Sawler and Enderal by SureAI. More information can be found in the credits.
 - Removed Medieval Music
 - Removed Infinite Music
-
 - Added Excavated Variants to add ore variants for stone types
 - Added GoProne to allow for going prone on demand
-
 - Added FastSuite, FastWorkbench, and FastFurnace for performance
 - Added MacCraft to help with MacOS compatibility
-
 - Added Drippy Loading Screen and It's the Little Things to allow for more UI customization in the future
 - Added In Control to allow customization of mobs
 - Added Fx Control to allow customization of player effects
 
 -= Additions =-
 - Added biome-specific music, as well as music related to several other events
-- Added food and meals search category tags to JEI. See the guidebook for more.
-- Added the ability for phantoms to spawn naturally in the outer end (anywhere but the spawn island)
+- Added food and meals search category tags to JEI. See the guidebook for more
 - Added recipes to produce white, black, and orange sand
 
 -= Changes =-
-- Changed the menu panorama
 - Updated in game Guidebook
+- Changed the menu panorama
 - Changed the anvil to be made from 7 cast iron ingots in an I pattern
-- Changed the recipes for little logistics vehicles to use brass instead of bronze to make it a little easier to make
+- Changed the recipes for little logistics vehicles to use brass instead of bronze to make them a little easier to make
 - Changed metal doors and trapdoors to use sheets instead of ingots
 - Changed the shield to be made with an iron sheet instead of an ingot
-- Changed phantoms to spawn in the end, and disabled insomnia, preventing phantoms from spawning from not sleeping
 - Changed the recipe of several food items: mushroom stew, beetroot soup, fruit salad
 - Changed honey bread and honey glazed porkchop to use spout filling instead of crafting to match the honeyed apple
 - Changed mushroom stew and beetroot soup to count as meals, and thus their food value has been increased.
-- Significantly reduced the cooldown on milking cows (from 20 minutes down to 1 minute) as I misunderstood to units of the config file
+- Significantly reduced the cooldown on milking cows (from 20 minutes down to 1 minute) as I misunderstood the units of the config file
 
 -= Removals =-
 - Removed the Honeyed Apple from Buzzier Bees as it overlapped with the one from Create
 - Removed the penalties on breeding cooldown and growth time for babies
-- Zombies will no longer spawn reinforcements when attacked
-- Baby zombies will no longer spawn at all
-- Removed the ability for phantoms to spawn from insomnia
+- Removed the ability for phantoms to spawn from insomnia. Another method to spawn phantoms will be added in the future
 
 -= Bugfixes =-
 - Fixed an issue where JourneyMap Integrations was trying to integrate with FTBChunks when FTBChunks is not present
