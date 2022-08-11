@@ -1,0 +1,9 @@
+{
+    "name": "Other Biomes",
+    "icon": "minecraft:red_mushroom",
+    "category": "patchouli/biomes",
+    "sortnum": 7,
+    "pages": [
+        
+    ]
+}

@@ -8,7 +8,7 @@
             "type": "patchouli:spotlight",
             "item": "farmersdelight:wild_carrots",
             "title": "Wild Crops",
-            "text": "Most $(item)Crops/$ can be found in their wild form in various places around the world."
+            "text": "Most $(item)Crops/$ can be found in their wild form in various places around the world. Being wild, they will only drop a single seed or sample when harvested."
         },
         {
             "type": "patchouli:spotlight",
