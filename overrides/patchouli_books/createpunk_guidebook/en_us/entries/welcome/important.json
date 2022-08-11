@@ -8,17 +8,7 @@
             "type": "patchouli:spotlight",
             "item": "patchouli:guide_book{patchouli:createpunk_guidebook}",
             "title": "Important References",
-            "text": "This chapter has some quick references to important game mechanics discussed elsewhere in this book."
-        },
-        {
-            "type": "patchouli:relations",
-            "title": "Tools",
-            "entries": [
-                "patchouli:tools/diamond_chisel",
-                "patchouli:tools/wrench",
-                "patchouli:tools/goggles",
-                "patchouli:tools/toolbelt"
-            ]
+            "text": "This chapter has some quick references to important items and game mechanics discussed elsewhere in this book. Note that this is by no means comprehensive, so explore the rest of the book at your own pace!"
         },
         {
             "type": "patchouli:relations",
@@ -28,6 +18,26 @@
                 "patchouli:vanilla_changes/death",
                 "patchouli:vanilla_changes/tree_chopping",
                 "patchouli:getting_started/stress"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "Tools",
+            "entries": [
+                "patchouli:tools/diamond_chisel",
+                "patchouli:tools/wrench",
+                "patchouli:tools/goggles"
+            ]
+        },
+        {
+            "type": "patchouli:relations",
+            "title": "Inventory Management",
+            "entries": [
+                "patchouli:tools/toolbelt",
+                "patchouli:tools/bundles",
+                "patchouli:tools/sack",
+                "patchouli:tools/backpack",
+                "patchouli:tools/toolbox"
             ]
         }
     ]
