@@ -5,7 +5,7 @@
 - Added music for being in a village
 
 -= Changes =-
-- Tweaked sand production
+- Tweaked sand production, and added the ability to get zinc and copper from sand
 
 ---=== Version 0.3.0 ===---
 -= Modlist Changes =-
