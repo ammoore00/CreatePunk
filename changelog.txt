@@ -1,6 +1,8 @@
 ---=== Version 0.4.0 ===---
 -= Additions =-
-- Added crushing recipes specific to different ore variantsm with different secondary products
+- Added crushing recipes specific to different ore variants with different secondary products
+- Added music for being underwater
+- Added music for being in a village
 
 -= Changes =-
 - Tweaked sand production

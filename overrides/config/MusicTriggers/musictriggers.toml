@@ -313,7 +313,7 @@
 		name = "mob"
 		identifier = "villager"
 		priority = "50"
-		resource_name = "Villager"
+		resource_name = "minecraft:villager"
 		level = "1"
 		detection_range = "64"
 [[village2]]
@@ -326,7 +326,7 @@
 		name = "mob"
 		identifier = "villager"
 		priority = "50"
-		resource_name = "Villager"
+		resource_name = "minecraft:villager"
 		level = "1"
 		detection_range = "64"
 [[village3]]
@@ -339,9 +339,21 @@
 		name = "mob"
 		identifier = "villager"
 		priority = "50"
-		resource_name = "Villager"
+		resource_name = "minecraft:villager"
 		level = "1"
 		detection_range = "64"
+
+#|==============|
+#| Environments |
+#|==============|
+
+# -= Underwater =- #
+
+[[underwater1]]
+	[[underwater1.trigger]]
+		name = "underwater"
+		priority = "45"
+		start = "100"
 
 #|============|
 #| Dimensions |
