@@ -495,141 +495,142 @@
 		priority = "15"
 		resource_name = "terralith:mirage_isles"
 
-# -= Snowy Badlands =- #
+# -= Rain Deserts =- #
 
-[[icy1]]
-	[[icy1.trigger]]
+[[plains1]]
+	[[plains1.trigger]]
 		name = "biome"
-		identifier = "snowy_badlands"
+		identifier = "lush_desert"
 		priority = "15"
-		resource_name = "terralith:snowy_badlands"
-[[icy2]]
-	[[icy2.trigger]]
+		resource_name = "biomesoplenty:lush_desert"
+[[plains2]]
+	[[plains2.trigger]]
 		name = "biome"
-		identifier = "snowy_badlands"
+		identifier = "lush_desert"
 		priority = "15"
-		resource_name = "terralith:snowy_badlands"
-[[icy3]]
-	[[icy3.trigger]]
+		resource_name = "biomesoplenty:lush_desert"
+[[plains3]]
+	[[plains3.trigger]]
 		name = "biome"
-		identifier = "snowy_badlands"
+		identifier = "lush_desert"
 		priority = "15"
-		resource_name = "terralith:snowy_badlands"
-[[icy4]]
-	[[icy4.trigger]]
+		resource_name = "biomesoplenty:lush_desert"
+[[plains4]]
+	[[plains4.trigger]]
 		name = "biome"
-		identifier = "snowy_badlands"
+		identifier = "lush_desert"
 		priority = "15"
-		resource_name = "terralith:snowy_badlands"
-[[icy5]]
-	[[icy5.trigger]]
+		resource_name = "biomesoplenty:lush_desert"
+[[plains5]]
+	[[plains5.trigger]]
 		name = "biome"
-		identifier = "snowy_badlands"
+		identifier = "lush_desert"
 		priority = "15"
-		resource_name = "terralith:snowy_badlands"
+		resource_name = "biomesoplenty:lush_desert"
+
+[[plains1]]
+	[[plains1.trigger]]
+		name = "biome"
+		identifier = "lush_savanna"
+		priority = "15"
+		resource_name = "biomesoplenty:lush_savanna"
+[[plains2]]
+	[[plains2.trigger]]
+		name = "biome"
+		identifier = "lush_savanna"
+		priority = "15"
+		resource_name = "biomesoplenty:lush_savanna"
+[[plains3]]
+	[[plains3.trigger]]
+		name = "biome"
+		identifier = "lush_savanna"
+		priority = "15"
+		resource_name = "biomesoplenty:lush_savanna"
+[[plains4]]
+	[[plains4.trigger]]
+		name = "biome"
+		identifier = "lush_savanna"
+		priority = "15"
+		resource_name = "biomesoplenty:lush_savanna"
+[[plains5]]
+	[[plains5.trigger]]
+		name = "biome"
+		identifier = "lush_savanna"
+		priority = "15"
+		resource_name = "biomesoplenty:lush_savanna"
 
 #|========|
 #| Biomes |
 #|========|
 
-# -= Desert =- #
+# Snow and no precipitation have slightly higher priority than biome categories
+# Generic rain has slightly lower priority to act as a catch-all, primarily used for ocean/beach/river
+
+# -= Desert / Mesa / Savanna =- #
 
 [[desert1]]
 	[[desert1.trigger]]
 		name = "biome"
 		identifier = "desert"
-		priority = "10"
-		biome_category = "desert"
+		priority = "11"
+		rain_type = "none"
 [[desert2]]
 	[[desert2.trigger]]
 		name = "biome"
 		identifier = "desert"
-		priority = "10"
-		biome_category = "desert"
+		priority = "11"
+		rain_type = "none"
 [[desert3]]
 	[[desert3.trigger]]
 		name = "biome"
 		identifier = "desert"
-		priority = "10"
-		biome_category = "desert"
+		priority = "11"
+		rain_type = "none"
 [[desert4]]
 	[[desert4.trigger]]
 		name = "biome"
 		identifier = "desert"
-		priority = "10"
-		biome_category = "desert"
+		priority = "11"
+		rain_type = "none"
 [[desert5]]
 	[[desert5.trigger]]
 		name = "biome"
 		identifier = "desert"
-		priority = "10"
-		biome_category = "desert"
+		priority = "11"
+		rain_type = "none"
 
-# -= Mesa =- #
+# -= Icy =- #
 
-[[desert1]]
-	[[desert1.trigger]]
+[[icy1]]
+	[[icy1.trigger]]
 		name = "biome"
-		identifier = "mesa"
-		priority = "10"
-		biome_category = "mesa"
-[[desert2]]
-	[[desert2.trigger]]
+		identifier = "icy"
+		priority = "11"
+		rain_type = "snow"
+[[icy2]]
+	[[icy2.trigger]]
 		name = "biome"
-		identifier = "mesa"
-		priority = "10"
-		biome_category = "mesa"
-[[desert3]]
-	[[desert3.trigger]]
+		identifier = "icy"
+		priority = "11"
+		rain_type = "snow"
+[[icy3]]
+	[[icy3.trigger]]
 		name = "biome"
-		identifier = "mesa"
-		priority = "10"
-		biome_category = "mesa"
-[[desert4]]
-	[[desert4.trigger]]
+		identifier = "icy"
+		priority = "11"
+		rain_type = "snow"
+[[icy4]]
+	[[icy4.trigger]]
 		name = "biome"
-		identifier = "mesa"
-		priority = "10"
-		biome_category = "mesa"
-[[desert5]]
-	[[desert5.trigger]]
+		identifier = "icy"
+		priority = "11"
+		rain_type = "snow"
+[[icy5]]
+	[[icy5.trigger]]
 		name = "biome"
-		identifier = "mesa"
-		priority = "10"
-		biome_category = "mesa"
-
-# -= Savanna =- #
-
-[[desert1]]
-	[[desert1.trigger]]
-		name = "biome"
-		identifier = "savanna"
-		priority = "10"
-		biome_category = "savanna"
-[[desert2]]
-	[[desert2.trigger]]
-		name = "biome"
-		identifier = "savanna"
-		priority = "10"
-		biome_category = "savanna"
-[[desert3]]
-	[[desert3.trigger]]
-		name = "biome"
-		identifier = "savanna"
-		priority = "10"
-		biome_category = "savanna"
-[[desert4]]
-	[[desert4.trigger]]
-		name = "biome"
-		identifier = "savanna"
-		priority = "10"
-		biome_category = "savanna"
-[[desert5]]
-	[[desert5.trigger]]
-		name = "biome"
-		identifier = "savanna"
-		priority = "10"
-		biome_category = "savanna"
+		identifier = "icy"
+		priority = "11"
+		rain_type = "snow"
 
 # -= Forest =- #
 
@@ -657,39 +658,6 @@
 		identifier = "forest"
 		priority = "10"
 		biome_category = "forest"
-
-# -= Icy =- #
-
-[[icy1]]
-	[[icy1.trigger]]
-		name = "biome"
-		identifier = "icy"
-		priority = "10"
-		biome_category = "icy"
-[[icy2]]
-	[[icy2.trigger]]
-		name = "biome"
-		identifier = "icy"
-		priority = "10"
-		biome_category = "icy"
-[[icy3]]
-	[[icy3.trigger]]
-		name = "biome"
-		identifier = "icy"
-		priority = "10"
-		biome_category = "icy"
-[[icy4]]
-	[[icy4.trigger]]
-		name = "biome"
-		identifier = "icy"
-		priority = "10"
-		biome_category = "icy"
-[[icy5]]
-	[[icy5.trigger]]
-		name = "biome"
-		identifier = "icy"
-		priority = "10"
-		biome_category = "icy"
 
 # -= Jungle =- #
 
@@ -784,87 +752,6 @@
 		priority = "10"
 		biome_category = "mushroom"
 
-# -= Ocean =- #
-
-[[ocean1]]
-	[[ocean1.trigger]]
-		name = "biome"
-		identifier = "ocean"
-		priority = "10"
-		biome_category = "ocean"
-[[ocean2]]
-	[[ocean2.trigger]]
-		name = "biome"
-		identifier = "ocean"
-		priority = "10"
-		biome_category = "ocean"
-[[ocean3]]
-	[[ocean3.trigger]]
-		name = "biome"
-		identifier = "ocean"
-		priority = "10"
-		biome_category = "ocean"
-[[ocean4]]
-	[[ocean4.trigger]]
-		name = "biome"
-		identifier = "ocean"
-		priority = "10"
-		biome_category = "ocean"
-
-# -= River =- #
-
-[[ocean1]]
-	[[ocean1.trigger]]
-		name = "biome"
-		identifier = "river"
-		priority = "10"
-		biome_category = "river"
-[[ocean2]]
-	[[ocean2.trigger]]
-		name = "biome"
-		identifier = "river"
-		priority = "10"
-		biome_category = "river"
-[[ocean3]]
-	[[ocean3.trigger]]
-		name = "biome"
-		identifier = "river"
-		priority = "10"
-		biome_category = "river"
-[[ocean4]]
-	[[ocean4.trigger]]
-		name = "biome"
-		identifier = "river"
-		priority = "10"
-		biome_category = "river"
-
-# -= Beach =- #
-
-[[ocean1]]
-	[[ocean1.trigger]]
-		name = "biome"
-		identifier = "beach"
-		priority = "10"
-		biome_category = "beach"
-[[ocean2]]
-	[[ocean2.trigger]]
-		name = "biome"
-		identifier = "beach"
-		priority = "10"
-		biome_category = "beach"
-[[ocean3]]
-	[[ocean3.trigger]]
-		name = "biome"
-		identifier = "beach"
-		priority = "10"
-		biome_category = "beach"
-[[ocean4]]
-	[[ocean4.trigger]]
-		name = "biome"
-		identifier = "beach"
-		priority = "10"
-		biome_category = "beach"
-
 # -= Plains =- #
 
 [[plains1]]
@@ -918,3 +805,30 @@
 		identifier = "taiga"
 		priority = "10"
 		biome_category = "taiga"
+
+# -= Ocean / Beach / River =- #
+
+[[ocean1]]
+	[[ocean1.trigger]]
+		name = "biome"
+		identifier = "ocean"
+		priority = "9"
+		rain_type = "rain"
+[[ocean2]]
+	[[ocean2.trigger]]
+		name = "biome"
+		identifier = "ocean"
+		priority = "9"
+		rain_type = "rain"
+[[ocean3]]
+	[[ocean3.trigger]]
+		name = "biome"
+		identifier = "ocean"
+		priority = "9"
+		rain_type = "rain"
+[[ocean4]]
+	[[ocean4.trigger]]
+		name = "biome"
+		identifier = "ocean"
+		priority = "9"
+		rain_type = "rain"
