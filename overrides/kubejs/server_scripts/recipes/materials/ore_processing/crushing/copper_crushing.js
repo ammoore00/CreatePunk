@@ -8,8 +8,8 @@ onEvent('recipes', event => {
     
     event.recipes.createCrushing(
         [
-            '5x create:crushed_copper',
-            Item.of('create:crushed_copper').withChance(0.25),
+            '5x create:crushed_copper_ore',
+            Item.of('create:crushed_copper_ore').withChance(0.25),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('minecraft:cobblestone').withChance(0.125)
         ],
@@ -17,8 +17,8 @@ onEvent('recipes', event => {
     );
     event.recipes.createCrushing(
         [
-            '5x create:crushed_copper',
-            Item.of('create:crushed_copper').withChance(0.25),
+            '5x create:crushed_copper_ore',
+            Item.of('create:crushed_copper_ore').withChance(0.25),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('biomesoplenty:orange_sand').withChance(0.125)
         ],
@@ -26,8 +26,8 @@ onEvent('recipes', event => {
     );
     event.recipes.createCrushing(
         [
-            '5x create:crushed_copper',
-            Item.of('create:crushed_copper').withChance(0.25),
+            '5x create:crushed_copper_ore',
+            Item.of('create:crushed_copper_ore').withChance(0.25),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('biomesoplenty:white_sand').withChance(0.125)
         ],
@@ -35,8 +35,8 @@ onEvent('recipes', event => {
     );
     event.recipes.createCrushing(
         [
-            '7x create:crushed_copper',
-            Item.of('create:crushed_copper').withChance(0.25),
+            '7x create:crushed_copper_ore',
+            Item.of('create:crushed_copper_ore').withChance(0.25),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('minecraft:flint').withChance(0.125)
         ],
@@ -44,8 +44,8 @@ onEvent('recipes', event => {
     );
     event.recipes.createCrushing(
         [
-            '5x create:crushed_copper',
-            Item.of('create:crushed_copper').withChance(0.25),
+            '5x create:crushed_copper_ore',
+            Item.of('create:crushed_copper_ore').withChance(0.25),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('biomesoplenty:white_sand').withChance(0.125)
         ],
@@ -53,8 +53,8 @@ onEvent('recipes', event => {
     );
     event.recipes.createCrushing(
         [
-            '7x create:crushed_copper',
-            Item.of('create:crushed_copper').withChance(0.25),
+            '7x create:crushed_copper_ore',
+            Item.of('create:crushed_copper_ore').withChance(0.25),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('biomesoplenty:black_sand').withChance(0.125)
         ],
@@ -65,8 +65,8 @@ onEvent('recipes', event => {
 
     event.recipes.createCrushing(
         [
-            '5x create:crushed_copper',
-            Item.of('create:crushed_copper').withChance(0.25),
+            '5x create:crushed_copper_ore',
+            Item.of('create:crushed_copper_ore').withChance(0.25),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('minecraft:red_sand').withChance(0.125)
         ],
@@ -74,8 +74,8 @@ onEvent('recipes', event => {
     );
     event.recipes.createCrushing(
         [
-            '5x create:crushed_copper',
-            Item.of('create:crushed_copper').withChance(0.25),
+            '5x create:crushed_copper_ore',
+            Item.of('create:crushed_copper_ore').withChance(0.25),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('minecraft:gravel').withChance(0.125)
         ],
@@ -83,8 +83,8 @@ onEvent('recipes', event => {
     );
     event.recipes.createCrushing(
         [
-            '5x create:crushed_copper',
-            Item.of('create:crushed_copper').withChance(0.25),
+            '5x create:crushed_copper_ore',
+            Item.of('create:crushed_copper_ore').withChance(0.25),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('biomesoplenty:white_sand').withChance(0.125)
         ],
@@ -92,17 +92,17 @@ onEvent('recipes', event => {
     );
     event.recipes.createCrushing(
         [
-            '7x create:crushed_copper',
-            Item.of('create:crushed_copper').withChance(0.25),
+            '7x create:crushed_copper_ore',
+            Item.of('create:crushed_copper_ore').withChance(0.25),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('minecraft:red_sand').withChance(0.125)
         ],
-        'excavated_variants:twigs_rhylolite_copper_ore'
+        'excavated_variants:twigs_rhyolite_copper_ore'
     );
     event.recipes.createCrushing(
         [
-            '5x create:crushed_copper',
-            Item.of('create:crushed_copper').withChance(0.25),
+            '5x create:crushed_copper_ore',
+            Item.of('create:crushed_copper_ore').withChance(0.25),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('biomesoplenty:white_sand').withChance(0.125)
         ],
@@ -113,8 +113,8 @@ onEvent('recipes', event => {
 
     event.recipes.createCrushing(
         [
-            '5x create:crushed_copper',
-            Item.of('create:crushed_copper').withChance(0.25),
+            '5x create:crushed_copper_ore',
+            Item.of('create:crushed_copper_ore').withChance(0.25),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('create:copper_nugget').withChance(0.125)
         ],
@@ -122,8 +122,8 @@ onEvent('recipes', event => {
     );
     event.recipes.createCrushing(
         [
-            '5x create:crushed_copper',
-            Item.of('create:crushed_copper').withChance(0.25),
+            '5x create:crushed_copper_ore',
+            Item.of('create:crushed_copper_ore').withChance(0.25),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('minecraft:iron_nugget').withChance(0.125)
         ],
@@ -131,8 +131,8 @@ onEvent('recipes', event => {
     );
     event.recipes.createCrushing(
         [
-            '5x create:crushed_copper',
-            Item.of('create:crushed_copper').withChance(0.25),
+            '5x create:crushed_copper_ore',
+            Item.of('create:crushed_copper_ore').withChance(0.25),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('create:zinc_nugget').withChance(0.125)
         ],
@@ -140,8 +140,8 @@ onEvent('recipes', event => {
     );
     event.recipes.createCrushing(
         [
-            '5x create:crushed_copper',
-            Item.of('create:crushed_copper').withChance(0.25),
+            '5x create:crushed_copper_ore',
+            Item.of('create:crushed_copper_ore').withChance(0.25),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('minecraft:gold_nugget').withChance(0.125)
         ],
@@ -149,8 +149,8 @@ onEvent('recipes', event => {
     );
     event.recipes.createCrushing(
         [
-            '5x create:crushed_copper',
-            Item.of('create:crushed_copper').withChance(0.25),
+            '5x create:crushed_copper_ore',
+            Item.of('create:crushed_copper_ore').withChance(0.25),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('biomesoplenty:black_sand').withChance(0.125)
         ],
@@ -158,8 +158,8 @@ onEvent('recipes', event => {
     );
     event.recipes.createCrushing(
         [
-            '5x create:crushed_copper',
-            Item.of('create:crushed_copper').withChance(0.25),
+            '5x create:crushed_copper_ore',
+            Item.of('create:crushed_copper_ore').withChance(0.25),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('biomesoplenty:black_sand').withChance(0.125)
         ],

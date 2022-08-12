@@ -97,7 +97,7 @@ onEvent('recipes', event => {
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('minecraft:red_sand').withChance(0.125)
         ],
-        'excavated_variants:twigs_rhylolite_emerald_ore'
+        'excavated_variants:twigs_rhyolite_emerald_ore'
     );
     event.recipes.createCrushing(
         [
@@ -143,7 +143,7 @@ onEvent('recipes', event => {
             'minecraft:emerald',
             Item.of('minecraft:emerald').withChance(0.75),
             Item.of('create:experience_nugget').withChance(0.75),
-            Item.of('minecraft:emerald_nugget').withChance(0.125)
+            Item.of('minecraft:gold_nugget').withChance(0.125)
         ],
         'excavated_variants:create_ochrum_emerald_ore'
     );

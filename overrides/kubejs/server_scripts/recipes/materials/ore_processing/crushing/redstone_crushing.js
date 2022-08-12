@@ -9,7 +9,7 @@ onEvent('recipes', event => {
     event.recipes.createCrushing(
         [
             '6x minecraft:redstone',
-            Item.of('6x minecraft:redstone').withChance(0.5),
+            Item.of('minecraft:redstone').withChance(0.5),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('minecraft:cobblestone').withChance(0.125)
         ],
@@ -18,7 +18,7 @@ onEvent('recipes', event => {
     event.recipes.createCrushing(
         [
             '6x minecraft:redstone',
-            Item.of('6x minecraft:redstone').withChance(0.5),
+            Item.of('minecraft:redstone').withChance(0.5),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('biomesoplenty:orange_sand').withChance(0.125)
         ],
@@ -27,7 +27,7 @@ onEvent('recipes', event => {
     event.recipes.createCrushing(
         [
             '6x minecraft:redstone',
-            Item.of('6x minecraft:redstone').withChance(0.5),
+            Item.of('minecraft:redstone').withChance(0.5),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('biomesoplenty:white_sand').withChance(0.125)
         ],
@@ -36,7 +36,7 @@ onEvent('recipes', event => {
     event.recipes.createCrushing(
         [
             '7x minecraft:redstone',
-            Item.of('6x minecraft:redstone').withChance(0.5),
+            Item.of('minecraft:redstone').withChance(0.5),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('minecraft:flint').withChance(0.125)
         ],
@@ -45,7 +45,7 @@ onEvent('recipes', event => {
     event.recipes.createCrushing(
         [
             '6x minecraft:redstone',
-            Item.of('6x minecraft:redstone').withChance(0.5),
+            Item.of('minecraft:redstone').withChance(0.5),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('biomesoplenty:white_sand').withChance(0.125)
         ],
@@ -54,7 +54,7 @@ onEvent('recipes', event => {
     event.recipes.createCrushing(
         [
             '7x minecraft:redstone',
-            Item.of('6x minecraft:redstone').withChance(0.5),
+            Item.of('minecraft:redstone').withChance(0.5),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('biomesoplenty:black_sand').withChance(0.125)
         ],
@@ -66,7 +66,7 @@ onEvent('recipes', event => {
     event.recipes.createCrushing(
         [
             '6x minecraft:redstone',
-            Item.of('6x minecraft:redstone').withChance(0.5),
+            Item.of('minecraft:redstone').withChance(0.5),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('minecraft:red_sand').withChance(0.125)
         ],
@@ -75,7 +75,7 @@ onEvent('recipes', event => {
     event.recipes.createCrushing(
         [
             '6x minecraft:redstone',
-            Item.of('6x minecraft:redstone').withChance(0.5),
+            Item.of('minecraft:redstone').withChance(0.5),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('minecraft:gravel').withChance(0.125)
         ],
@@ -84,7 +84,7 @@ onEvent('recipes', event => {
     event.recipes.createCrushing(
         [
             '6x minecraft:redstone',
-            Item.of('6x minecraft:redstone').withChance(0.5),
+            Item.of('minecraft:redstone').withChance(0.5),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('biomesoplenty:white_sand').withChance(0.125)
         ],
@@ -93,16 +93,16 @@ onEvent('recipes', event => {
     event.recipes.createCrushing(
         [
             '7x minecraft:redstone',
-            Item.of('6x minecraft:redstone').withChance(0.5),
+            Item.of('minecraft:redstone').withChance(0.5),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('minecraft:red_sand').withChance(0.125)
         ],
-        'excavated_variants:twigs_rhylolite_redstone_ore'
+        'excavated_variants:twigs_rhyolite_redstone_ore'
     );
     event.recipes.createCrushing(
         [
             '6x minecraft:redstone',
-            Item.of('6x minecraft:redstone').withChance(0.5),
+            Item.of('minecraft:redstone').withChance(0.5),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('biomesoplenty:white_sand').withChance(0.125)
         ],
@@ -114,16 +114,16 @@ onEvent('recipes', event => {
     event.recipes.createCrushing(
         [
             '6x minecraft:redstone',
-            Item.of('6x minecraft:redstone').withChance(0.5),
+            Item.of('minecraft:redstone').withChance(0.5),
             Item.of('create:experience_nugget').withChance(0.75),
-            Item.of('create:redstone_nugget').withChance(0.125)
+            Item.of('create:copper_nugget').withChance(0.125)
         ],
         'excavated_variants:create_veridium_redstone_ore'
     );
     event.recipes.createCrushing(
         [
             '6x minecraft:redstone',
-            Item.of('6x minecraft:redstone').withChance(0.5),
+            Item.of('minecraft:redstone').withChance(0.5),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('minecraft:iron_nugget').withChance(0.125)
         ],
@@ -132,7 +132,7 @@ onEvent('recipes', event => {
     event.recipes.createCrushing(
         [
             '6x minecraft:redstone',
-            Item.of('6x minecraft:redstone').withChance(0.5),
+            Item.of('minecraft:redstone').withChance(0.5),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('create:zinc_nugget').withChance(0.125)
         ],
@@ -141,7 +141,7 @@ onEvent('recipes', event => {
     event.recipes.createCrushing(
         [
             '6x minecraft:redstone',
-            Item.of('6x minecraft:redstone').withChance(0.5),
+            Item.of('minecraft:redstone').withChance(0.5),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('minecraft:gold_nugget').withChance(0.125)
         ],
@@ -150,7 +150,7 @@ onEvent('recipes', event => {
     event.recipes.createCrushing(
         [
             '6x minecraft:redstone',
-            Item.of('6x minecraft:redstone').withChance(0.5),
+            Item.of('minecraft:redstone').withChance(0.5),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('biomesoplenty:black_sand').withChance(0.125)
         ],
@@ -159,7 +159,7 @@ onEvent('recipes', event => {
     event.recipes.createCrushing(
         [
             '6x minecraft:redstone',
-            Item.of('6x minecraft:redstone').withChance(0.5),
+            Item.of('minecraft:redstone').withChance(0.5),
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('biomesoplenty:black_sand').withChance(0.125)
         ],

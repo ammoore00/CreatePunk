@@ -130,7 +130,7 @@ onEvent('recipes', event => {
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('minecraft:red_sand').withChance(0.125)
         ],
-        'excavated_variants:twigs_rhylolite_diamond_ore'
+        'excavated_variants:twigs_rhyolite_diamond_ore'
     );
     event.recipes.createCrushing(
         [
@@ -176,7 +176,7 @@ onEvent('recipes', event => {
             'kubejs:raw_diamond',
             Item.of('kubejs:raw_diamond').withChance(0.75),
             Item.of('create:experience_nugget').withChance(0.75),
-            Item.of('minecraft:diamond_nugget').withChance(0.125)
+            Item.of('minecraft:gold_nugget').withChance(0.125)
         ],
         'excavated_variants:create_ochrum_diamond_ore'
     );

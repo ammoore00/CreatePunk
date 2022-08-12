@@ -97,7 +97,7 @@ onEvent('recipes', event => {
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('minecraft:red_sand').withChance(0.125)
         ],
-        'excavated_variants:twigs_rhylolite_lapis_ore'
+        'excavated_variants:twigs_rhyolite_lapis_ore'
     );
     event.recipes.createCrushing(
         [
@@ -116,7 +116,7 @@ onEvent('recipes', event => {
             '10x minecraft:lapis_lazuli',
             Item.of('10x minecraft:lapis_lazuli').withChance(0.5),
             Item.of('create:experience_nugget').withChance(0.75),
-            Item.of('create:lapis_nugget').withChance(0.125)
+            Item.of('create:copper_nugget').withChance(0.125)
         ],
         'excavated_variants:create_veridium_lapis_ore'
     );

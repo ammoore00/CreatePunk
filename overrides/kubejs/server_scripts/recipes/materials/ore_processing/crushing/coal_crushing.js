@@ -145,7 +145,7 @@ onEvent('recipes', event => {
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('minecraft:red_sand').withChance(0.125)
         ],
-        'excavated_variants:twigs_rhylolite_coal_ore'
+        'excavated_variants:twigs_rhyolite_coal_ore'
     );
     event.recipes.createCrushing(
         [

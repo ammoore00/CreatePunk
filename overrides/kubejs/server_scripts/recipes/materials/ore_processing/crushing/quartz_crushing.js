@@ -22,7 +22,7 @@ onEvent('recipes', event => {
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('biomesoplenty:black_sand').withChance(0.125)
         ],
-        'excavated_variants:smooth_basalt_quartz_ore'
+        'excavated_variants:create_smooth_basalt_quartz_ore'
     );
     event.recipes.createCrushing(
         [
@@ -31,7 +31,7 @@ onEvent('recipes', event => {
             Item.of('create:experience_nugget').withChance(0.75),
             Item.of('biomesoplenty:black_sand').withChance(0.125)
         ],
-        'excavated_variants:black_stone_quartz_ore'
+        'excavated_variants:blackstone_quartz_ore'
     );
     
     // Other Nether Stone Types
