@@ -1,7 +1,7 @@
 {
     "name": "Jungle",
     "icon": "minecraft:jungle_sapling",
-    "category": "patchouli/biomes",
+    "category": "patchouli:biomes",
     "pages": [
         
     ]

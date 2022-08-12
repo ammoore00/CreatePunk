@@ -1,7 +1,7 @@
 {
     "name": "Ocean",
     "icon": "minecraft:nautilus_shell",
-    "category": "patchouli/biomes",
+    "category": "patchouli:biomes",
     "pages": [
         
     ]

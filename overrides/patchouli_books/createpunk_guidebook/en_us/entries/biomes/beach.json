@@ -1,7 +1,7 @@
 {
     "name": "Beach",
-    "icon": "ecologics:coconut_shell",
-    "category": "patchouli/biomes",
+    "icon": "ecologics:coconut_slice",
+    "category": "patchouli:biomes",
     "pages": [
         
     ]

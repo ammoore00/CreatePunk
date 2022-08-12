@@ -1,7 +1,7 @@
 {
     "name": "Snowy",
     "icon": "minecraft:snowball",
-    "category": "patchouli/biomes",
+    "category": "patchouli:biomes",
     "pages": [
         
     ]
