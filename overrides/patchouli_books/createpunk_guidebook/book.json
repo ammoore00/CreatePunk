@@ -6,10 +6,10 @@
     "show_progress": false,
     "pause_game": true,
     "macros": {
-        "$(ponder)": "$(br2)$(bold)$(l:getting_started/ponder)Ponder/$ the item for more information.",
-        "$(ponder_inline)": "$(bold)$(l:getting_started/ponder)Ponder/$ the item for more information.",
-        "$(ponder_link)": "$(bold)$(l:getting_started/ponder)Ponder/$",
-        "$(jei)": "$(bold)$(l:getting_started/jei)JEI/$",
+        "$(ponder)": "$(br2)$(bold)$(l:welcome/ponder)Ponder/$ the item for more information.",
+        "$(ponder_inline)": "$(bold)$(l:welcome/ponder)Ponder/$ the item for more information.",
+        "$(ponder_link)": "$(bold)$(l:welcome/ponder)Ponder/$",
+        "$(jei)": "$(bold)$(l:welcome/jei)JEI/$",
         "$(stress)": "$(bold)$(l:getting_started/stress)Stress/$"
     }
 }

@@ -1,7 +1,7 @@
 {
     "name": "Sack",
     "icon": "supplementaries:sack",
-    "category": "patchouli/tools",
+    "category": "patchouli:tools",
     "sortnum": 35,
     "pages": [
         {
