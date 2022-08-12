@@ -11,6 +11,22 @@ onEvent('recipes', event => {
     event.replaceInput({id: 'minecraft:anvil'}, 'minecraft:iron_ingot', 'createdeco:cast_iron_ingot');
     event.replaceInput({id: 'minecraft:anvil'}, 'minecraft:iron_block', 'createdeco:cast_iron_ingot');
 
+    event.replaceInput({id: 'farmersdelight:canvas'}, 'farmersdelight:straw', 'supplementaries:flax');
+
+    event.remove({id: 'supplementaries:sack'});
+    event.shaped(
+        'supplementaries:sack',
+        [
+            ' R ',
+            'C C',
+            ' C '
+        ],
+        {
+            R: '#supplementaries:ropes',
+            C: 'farmersdelight:canvas'
+        }
+    );
+
     //------ Steel ------//
 
     event.remove({

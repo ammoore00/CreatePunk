@@ -8,6 +8,7 @@
 - Tweaked sand production, and added the ability to get zinc and copper from sand
 - Changed soap to be made from tallow
 - Changed how music triggers are handled for some biomes, which should reduce instances of music triggers resetting without changing the music pool
+- Changed the recipe for the sack to use canvas, and changed canvas to be made from flax
 
 -= Removals =-
 - Removed the music for mineshafts, as their bounding boxes are incredibly large compared to their actual size and it meant their music would often play at incorrect times
