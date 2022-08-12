@@ -12,6 +12,9 @@
 -= Removals =-
 - Removed the music for mineshafts, as their bounding boxes are incredibly large compared to their actual size and it meant their music would often play at incorrect times
 
+-= Fixes =-
+- Fixed an issue where double high plants like rice and corn would not grow at all on their second block due to the naive implementation of IguanaTweaks' change to make crops require water. This requirement has as such been disabled.
+
 ---=== Version 0.3.0 ===---
 -= Modlist Changes =-
 - Added ChoiceTheorem's Overhauled Villages as it is more complete than Better Villages, and has compatibility with Towns & Towers to improve the non-vanilla villages there

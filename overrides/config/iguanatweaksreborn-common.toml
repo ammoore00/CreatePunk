@@ -182,7 +182,7 @@
 		#BONEMEAL_ONLY: Crops will grow on dry farmland by only using bonemeal
 		#ANY_CASE: Will make Crops not grow in any case when on dry farmland
 		#Allowed Values: NO, BONEMEAL_ONLY, ANY_CASE
-		"Crops Require Water" = "ANY_CASE"
+		"Crops Require Water" = "NO"
 		#Increases the time required for a crop (stems NOT included) to grow (e.g. at 2.0 the crop will take twice to grow).
 		#Setting this to 0 will prevent crops from growing naturally.
 		#1.0 will make crops grow like normal.
