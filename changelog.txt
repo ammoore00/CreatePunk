@@ -7,9 +7,7 @@
 -= Changes =-
 - Tweaked sand production, and added the ability to get zinc and copper from sand
 - Changed soap to be made from tallow
-- Zombies will no longer spawn reinforcements when attacked
-- Baby zombies will no longer spawn at all
-- Changed phantoms to spawn in the end, and disabled insomnia, preventing phantoms from spawning from not sleeping
+- Changed how music triggers are handled for some biomes, which should reduce instances of music triggers resetting without changing the music pool
 
 -= Removals =-
 - Removed the music for mineshafts, as their bounding boxes are incredibly large compared to their actual size and it meant their music would often play at incorrect times
@@ -33,10 +31,6 @@
 -= Additions =-
 - Added biome-specific music, as well as music related to several other events
 - Added food and meals search category tags to JEI. See the guidebook for more
-<<<<<<< HEAD
-- Added the ability for phantoms to spawn naturally in the outer end (anywhere but the spawn island)
-=======
->>>>>>> 97485f1146e7120457c6c70e8e6fba6f44d68cff
 - Added recipes to produce white, black, and orange sand
 
 -= Changes =-

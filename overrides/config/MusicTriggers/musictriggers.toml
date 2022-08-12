@@ -486,19 +486,19 @@
 		name = "biome"
 		identifier = "tropics"
 		priority = "30"
-		resource_name = "minecraft:tropics"
+		resource_name = "biomesoplenty:tropics"
 [[jungle2]]
 	[[jungle2.trigger]]
 		name = "biome"
 		identifier = "tropics"
 		priority = "30"
-		resource_name = "minecraft:tropics"
+		resource_name = "biomesoplenty:tropics"
 [[jungle3]]
 	[[jungle3.trigger]]
 		name = "biome"
 		identifier = "tropics"
 		priority = "30"
-		resource_name = "minecraft:tropics"
+		resource_name = "biomesoplenty:tropics"
 
 # -= Magicky Biomes =- #
 
