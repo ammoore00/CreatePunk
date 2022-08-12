@@ -1,7 +1,7 @@
 {
     "name": "Plains",
     "icon": "minecraft:sunflower",
-    "category": "patchouli/biomes",
+    "category": "patchouli:biomes",
     "pages": [
         
     ]

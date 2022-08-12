@@ -1,7 +1,7 @@
 {
     "name": "Cave",
     "icon": "minecraft:pointed_dripstone",
-    "category": "patchouli/biomes",
+    "category": "patchouli:biomes",
     "sortnum": 5,
     "pages": [
         

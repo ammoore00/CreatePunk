@@ -479,6 +479,27 @@
 		priority = "30"
 		resource_name = "minecraft:lush_caves"
 
+# -= Jungle =- #
+
+[[jungle1]]
+	[[jungle1.trigger]]
+		name = "biome"
+		identifier = "tropics"
+		priority = "30"
+		resource_name = "minecraft:tropics"
+[[jungle2]]
+	[[jungle2.trigger]]
+		name = "biome"
+		identifier = "tropics"
+		priority = "30"
+		resource_name = "minecraft:tropics"
+[[jungle3]]
+	[[jungle3.trigger]]
+		name = "biome"
+		identifier = "tropics"
+		priority = "30"
+		resource_name = "minecraft:tropics"
+
 # -= Magicky Biomes =- #
 
 [[mushroom1]]
