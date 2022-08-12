@@ -1,0 +1,17 @@
+{
+    "name": "Sack",
+    "icon": "supplementaries:sack",
+    "category": "patchouli/tools",
+    "sortnum": 35,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "supplementaries:sack",
+            "text": "The $(item)Sack/$ acts as an early game $(item)Shulker Box/$, allowing up to 9 stacks of items to be stored within it. Note that $(item)Sacks/$ are quite heavy, and as such carrying more than $(bold)2/$ of them will slow you down."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "supplementaries:sack"
+        }
+    ]
+}

@@ -253,26 +253,7 @@
 		priority = "50"
 		resource_name = "biomemakeover:mansion"
 
-[[mansion1]]
-	[[mansion1.trigger]]
-		name = "structure"
-		identifier = "pillager_outpost"
-		priority = "50"
-		resource_name = "minecraft:pillager_outpost"
-
 # -= Mineshaft =- #
-
-[[mineshaft1]]
-	[[mineshaft1.trigger]]
-		name = "structure"
-		identifier = "mineshaft"
-		priority = "50"
-		resource_name = "bettermineshafts:mineshaft"
-	[[mineshaft1.trigger]]
-		name = "height"
-		identifier = "mineshaft_height"
-		priority = "50"
-		level = "20"
 
 # -= Nether Fortress =- #
 
@@ -291,6 +272,15 @@
 		identifier = "monument"
 		priority = "50"
 		resource_name = "minecraft:monument"
+
+# -= Pillager Outpost =- #
+
+[[mansion1]]
+	[[mansion1.trigger]]
+		name = "structure"
+		identifier = "pillager_outpost"
+		priority = "50"
+		resource_name = "minecraft:pillager_outpost"
 
 # -= Stronghold =- #
 
@@ -313,7 +303,7 @@
 		name = "mob"
 		identifier = "villager"
 		priority = "50"
-		resource_name = "Villager"
+		resource_name = "minecraft:villager"
 		level = "1"
 		detection_range = "64"
 [[village2]]
@@ -326,7 +316,7 @@
 		name = "mob"
 		identifier = "villager"
 		priority = "50"
-		resource_name = "Villager"
+		resource_name = "minecraft:villager"
 		level = "1"
 		detection_range = "64"
 [[village3]]
@@ -339,9 +329,21 @@
 		name = "mob"
 		identifier = "villager"
 		priority = "50"
-		resource_name = "Villager"
+		resource_name = "minecraft:villager"
 		level = "1"
 		detection_range = "64"
+
+#|==============|
+#| Environments |
+#|==============|
+
+# -= Underwater =- #
+
+[[underwater1]]
+	[[underwater1.trigger]]
+		name = "underwater"
+		priority = "45"
+		start = "100"
 
 #|============|
 #| Dimensions |

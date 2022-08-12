@@ -48,49 +48,6 @@ onEvent('recipes', event => {
     );
 
     // Coal
-    event.recipes.createCrushing(
-        [
-            'kubejs:crushed_coal',
-            Item.of('kubejs:crushed_coal').withChance(0.75),
-            Item.of('create:experience_nugget').withChance(0.75),
-            Item.of('minecraft:cobblestone').withChance(0.125)
-        ],
-        'minecraft:coal_ore'
-    );
-    event.recipes.createCrushing(
-        [
-            '2x kubejs:crushed_coal',
-            Item.of('kubejs:crushed_coal').withChance(0.25),
-            Item.of('create:experience_nugget').withChance(0.75),
-            Item.of('minecraft:cobbled_deepslate').withChance(0.125)
-        ],
-        'minecraft:deepslate_coal_ore'
-    );
-    
-    event.recipes.createCrushing(
-        'kubejs:crushed_coal',
-        'minecraft:coal'
-    );
-    event.recipes.createCrushing(
-        '9x kubejs:crushed_coal',
-        'minecraft:coal_block'
-    )
-    
-    event.recipes.createCrushing(
-        [
-            Item.of('kubejs:crushed_coal').withChance(0.78),
-            Item.of('supplementaries:ash').withChance(0.22)
-        ],
-        'minecraft:charcoal'
-    );
-    event.recipes.createCrushing(
-        [
-            '7x kubejs:crushed_coal',
-            '2x supplementaries:ash'
-        ],
-        'quark:charcoal_block'
-    );
-    
     event.recipes.createSplashing(
         [
             '9x kubejs:refined_coal_dust',
@@ -109,15 +66,6 @@ onEvent('recipes', event => {
     event.recipes.createSandpaperPolishing(
         'minecraft:diamond',
         'kubejs:raw_diamond'
-    );
-
-    event.recipes.createCrushing(
-        'createaddition:diamond_grit',
-        'kubejs:raw_diamond'
-    );
-    event.recipes.createCrushing(
-        'createaddition:diamond_grit',
-        'minecraft:diamond'
     );
 
     // Other
