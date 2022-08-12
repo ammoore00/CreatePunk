@@ -1,0 +1,12 @@
+{
+    "name": "Ladders",
+    "icon": "minecraft:ladder",
+    "category": "patchouli:vanilla_changes",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:ladder",
+            "text": "$(item)Ladders/$ may be placed downward by placing a ladder against an existing ladder. They also do not require a supporting block as long as there is a ladder above them (Only the top ladder requires support)."
+        }
+    ]
+}
