@@ -231,17 +231,17 @@ White Cliffs - Terralith
 
 // Desert
 
-Ancient Sands - Terralith
-Desert - Minecraft
-Desert Oasis - Terralith
-Desert Spires - Terralith
-Lush Desert  - BoP
-Lush Savanna  - BoP
+Ancient Sands - Terralith ✓
+Desert - Minecraft ✓
+Desert Oasis - Terralith ✓
+Desert Spires - Terralith ✓
+Lush Desert  - BoP ✓
+Lush Savanna  - BoP ✓
 Red Oasis - Terralith
-Sandstone Valley - Terralith
+Sandstone Valley - Terralith ✓
 Volcanic Plains  - BoP
 Volcano  - BoP
-Wasteland  - BoP
+Wasteland  - BoP ✓
 Wooded Wasteland  - BoP
 Desert Canyon - Terralith
 
@@ -251,7 +251,7 @@ Crag  - BoP
 Haze Mountain - Terralith
 Highland  - BoP
 Highland Moor  - BoP
-Jade Cliffs  - BoP
+Jade Cliffs  - BoP ✓
 Windswept Forest - Minecraft
 Windswept Gravelly Hills - Minecraft
 Windswept Hills - Minecraft
@@ -263,43 +263,43 @@ Alpha Islands - BoP
 Alpha Islands (Winter) - BoP
 Alpine Grove - Terralith
 Bamboo Grove - BoP
-Birch Forest - Minecraft
+Birch Forest - Minecraft ✓
 Birch Taiga - Terralith
 Blooming Valley - Terralith
 Boreal Forest - BoP
 Cherry Blossom Grove - BoP
 Dark Forest - Minecraft
 Flower Forest - Minecraft
-Forest - Minecraft
+Forest - Minecraft ✓
 Grove - Minecraft
-Lavender Forest - BoP
-Lavender Valley - BoP
-Mediterranean Forest - BoP
+Lavender Forest - BoP ✓
+Lavender Valley - BoP ✓
+Mediterranean Forest - BoP ✓
 Mirage Isles - Terralith
 Moonlight Grove - Terralith
 Moonlight Valley - Terralith
 Mystic Grove - BoP
-Old Growth Birch Forest - Minecraft
-Old Growth Woodland - BoP
-Orchard - BoP
+Old Growth Birch Forest - Minecraft ✓
+Old Growth Woodland - BoP ✓
+Orchard - BoP ✓
 Pumpkin Patch - BoP
 Rainbow Hills - BoP
-Redwood Forest - BoP
+Redwood Forest - BoP ✓
 Sakura Grove - Terralith
 Sakura Valley - Terralith
-Seasonal Forest - BoP
-Woodland - BoP
+Seasonal Forest - BoP ✓
+Woodland - BoP ✓
 
 // Icy
 
-Cold Desert - BoP
+Cold Desert - BoP ✓
 Frozen Cliffs - Terralith
 Glacial Chasm - Terralith
 Gravel Desert - Terralith
 Ice Spikes - Minecraft
 Muskeg - BoP
-Snowy Fir Clearing - BoP
-Snowy Maple Woods - BoP
+Snowy Fir Clearing - BoP ✓
+Snowy Maple Woods - BoP ✓
 Snowy Plains - Minecraft
 
 // Jungle
@@ -309,22 +309,22 @@ Amethyst Rainforest - Terralith
 Bamboo Jungle - Minecraft
 Floodplain - BoP
 Fungal Jungle - BoP
-Jungle - Minecraft
+Jungle - Minecraft ✓
 Jungle Mountains  - Terralith
-Rainforest - BoP
+Rainforest - BoP ✓
 Rocky Jungle - BoP
-Rocky Rainforest - BoP
-Sparse Jungle - Minecraft
-Tropical Jungle - Terralith
+Rocky Rainforest - BoP ✓
+Sparse Jungle - Minecraft ✓
+Tropical Jungle - Terralith ✓
 
 // Mesa
 
-Badlands - Minecraft
+Badlands - Minecraft ✓
 Bryce Canyon - Terralith
 Eroded Badlands - Minecraft
 Snowy Badlands - Terralith
 Warped Mesa - Terralith
-White Mesa - Terralith
+White Mesa - Terralith ✓
 Wooded Badlands - Minecraft
 
 // Mountain
@@ -345,7 +345,7 @@ Volcanic Peaks - Terralith
 
 // Mushroom
 
-Mushroom Fields - Minecraft
+Mushroom Fields - Minecraft ✓
 
 // Nether
 
@@ -383,20 +383,20 @@ Skylands (Winter) - BoP
 
 // Plains
 
-Clover Patch - BoP
+Clover Patch - BoP ✓
 Cold Shrubland - Terralith
-Grassland - BoP
+Grassland - BoP ✓
 Highlands - Terralith
 Hot Shrubland - Terralith
-Lavender Fields - BoP
-Lavender Forest - BoP
+Lavender Fields - BoP ✓
+Lavender Forest - BoP ✓
 Mountain Steppe - Terralith
 Pasture - BoP
-Plains - Minecraft
+Plains - Minecraft ✓
 Prairie - BoP
 Rocky Shrubland - Terralith
 Shield Clearing - Terralith
-Shrubland - BoP
+Shrubland - BoP ?
 Steppe - Terralith
 Sunflower Plains - Minecraft
 Valley Clearing - Terralith
@@ -411,60 +411,60 @@ Warm River - Terralith
 
 Arid Highlands - Terralith
 Ashen Savanna - Terralith
-Brushland - Terralith
-Dryland - BoP
-Fractured Savanna - Terralith
-Savanna - Minecraft
+Brushland - Terralith ✓
+Dryland - BoP ✓
+Fractured Savanna - Terralith ✓
+Savanna - Minecraft ✓
 Savanna Badlands - Terralith
-Savanna Plateau - Minecraft
+Savanna Plateau - Minecraft ✓
 Savanna Slopes - Terralith
 Scrubland - BoP
-Shrubland - Terralith
+Shrubland - Terralith ?
 Windswept Savanna - Minecraft
 Wooded Scrubland - BoP
 
 // Swamp
 
-Bayou - BoP
+Bayou - BoP ✓
 Ice Marsh - Terralith
 Marsh - BoP
 Orchid Swamp - Terralith
-Swamp -Minecraft
+Swamp - Minecraft ✓
 Wetland - BoP
 
 // Taiga
 
-Alpine Highlands - Terralith
+Alpine Highlands - Terralith ✓
 Bog - BoP
 Caldera - Terralith
 Cloud Forest - Terralith
-Coniferous Forest - BoP
-Dead Forest - BoP
+Coniferous Forest - BoP ✓
+Dead Forest - BoP ✓
 Field - BoP
 Fir Clearing - BoP
 Forested Field - BoP
-Forested Highlands - Terralith
+Forested Highlands - Terralith ✓
 Lush Valley - Terralith
-Maple Woods - BoP
-Old Growth Dead Forest - BoP
-Old Growth Pine Taiga - Minecraft
-Old Growth Spruce Taiga - Minecraft
+Maple Woods - BoP ✓
+Old Growth Dead Forest - BoP ✓
+Old Growth Pine Taiga - Minecraft ✓
+Old Growth Spruce Taiga - Minecraft ✓
 Ominous Woods - BoP
-Shield - Terralith
+Shield - Terralith ✓
 Siberian Grove - Terralith
 Siberian Taiga - Terralith
-Snowy Coniferous Forest - BoP
-Snowy Maple Forest - Terralith
+Snowy Coniferous Forest - BoP ✓
+Snowy Maple Forest - Terralith ✓
 Snowy Shield - Terralith
 Snowy Taiga - Minecraft
-Taiga - Minecraft
+Taiga - Minecraft ✓
 Temperate Highlands - Terralith
-Tundra - BoP
+Tundra - BoP ✓
 Wintry Forest - Terralith
-Yellowstone - Terralith
+Yellowstone - Terralith ✓
 Yosemite Cliffs - Terralith
 Yosemite Lowlands - Terralith
-Wintry Lowlands - Terralith
+Wintry Lowlands - Terralith ✓
 
 // End
 
