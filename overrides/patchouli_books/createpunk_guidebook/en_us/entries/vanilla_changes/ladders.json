@@ -7,6 +7,10 @@
             "type": "patchouli:spotlight",
             "item": "minecraft:ladder",
             "text": "$(item)Ladders/$ may be placed downward by placing a ladder against an existing ladder. They also do not require a supporting block as long as there is a ladder above them (Only the top ladder requires support)."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Additionally, opening your inventory while $(bold)Sneaking/$ on a $(item)Ladder/$ (or other climbable block) will prevent you from falling while your inventory is open."
         }
     ]
 }
