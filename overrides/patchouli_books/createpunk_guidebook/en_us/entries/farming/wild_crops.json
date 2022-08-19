@@ -8,37 +8,42 @@
             "type": "patchouli:spotlight",
             "item": "farmersdelight:wild_carrots",
             "title": "Wild Crops",
-            "text": "Most $(item)Crops/$ can be found in their wild form in various places around the world. Being wild, they will only drop a single seed or sample when harvested."
+            "text": "When exploring, keep an eye out for certain flowering plants. Most $(item)Crops/$ can be found in their wild form in various places around the world. These wild variants are rather rough, and not very suitable for eating, so you'll only be able to forage one sample or seed out of them."
         },
         {
             "type": "patchouli:spotlight",
             "item": "farmersdelight:wild_cabbages",
-            "text": ""
+            "text": "Wild $(item)Cabbages/$ spawn as a large bush with small yellow flowers on $(thing)Beaches/$."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "farmersdelight:sea_beets",
+            "text": "$(item)Sea Beets/$ spawn as beets with much larger leaves on $(thing)Beaches/$"
         },
         {
             "type": "patchouli:spotlight",
             "item": "farmersdelight:wild_onions",
-            "text": ""
+            "text": "Wild $(item)Onions/$ spawn as a thick cluster of allium flowers with an onion bulb in $(thing)Temperate Biomes/$."
         },
         {
             "type": "patchouli:spotlight",
             "item": "farmersdelight:wild_carrots",
-            "text": ""
+            "text": "Wild $(item)Carrots/$ spawn as a flowering weed with a conspicuous beige-colored base in $(thing)Temperate Biomes/$."
         },
         {
             "type": "patchouli:spotlight",
             "item": "farmersdelight:wild_potatoes",
-            "text": ""
-        },
-        {
-            "type": "patchouli:spotlight",
-            "item": "farmersdelight:wild_rice",
-            "text": ""
+            "text": "Wild $(item)Potatos/$ spawn similarly to normal potatoes, but with large flowers, in $(thing)Cold Biomes/$."
         },
         {
             "type": "patchouli:spotlight",
             "item": "farmersdelight:wild_tomatoes",
-            "text": ""
+            "text": "Wild $(item)Tomatoes/$ spawn as vines on the ground covered in tiny tomatoes in $(thing)Arid Biomes/$."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "farmersdelight:wild_rice",
+            "text": "Wild $(item)Rice/$ spawns as a thinner form of cultivated rice in shallow pools in $(item)Swamps/$ and $(item)Jungles/$."
         },
         {
             "type": "patchouli:spotlight",
